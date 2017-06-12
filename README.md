@@ -3,7 +3,7 @@
 `python compile.py`
 
 ## TODO
-- [ ] Normalize similar white cards
+- [x] Normalize similar white cards
 - [ ] Extract metadata
 - [ ] Compile to JSON
 - [ ] Normalize ending punctuation
