@@ -1,0 +1,107 @@
+All your _ are belong to us
+Sorry Mario, but _ is in another castle.
+_ is a lie.
+In Kingdom Hearts, Donald Duck will be replaced with _ .
+we must embrace _ and burn it as fuel for out journey.
+Because of the lastest school shooting, _ is being blamed for making kids too violent.
+>walk into gamestop\n>see _\n>walk out
+WHAT THE FUCK DID YOU SAY ABOUT ME YOU _?
+HEY, GOLLEN PALACE? HOW U SAY _ IN CHINESE?
+appealing to a larger audience
+This will be the 6th time we've posted _; we've become increasingly efficient at it.
+I have the bigger _.
+The princess is in another _
+When you see it... you don't see _.
+_ TEAM RULES!!
+Rev up those _, because I am sure hungry for one- HELP! HELP!
+wooooooow, it took all 3 of you to _
+Only casuals like _.
+_ is 2deep and edgy for you.
+It's like _with _!
+Check your privilege, you _ _.
+Jill, here's a _. It might come in handy if you, the master of _, take it with you. 
+_ is a pretty cool guy, eh _ and doesn't afraid of anything.
+Ironic _ is still _.\n\n(same in both blanks)
+What is the new mustard paste?
+>_\n>_\n>2011\n>ISHYGDDT
+All you had to do was _ the damn _!
+The new ititeration in the Call of Duty franchise has players fighting off _ deep in the jungles of _ 
+Here lies _: peperony and chease
+Throwaway round: Get rid of those shit cards you don't want. Thanks for all the suggestions, /v/
+The president has been kidnapped by _. Are you a bad enough dude to rescue the president?
+We _ now.
+That's the second biggest _ I've ever seen!
+You were almost a _ sandwich!
+It's dangerous to go alone! Take this:
+I've covered _, you know.
+The newest trope against women in video games: _.
+You have been banned. Reason: _.
+_ has changed. 
+_. _ never changes.
+Objective: _
+But you can call me _ the _. Has a nice ring to it dontcha think?
+_ has changed.
+Is a man not entitiled to _?
+I'm here to _ and chew bubble gum, and I'm all out of gum.
+_ sappin' my sentry. 
+_ is waiting for your challenge!
+EA Sports! It's _.
+What's in the box, /v/?
+Why is the _ fandom the worst?
+_ is a pretty cool guy
+Ah! Your rival! What was his name again?
+brb guys, _ break
+OH MY GOD JC, A _
+Achievement Unlocked: _ !
+I'm _ under the table right now!
+Viral marketers are trying to push the new _.
+I wouldn't call it a Battlestation, more like a _.
+Fans started a kickstarter for a new _ game. 
+Huh? What was that noise?
+I love the _, it's so bad
+Valve is going to make _ 2 before they release HL3.
+_: Gotta go fast!
+The best final fantasy game was _.
+WHAT IS A MAN?
+Liquid! How can you still be alive?
+>implying you aren't _
+All you had to do was follow the damn _, CJ!
+ Microsoft revealed that the Xbox One's demos had actually been running on _ 
+WE WILL DRAG THIS _ INTO THE 21ST CENTURY.
+What can change the nature of a man?
+What is a _ but a _?
+What did I preorder at gamestop?
+What if _ was a girl?
+Wake up, Mr. Freeman. Wake up and _.
+Based _.
+Pop Quiz: Beatles Song- _ terday.
+_ confirmed for Super Smash Bros!
+I'm in ur base, _
+_ only, no items, Final Destination. 
+The newest IP from Nintendo, Super _ Bros. 
+The future of gaming lies with the _.
+The newest feature of the Xbox One is _.
+Enjoy _ while you play your Xbox one!
+Why are you making chocolate pudding at 4 in the morning?
+_ has no games.
+The new TF2 promo items are based on _.
+The best way to be comfy when playing video games is with _.
+PS3: It only does _.
+The new Nintendo _ is a big gimmick. 
+>tfw when _.
+PC gamers have made a petition to get _ on their platform.
+If Gordon Freeman spoke, what would he talk about?
+Kotaku addresses sexism in _ in their latest article.
+Get double XP for Halo 3 with purchase of _.
+LoL stole their new character design off of _.
+_ is the cancer killing video games.
+Suffer, like _ did.
+It's like _ with guns!
+ _ would like to play.
+A mod of doom was made that was based off of _.
+I really didn't like what they did with the _ Movie adaption.
+"HEY, GOLLEN PALACE? HOW U SAY _ IN CHINESE?"
+Pumpkin doesn't want this.
+NEXT TIME ON GAME GRUMPS: _.
+I used to be an adventurer like you, until _.
+Yeah, well, my dad works for _.

@@ -1,0 +1,30 @@
+Bumpses.
+A Vin Gerard H8 X 10.
+Harry Acropolis.
+Under the ring.
+Afa The Wild Samoan.
+Peanut Butter and Baby sandwiches.
+Yard Tards.
+Two girls, one cup.
+Ugly Mexican Hookers.
+Duct tape.
+Sodaj.
+Steve The Teacher.
+Jefferee.
+Autoerotic Asphyxiation.
+Sonic The Hedgehog.
+Lotto Money.
+Jailbait.
+Prison rape.
+Two And A Half Men.
+Anne Frank.
+Black Santa.
+Jesus Christ (our lord and saviour).
+Farting with your armpits.
+Poopsicles.
+Slaughtering innocent children.
+Sex with vegetables.
+My gay ex-husband.
+Accidentally sexting your mom.
+Tabasco in your pee-hole.
+Pee Wee Herman.

@@ -1,0 +1,747 @@
+<b>A Bad Haircut</b><br/><small>The perfect start to a bad hair day.</small>
+<b>A Bull Fight</b><br/><small>Also known as "la fiesta brava" (the brave festival). A whole lot of bull..</small>
+<b>A Car Crash</b><br/><small>"Hey, it was an accident!"</small>
+<b>A Cheap Motel</b><br/><small>No charge for the cockroaches.</small>
+<b>A Crawl Space</b><br/><small>Where you'll find something the cat dragged in.</small>
+<b>A Dozen Red Roses</b><br/><small>When eleven just won't do.</small>
+<b>A Flat Tire</b><br/><small>"Whaddya mean, there's no spare?"</small>
+<b>A Full Moon</b><br/><small>"When the moon hits your eye like a big pizza pie, that's amore!" -Dean Martin</small>
+<b>A Haunted House</b><br/><small>Maybe if people would STOP building their dream homes on ancient burial grounds ...</small>
+<b>A High School Bathroom</b><br/><small>"Fools rush in where angels fear to tread" -Alexander Pope</small>
+<b>A Honeymoon</b><br/><small>America's top honeymoon spots are Hawaii, Niagara Falls, Las Vegas and Florida. You can get there by air, land, sea ... or shotgun.</small>
+<b>A Locker Room</b><br/><small>Steamy atmosphere ... bawdy humor ... sweaty bodies ... HEY! Sounds like Cable TV!</small>
+<b>A Morgue</b><br/><small>"Given strange eons, even death may die..." -H.P. Lovecraft</small>
+<b>A Nine Iron</b><br/><small>A golf club best used on short shots or large opponents.</small>
+<b>A School Bus</b><br/><small>The only thing we have to fear is fear itself. -Franklin D. Roosevelt</small>
+<b>A School Cafeteria</b><br/><small>Food fight!.</small>
+<b>A Sunrise</b><br/><small>"But he who kisses the joy as it flies/ Lives in eternity's sunrise." -William Blake</small>
+<b>A Sunset</b><br/><small>The sun never set on the British Empire ... because God didn't trust the English in the dark.</small>
+<b>A Tree House</b><br/><small>Your first high-rise apartment.</small>
+<b>A Used Car Lot</b><br/><small>One of the most honest places around. Honest ...</small>
+<b>Abraham Lincoln</b><br/><small>1809-65, 16th U.S. president, led the Union to victory in the American Civil War and abolished slavery. Was assassinated for his efforts.</small>
+<b>Adam Sandler</b><br/><small>1966- , American comedian, film star, and Saturday Night Live alumnus. Genius or goofball - you make the call.</small>
+<b>Adolph Hitler</b><br/><small>1889-1945, turned Germany into a militarized dictatorship, caused the slaughter of millions and launched World War II.</small>
+<b>AIDS</b><br/><small>Acquired Immune Deficiency Syndrome.</small>
+<b>Airline Food</b><br/><small>Since when is a bag of peanuts considered a meal?</small>
+<b>Al Pacino</b><br/><small>1940- , Oscar winning American actor and star of "The Godfather," "Dog Day Afternoon" and "Scent Of A Woman." One very intense guy.</small>
+<b>Albert Einstein</b><br/><small>1879-1955, German-born American physicist and Nobel laureate who created theories of relativity. Nice hair.</small>
+<b>Alfred Hitchcock</b><br/><small>1899-1980, British-born American director and producer of brilliant psychological thrillers. Right, mother? MOTHER!</small>
+<b>Alien Abductions</b><br/><small>There was a blinding light -and she was gone!</small>
+<b>Americans</b><br/><small>How many Americans does it take to screw in a light bulb? THAT'S NOT FUNNY! WE'RE SUING!</small>
+<b>Amputations</b><br/><small>"A SCRATCH? Your arm's off!" - Monty Python and the Holy Grail.</small>
+<b>Angry Hornets</b><br/><small>Who put the bees in their bonnets?.</small>
+<b>Andy Warhol</b><br/><small>1928-87, American painter and filmmaker, a leader of the pop art movement. Famous for slightly more than 15 minutes.</small>
+<b>Anne Frank</b><br/><small>1929-45, German Jewish girl who wrote in her diary about her family hiding from the Nazis. She died in a concentration camp.</small>
+<b>Antarctica</b><br/><small>Home to the lowest temperature ever recorded on earth, -126.9 F.</small>
+<b>Anthony Hopkins</b><br/><small>1937- , British actor starred in The Elephant Man, Howard's End, and, of course, The Silence Of The Lambs. Knighted in 1992.</small>
+<b>Apple Pie</b><br/><small>It's as American as ... as ... something ...</small>
+<b>Apples</b><br/><small>More than 40 million metric tons are produced worldwide every year. How 'bout them apples?</small>
+<b>Armed Robbery</b><br/><small>You got your Robbery, your Armed Robbery, your Strong Armed Robbery, and, of course, the five finger discount.</small>
+<b>Assembly Lines</b><br/><small>Faster. FASTER!</small>
+<b>At My Parent's House</b><br/><small>Like never-never land, you're never seen as an adult here.</small>
+<b>Atlantis</b><br/><small>Mythological city where the folks had that sinking feeling.</small>
+<b>Atomic Bombs</b><br/><small>The Italian physicist Enrico Fermi succeeded in producing the first nuclear chain reaction in 1942, at the University of Chicago.</small>
+<b>Attack On Pearl Harbor</b><br/><small>"Yesterday, December 7th, 1941, a date which will live in infamy ..." -Franklin D. Roosevelt</small>
+<b>Austin Powers</b><br/><small>Fictional British man of mystery. Yeah, bay-beee, yeah!</small>
+<b>Australian Outback</b><br/><small>Beware of dangerous temperatures, strange animals, and didgeridoos.</small>
+<b>Babe Ruth</b><br/><small>1895-1948, American baseball legend, and one heck of a candy bar!</small>
+<b>Babies</b><br/><small>Little bundles of joy ... and who needs sleep, anyway?</small>
+<b>Baby Showers</b><br/><small>Baby showers may bring flowers ...</small>
+<b>Backstreet Boys</b><br/><small>The latest American pop boy band. Which one do you think is the cutest?</small>
+<b>Bad Dogs</b><br/><small>Bad dog, bad dog. What'cha gonna do?</small>
+<b>Bagpipes</b><br/><small>A shrill-toned musical instrument consisting of a leather bag and pipes. Also available in plaid.</small>
+<b>Baked Beans</b><br/><small>Add a little bacon, brown sugar and Beano!</small>
+<b>Baked Potatoes</b><br/><small>Hot potato, couch potato, potato head, twice baked, half-baked, ... whatever.</small>
+<b>Baking Cookies</b><br/><small>An experience only surpassed by eating them.</small>
+<b>Bald Eagles</b><br/><small>Known for their majestic appearance and powerful flight. In 1782, the bald eagle was chosen as the emblem of the United States.</small>
+<b>Ballerinas</b><br/><small>Beautiful, graceful dancers who are always on their toes.</small>
+<b>Bangkok</b><br/><small>Capital of Thailand. Location: near the Gulf of Siam. Population: five million. Reputation: seedy.</small>
+<b>Bankruptcy</b><br/><small>It'll be the debt of you.</small>
+<b>Barbara Walters</b><br/><small>1931- , American television journalist and author. Voted one of the most important women of the century by "Ladies Home Journal."</small>
+<b>Barbed Wire</b><br/><small>Wire with sharp points, used for fences. Created havoc on the western frontier.</small>
+<b>Barfing</b><br/><small>We didn't want to bring that up ...</small>
+<b>Barney</b><br/><small>Purple dinosaur. "I love you, you love me, blah, blah, blah ... "</small>
+<b>Bart Simpson</b><br/><small>Fictional animated character. Don't have a cow, man!"</small>
+<b>Bates Motel</b><br/><small>The haunt of Alfred Hitchcock's psycho, Norman Bates ... and mother, of course ...</small>
+<b>Batman</b><br/><small>How does Batman's mother call him home? "Dinner, dinner, dinner, dinner, dinner, dinner, dinner, dinner - BATMAN!"</small>
+<b>Bats</b><br/><small>The little brown bat consumes as many as 600 mosquitoes in an hour. The vampire bat dines elsewhere ...</small>
+<b>Beach Parties</b><br/><small>Up for some "Beach Blanket Bingo," Annette?</small>
+<b>Beanie Babies</b><br/><small>Tiny plush collectibles to love and cherish. Don't take that tag off!</small>
+<b>Beauty And The Beast</b><br/><small>A tale as old as time ... so Disney didn't have to pay royalties.</small>
+<b>Beer</b><br/><small>"Beer is proof that God loves us and wants us to be happy." - Benjamin Franklin</small>
+<b>Beer Bellies</b><br/><small>Just think of them as microbreweries.</small>
+<b>Beethoven</b><br/><small>1770-1827, German composer, considered one of the greatest of the western world.</small>
+<b>Beets</b><br/><small>Beats Brussels sprout.</small>
+<b>Being In Love</b><br/><small>"Love's like the measles, all the worse when it comes late." -Douglas Jerrold</small>
+<b>Bell-Bottoms</b><br/><small>Bell-bottoms and pea coats -who would have thought the Navy could be such a trendsetter?</small>
+<b>Ben Stiller</b><br/><small>1965-, American actor, director, and funny guy of Reality Bites, There's Something About Mary, and Meet The Parents</small>
+<b>Berlin</b><br/><small>1945 - Adolph Hitler's last stand. Bunker ... I mean -hunker down, soldier.</small>
+<b>Big Bang Theory</b><br/><small>A cosmological theory for the origin of the universe. An explosive idea!</small>
+<b>Big Macs</b><br/><small>T w o a l l b e e f p a t t i e s s p e c i a l s a u c e l e t t u c e c h e e s e p i c k l e s o n i o n s o n a s e s a m e s e e d b u n .</small>
+<b>Bigfoot</b><br/><small>Legendary North American monster, a.k.a. Sasquatch or the Abominable Snowman.</small>
+<b>Bill Clinton</b><br/><small>1946- , popular, yet embattled, 42nd president of the United States.</small>
+<b>Bill Gates</b><br/><small>1955-, chairman and chief software architect of Microsoft Corporation. A very rich guy.</small>
+<b>Bill Murray</b><br/><small>1950-, American actor and comedian. Star of Ghostbusters, Stripes, Groundhog Day, and Lost In Translation.</small>
+<b>Billboards</b><br/><small>Only 1,254 miles to Wall Drug ...</small>
+<b>Bingo</b><br/><small>"There was a farmer, had a dog, and Bingo was his name-o ..."</small>
+<b>Bird Watching</b><br/><small>A hobby that relies on a wing and a prayer.</small>
+<b>Black Holes</b><br/><small>The gravitational field of a black hole is so strong that nothing, including light, can escape from its vicinity.</small>
+<b>Black Velvet</b><br/><small>Smooth, silky and sophisticated ... until you paint an Elvis on it.</small>
+<b>Blizzard</b><br/><small>Extreme cold, strong winds, and a head snowfall. Also known as Canada.</small>
+<b>Blood</b><br/><small>A healthy human body contains between five and six quarts of blood. Bloody right they do!</small>
+<b>Board Games</b><br/><small>Games have been played for thousands of years. Some games of Monopoly just SEEM that long.</small>
+<b>Body Odor</b><br/><small>Over $1.6 billion is spent each year on antiperspirants in the United States. That stinks!</small>
+<b>Body Piercing</b><br/><small>YOU STUCK WHAT? WHERE?</small>
+<b>Body Surfing</b><br/><small>When you're too cheap to buy a surfboard.</small>
+<b>Bonbons</b><br/><small>Sweets for the sweet ...</small>
+<b>Bongos</b><br/><small>Small drums played with the fingers. Used in Latin American and African music. The choice of American beat poets.</small>
+<b>Bottled Water</b><br/><small>How much are you willing to pay for something you can get for free?</small>
+<b>Boxing</b><br/><small>An ancient and honorable sport - not just for boys anymore ...</small>
+<b>Boy Scouts</b><br/><small>International organization for boys and young men founded in England in 1908, to foster character, citizenship and outdoor life.</small>
+<b>Boyfriends</b><br/><small>"My boyfriend's back and you're gonna be in trouble." - The Angels</small>
+<b>Brad Pitt</b><br/><small>1963- , American actor and heart-throb.</small>
+<b>Brain Surgeons</b><br/><small>Hey, it ain't brain surgery ... oh ... wait a second ...</small>
+<b>Brains</b><br/><small>Vital to human existence and mad scientists.</small>
+<b>Britney Spears</b><br/><small>1981-, American singer. From mouseketeer to international pop star.</small>
+<b>Broadway</b><br/><small>The New York theater district. "They say the neon lights shine bright on Broadway." -Barry Mann</small>
+<b>Bruce Willis</b><br/><small>1955- , Diehard American action movie star who has moonlighted on TV. He also starred in Pulp Fiction, Armageddon and The Sixth Sense.</small>
+<b>Bubble Gum</b><br/><small>Crack it, snap it, pop it, and blow it!</small>
+<b>Bubbles</b><br/><small>"Tiny bubbles, in the wine/ Tiny bubble make me feel fine ..." -Don Ho</small>
+<b>Bullwinkle</b><br/><small>As in the cartoon "The Adventures of Rocky and Bullwinkle" - the moose half of moose and squirrel.</small>
+<b>Bumper Stickers</b><br/><small>Your personal billboard!</small>
+<b>Bungee Jumping</b><br/><small>Another sport hanging on by a thread.</small>
+<b>Buying A House</b><br/><small>If only we had the money, we could get a mortgage.</small>
+<b>Cabbage</b><br/><small>From the French word caboche, meaning "big head."</small>
+<b>Cactus</b><br/><small>Require little care and exhibit bizarre forms. As such, they are often mistaken for Survivalists.</small>
+<b>California</b><br/><small>Sacramento is its capital, Los Angeles its largest city. Here we come.</small>
+<b>Camping Trip</b><br/><small>When you just have to get s'more nature.</small>
+<b>Canada</b><br/><small>Federated country of North America. The Great White North - eh?</small>
+<b>Canadians</b><br/><small>How many Canadians does it take to screw in a lightbulb? Fifteen. Fourteen to chip it out of the ice, and one to screw it in.</small>
+<b>Captain Kirk</b><br/><small>Fictional starship captain. "Beam me up Scotty, there is no intelligent life on this planet!" - bumper sticker, 1980s</small>
+<b>Car Bombs</b><br/><small>Not including the Ford Pinto, of course.</small>
+<b>Car Horns</b><br/><small>Blow it, buddy!</small>
+<b>Carl Sagan</b><br/><small>1934-96, American astronomer and pioneer exobiologist. Touched many lives. Billions and billions of them.</small>
+<b>Carnival Workers</b><br/><small>Step right up ...</small>
+<b>Cary Grant</b><br/><small>1904-86, British-born American actor known for his debonair manner. He can be found North by Northwest.</small>
+<b>Casablanca</b><br/><small>The largest city in Morocco, and one heck of a good movie. "Of all the gin joints in all the towns in all the world..."</small>
+<b>Casinos</b><br/><small>Slots and slots of fun.</small>
+<b>Castles</b><br/><small>Kings, queens, knights in shining armor, and little square hamburgers.</small>
+<b>Caves</b><br/><small>Stalactites, stalagmites. Which go up and which go down?</small>
+<b>Celine Dion</b><br/><small>1968-, Canadian singer whose heart will go on, and on ...</small>
+<b>Cell Phones</b><br/><small>Get off the phone or get off the road!</small>
+<b>Cesar Chavez</b><br/><small>1927-93, American labor leader who led the 1965 nationwide boycott of California grapes ... a bunch of sour grapes!</small>
+<b>Chain Letters</b><br/><small>Send this game to ten of your friends and good luck will follow. Honest!</small>
+<b>Chains</b><br/><small>Gold or iron: name your shackles.</small>
+<b>Challenger Explosion</b><br/><small>"Without a wish, without a will/ I stood upon that silent hill/ and stared into the sky ..." - Ralph Hodgeson</small>
+<b>Chameleons</b><br/><small>The chameleon is a lizard that changes color when frightened -or is that a politician?</small>
+<b>Charging Rhinos</b><br/><small>How do you stop a rhino from charging? Take away its credit cards.</small>
+<b>Cheesecake</b><br/><small>A really tasty dish.</small>
+<b>Cher</b><br/><small>1946- , American singer and actor, she makes aging look good.</small>
+<b>Chicago</b><br/><small>Third largest city in the United States. Our kind of town.</small>
+<b>Chicken Pox</b><br/><small>Infectious disease usually contracted in childhood. Just don't scratch 'em!</small>
+<b>Chickens</b><br/><small>From incubator to rotisserie in 56 days! Run, chicken, run!</small>
+<b>Chimpanzees</b><br/><small>Sure, they're related to us; but they don't write, and they NEVER call!</small>
+<b>China</b><br/><small>The most populous country in the world. More than one-fifth of the world's total population lives within its borders.</small>
+<b>Chinatown</b><br/><small>International travel, just around the corner.</small>
+<b>Choir Boys</b><br/><small>They sound angelic, but ...</small>
+<b>Chorus Girls</b><br/><small>Long legs and high kicks!</small>
+<b>Cigarette Burns</b><br/><small>Another reason to give up smoking.</small>
+<b>Cigarettes</b><br/><small>Mind if I smoke?</small>
+<b>Cinco de Mayo</b><br/><small>Marks the victory of the Mexican Army over the French at the Battle of Puebla, in 1862.</small>
+<b>Cindy Crawford</b><br/><small>1966- , American Supermodel. What dreams are made of.</small>
+<b>Clark Gable</b><br/><small>1901-60, American film actor, noted as a romantic lead. Frankly, my dear, he didn't give a damn.</small>
+<b>Claude Monet</b><br/><small>1840-1926, French painter, regarded as one of the leaders on the impressionist movement.</small>
+<b>Cleaning The Bathroom</b><br/><small>It's YOUR turn!</small>
+<b>Cleopatra</b><br/><small>c. 69-30 BC, Queen of Egypt, noted for love affairs with Julius Caesar and Mark Antony, which came back to bite her in the asp.</small>
+<b>Clint Eastwood</b><br/><small>1930-, American film actor and director, past mayor of Carmel, California. Has earned fistfuls of dollars.</small>
+<b>Clowns</b><br/><small>They would be really funny if they weren't so darn scary.</small>
+<b>Cocaine</b><br/><small>Alkaloid obtained from leaves of the coca plant and used as a local anesthetic and abused as a drug.</small>
+<b>Cockroaches</b><br/><small>Annoying insects that can survive a nuclear war. Fortunately, they can't survive the heel of your shoe.</small>
+<b>Coconuts</b><br/><small>"Put the lime in the coconut, and drank them both up." -Harry Nillson</small>
+<b>Cold Pizza</b><br/><small>The breakfast of champions.</small>
+<b>Communists</b><br/><small>"From each, according to their ability, to each according to their need." I need a new Ferrari.</small>
+<b>Commuting</b><br/><small>The daily grind. And we're not talking coffee.</small>
+<b>Computer Hackers</b><br/><small>We didn't mean to shut down the entire government ...</small>
+<b>Computers</b><br/><small>British mathematician Charles Babbage worked out the principles of the modern digital computer in the late 1800s.</small>
+<b>Confucius</b><br/><small>c. 551-479 BC, K'ung Fu-Tzu, Chinese philosopher and one of the most influential figures in Chinese history.</small>
+<b>Conspiracy Theories</b><br/><small>Oh, that was just a coincidence!</small>
+<b>Construction Workers</b><br/><small>Hard hats -hard bodies.</small>
+<b>Corn On The Cob</b><br/><small>A grain native to the Americas, corn was a staple food for many centuries before corn holders were invented.</small>
+<b>Corvettes</b><br/><small>In 1953, Chevrolet introduced the Corverre, the first mass-produced sports car with a fiberglass body. The perfect cure for a midlife crisis.</small>
+<b>Count Dracula</b><br/><small>"I vant to suck your blood!"</small>
+<b>Country Music</b><br/><small>Encompassing styles such as western swing, honky-tonk, bluegrass and rockabilly. Should mention a pickup truck and a dog named "Bo."</small>
+<b>Cow-Pies</b><br/><small>When dried, these "cow chips" are hurled discus-like over great distances. It's true.</small>
+<b>Crazy Horse</b><br/><small>1849?-77, chief of the Oglala Sioux. A leader in the Native American resistance to the westward expansion on the United States.</small>
+<b>Creamed Corn</b><br/><small>Eat it, it's good for you.</small>
+<b>Crystal Balls</b><br/><small>I see a Green Apple card in your future.</small>
+<b>Cuba</b><br/><small>Island republic in the Caribbean, just south of Florida. Beans and rice never tasted so good.</small>
+<b>Cults</b><br/><small>They seemed nice ...</small>
+<b>Custer's Last Stand</b><br/><small>1866, Little Big Horn. Very big mistake.</small>
+<b>Dandruff</b><br/><small>Dry skin on your scalp? Sounds a bit flaky.</small>
+<b>Danielle Steel</b><br/><small>1947- , Prolific romance novelist. "Suddenly, Stephanie spotted Lance on the beach ..."</small>
+<b>Danny DeVito</b><br/><small>1944- , American television, motion-picture actor, and director. Star of Taxi, Romancing The Stone, Twins, and Get Shorty.</small>
+<b>Dark Alleys</b><br/><small>Don't go there!</small>
+<b>Darth Vader</b><br/><small>"Luke ... (wheeze) .. I am ... (wheeze) ... your father ... and you don't write, you don't call ... NOTHING."</small>
+<b>Dating</b><br/><small>First stage of the human mating ritual.</small>
+<b>David Letterman</b><br/><small>1947- , American television entertainer and talk-show host. And ... the Number One reason to watch him (drum roll, please): TOP TEN LISTS!</small>
+<b>Daytime TV</b><br/><small>Soap operas, game shows, talk shows and reruns ... is this a great country or what?</small>
+<b>Death Valley</b><br/><small>Arid, desolate and hellish region of California. Named by a survivor of an attempted 1849 crossing.</small>
+<b>Deer Hunting</b><br/><small>Nooo! Nooooo! Not BAMBI'S MOTHER!</small>
+<b>Demi Moore</b><br/><small>1962-, American actor in St. Elmo's Fire, Ghost and GI Jane.</small>
+<b>Democrats</b><br/><small>Their symbol is the donkey, or ass. Insert your own joke here.</small>
+<b>Denzel Washington</b><br/><small>1954- , American actor known for his powerful roles in such movies as Cry Freedom, Malcolm X, and Mississippi Masala.</small>
+<b>Detroit</b><br/><small>The Motor City is the world's foremost automobile manufacturing center, and the tenth largest city in the U.S.</small>
+<b>Diamonds</b><br/><small>The hard fact: they are just highly refractive crystalline allotropes.</small>
+<b>Discos</b><br/><small>Where you go to catch "Saturday Night Fever."</small>
+<b>Discovering America</b><br/><small>1492, Christopher Columbus discovered that America was discovered centuries before he arrived.</small>
+<b>Disneyland</b><br/><small>You've just won the "Apples to Apples(R) Grand Masters Tournament." Where're you gonna go?</small>
+<b>Divorce</b><br/><small>It's a trial separation that goes to trial.</small>
+<b>Doctors</b><br/><small>Over twenty years of education and they're still "practicing" medicine?</small>
+<b>Doing The Dishes</b><br/><small>You wash, I'll watch.</small>
+<b>Dolly Parton</b><br/><small>1967- , American singer, songwriter, and actor. Known as much for her personal style as for her successful career.</small>
+<b>Dr. Kevorkin</b><br/><small>1928- , Controversial advocate of doctor-assisted suicide.</small>
+<b>Dr. Seuss</b><br/><small>1904-1991, Theodor Suess Geisel , the cat who came up with "The Cat in the Hat."</small>
+<b>Driving Off A Cliff</b><br/><small>It was either that or hire someone to do my takes.</small>
+<b>Duct Tape</b><br/><small>All-purpose, ... all the time ...</small>
+<b>E-Mail</b><br/><small>You've got JUNK mail!</small>
+<b>Ear Wax</b><br/><small>A waxy, yellowish substance that protects the ear from dust, bacteria, and from hearing things you don't want to hear.</small>
+<b>Earthquakes</b><br/><small>The Richter scale is named after the American seismologist Charles Richter. Did the earth move for you?</small>
+<b>Earwigs</b><br/><small>Nocturnal insects with abdominal pincers. Nothing to do with ears or wigs.</small>
+<b>East Coast</b><br/><small>From New England to Florida. They're not like folks 'round here ...</small>
+<b>Eddie Murphy</b><br/><small>1961-, American comedian, actor, and producer. Best known for his work in 48 Hours, Beverly Hills Cop and on Saturday Night Live.</small>
+<b>Eleanor Roosevelt</b><br/><small>1884-1962, first lady, social activist, author, lecturer, and U.S. representative to the United Nations.</small>
+<b>Electric Eels</b><br/><small>Slippery and slimy snakelike fishes that emit electrical charges. The shocking truth!</small>
+<b>Electricity</b><br/><small>The repulsive or attractive force between two stationary bodies. No problem unless one of those bodies is yours.</small>
+<b>Elephants</b><br/><small>The largest living land mammal, with two species: Indian and African. Not counting Dumbo, there are no American elephants.</small>
+<b>Elizabeth Taylor</b><br/><small>1932- , American actor, noted for her lush beauty, emotional performances and multiple husbands.</small>
+<b>Elvis Presley</b><br/><small>1935-77, American singer and actor and the king of rock-and-roll. His death left the music world all shook up.</small>
+<b>Emily Dickinson</b><br/><small>1830-86, American poet, whose lyrics are psychologically astute treatments of love, death, and immortality. So there.</small>
+<b>Ernest Hemingway</b><br/><small>1899-1961, American novelist and short-story writer, whose macho style is crisp, laconic and understated.</small>
+<b>Europe</b><br/><small>The Old Country ... except to people who live there.</small>
+<b>Exorcism</b><br/><small>To ceremoniously expel an evil spirit.</small>
+<b>Eyes</b><br/><small>Light-sensitive organ of vision in animals. See?</small>
+<b>Falling Down</b><br/><small>"What we call failure is not the falling down, but the staying down." -Mary Pickford</small>
+<b>Family Reunions</b><br/><small>Just to remind you why you moved away in the first place ...</small>
+<b>Family Vacations</b><br/><small>Dad? Dad? Are we there yet? Are we there yet? Are we? Huh? Dad?</small>
+<b>Family Values</b><br/><small>Often said but seldom understood.</small>
+<b>Fast Food</b><br/><small>You want fries with that?</small>
+<b>Feathers</b><br/><small>Which weighs more, a pound of feathers or a pound of rocks?</small>
+<b>Feminists</b><br/><small>Political and social activists who support selected women's causes.</small>
+<b>Festering Wounds</b><br/><small>Quit picking at that!</small>
+<b>Fidel Castro</b><br/><small>1927-, Cuban revolutionary and Communist dictator since 1976. He earned a PhD in law in 1950.</small>
+<b>Firefighters</b><br/><small>Emperor Augustus instituted a corps of fire-fighting "watchmen" in 24 B.C. Nero, on the other hand, fiddled while Rome burned.</small>
+<b>Firestorms</b><br/><small>Some severe wildfires require more than 10,000 firefighters. And, wouldn't ya know it, some idiot parked in front of the hydrant!</small>
+<b>Fireworks</b><br/><small>Includes firecrackers, Roman candles, and bottle rockets. It's all fun until someone loses an eye ... and a nose ... and an arm ...</small>
+<b>First Man On The Moon</b><br/><small>July 20, 1969. "That's one small step for a man, one giant leap for mankind." -Neil A. Armstrong</small>
+<b>Flipper</b><br/><small>American television dolphin of the 1960's ... like Lassie, only wetter.</small>
+<b>Fly Fishing</b><br/><small>... if you can"t catch flies any OTHER way ...</small>
+<b>Flying Monkeys</b><br/><small>The reason why "The Wizard Of Oz" still gives us nightmares.</small>
+<b>Forest Fires</b><br/><small>"Only YOU can prevent forest fires." The heat is on!</small>
+<b>Fort Knox</b><br/><small>American military post in Kentucky, containing the greater part of the gold reserve of the U.S. government.</small>
+<b>Fourth Of July</b><br/><small>"Independence Day" in the United States. "Thank Goodness We Got Rid of Them Day" in Britain.</small>
+<b>Frank Lloyd Wright</b><br/><small>1867-1959, pioneering American architect. Considered one of the greatest designers of the 20th century.</small>
+<b>Frank Sinatra</b><br/><small>1915-98, the greatest American pop singer of his generation, award winning film and television actor. Do-be do-be do, baby.</small>
+<b>Freckles</b><br/><small>No matter what they tell you, freckles won't grow together to form a great-looking tan.</small>
+<b>Freedom</b><br/><small>Express yourself!</small>
+<b>French Wines</b><br/><small>The perfect complement to an overpriced meal.</small>
+<b>Fresh Water Pearls</b><br/><small>String them along ...</small>
+<b>Friction</b><br/><small>Resistance to the motion of a body in contact with another body ... any body will do.</small>
+<b>Fund Raising</b><br/><small>Hello ... my name is Jonathan, would you like to buy some fruit, magazines, candy bars, wreaths, pizzas ... ?</small>
+<b>Funerals</b><br/><small>"He who dies with the most toys is, nonetheless, still dead." - Anonymous</small>
+<b>Fur</b><br/><small>The characteristic covering of mammals and people with money.</small>
+<b>Fuzz</b><br/><small>Lint ... Policemen ... Whatever ...</small>
+<b>Gall Bladder</b><br/><small>Where excess bile is stored. Stored for what, we don't know.</small>
+<b>Gang Members</b><br/><small>"When you're a Jet, you're a Jet all the way..." -West Side Story</small>
+<b>Garrison Keillor</b><br/><small>1942- , American author and radio star. He shares the Midwest perspective with 2.6 million listeners each week on A Prairie Home Companion.</small>
+<b>Garth Brooks</b><br/><small>1962- , American country music singer and songwriter. He's got friends in low places.</small>
+<b>Geishas</b><br/><small>Japanese women training in traditional singing, dancing, and entertaining. Of course, you would never recognize them without all that make-up.</small>
+<b>Gen. George S. Patton</b><br/><small>1885-1945, the commander of the American Third Army during World War II. -a.k.a. Olf Blood and Guts</small>
+<b>Genetic Engineering</b><br/><small>What DO you get when you cross a monkey with a potato?</small>
+<b>George W. Bush</b><br/><small>1946- , 43rd president of the United States. The second time ever that the son of a former president was elected to the office.</small>
+<b>George Washington</b><br/><small>1732-99, First President of the United States. He chopped down a cherry tree to make false teeth, or something like that ...</small>
+<b>Georgia O'Keeffe</b><br/><small>1887-1986, American abstract painter known for her still life compositions. Her skull paintings prove that beauty is more than skin deep.</small>
+<b>Getting A Hug</b><br/><small>Hmmmm ... nice.</small>
+<b>Ghost Towns</b><br/><small>Population unknown.</small>
+<b>Ghosts</b><br/><small>Nonmaterial embodiments or the essence of organisms (mostly human beings). Quite spirited</small>
+<b>Giant Squid</b><br/><small>Going fishing for giant squid? Nautilus I have to ...</small>
+<b>Gila Monsters</b><br/><small>The largest, and only poisonous lizard found in the United States.</small>
+<b>Gingko Trees</b><br/><small>An Asiatic tree, Gingko biloba, known for its fan shaped leaves. We can't remember what it's good for.</small>
+<b>Ginseng</b><br/><small>Common name for plants of the ginseng family, source of a stimulant and a supposed aphrodisiac.</small>
+<b>Girl Scouts</b><br/><small>I'll take six boxes of Thin Mints and three of the ... you know, the kind with the peanut butter.</small>
+<b>Girlfriends</b><br/><small>Girlfriend - let's talk!</small>
+<b>Giving A Hug</b><br/><small>"One may give without loving; but none can love without giving." -Anonymous</small>
+<b>Glaciers</b><br/><small>It'll be a cold day when we see THEM again ...</small>
+<b>Glazed Donuts</b><br/><small>If you're going to be late, take a box of donuts.</small>
+<b>Global Warming</b><br/><small>Is it hot in here, or is it just me?</small>
+<b>Going To Church</b><br/><small>Weddings, funerals, bazaars, and bingo!</small>
+<b>Going To Grandma's</b><br/><small>"Grandmother, what big teeth you have!" -Little Red Riding Hood</small>
+<b>Going To School</b><br/><small>Secondary education? It's elementary.</small>
+<b>Going To The Dentist</b><br/><small>This won't hurt a bit ...</small>
+<b>Going To The Gym</b><br/><small>No pain, no gain.</small>
+<b>Gold Chains</b><br/><small>The more, the better.</small>
+<b>Goldfish</b><br/><small>The pet, the carnival prize, or the snack cracker.</small>
+<b>Golf-Ball-Sized Hail</b><br/><small>... which is almost as impressive as hail-sized golf balls ...</small>
+<b>Grace Kelly</b><br/><small>1929-82, Princess of Monaco and American film star of Dial M for Murder, Rear Window, and To Catch a Thief. Always chic, always elegant.</small>
+<b>Graffiti</b><br/><small>Art in a can. We"re drawn to it.</small>
+<b>Grass Skirts</b><br/><small>Hula loves you, baby?</small>
+<b>Grave Robbers</b><br/><small>Famous for their bodies of work.</small>
+<b>Gravity</b><br/><small>In 1684, the law of gravitation was formulated by English physicist Sir Isaac Newton, who recognized the gravity of the situation.</small>
+<b>Greenpeace</b><br/><small>International organization dedicated to preserving the Earth's natural resources, and its diverse plant and animal life.</small>
+<b>Gym Teachers</b><br/><small>"I am a Physical Education Teacher. Call me a gym teacher again and you can drop and give me ten!"</small>
+<b>Hair Transplants</b><br/><small>Oh, it looks so natural ...</small>
+<b>Hairballs</b><br/><small>Cough it up, kitty ...</small>
+<b>Halloween</b><br/><small>October 31, the eve of All Saints' Day, celebrated with costumes, treats, and scary stuff. Not just for kids any more!</small>
+<b>Hand Grenades</b><br/><small>Close only counts in horseshoes and hand grenades!</small>
+<b>Handcuffs</b><br/><small>"You have the right to remain silent..."</small>
+<b>Handguns</b><br/><small>Source of a never-ending controversy as to how to get them out of the hands of the bad guys and into the hands of the good guys.</small>
+<b>Hangnails</b><br/><small>We've fingered the cause of the pain.</small>
+<b>Having A Baby</b><br/><small>"Rock-a-bye baby, on the tree top ..." Who would put a kid on a tree top?</small>
+<b>Having An Operation</b><br/><small>What a cutup! A real stitch.</small>
+<b>Hawaii</b><br/><small>The eight islands that make up America's 50th state entered the Union on August 21, 1959.</small>
+<b>Helen Keller</b><br/><small>1880-1968, American author and lecturer who overcame deafness and blindness with the help of her companion, Anne Sullivan.</small>
+<b>Hiccups</b><br/><small>How do you, hic, get em? How do you, hic, get rid of "em?</small>
+<b>High School Football</b><br/><small>The whole ten yards!</small>
+<b>High School Reunions</b><br/><small>See also: "root canal, as fun as ..."</small>
+<b>Hillary Rodham Clinton</b><br/><small>1947- , New York Senator, lawyer, and former American First Lady.</small>
+<b>Hiroshima</b><br/><small>1945 - "I am become death, the destroyer of worlds" - J. Robert Oppenheimer, on the detonation of the first atmoic bomb.</small>
+<b>HMOs</b><br/><small>Heath Maintenance Organizations. Here's to your health ...</small>
+<b>Hockey</b><br/><small>Did you hear about the big fight last night? All of a sudden, a hockey game broke out!</small>
+<b>Hollywood</b><br/><small>Motion picture and television industry center of the world. Hooray for Hollywood!</small>
+<b>Homeless Shelters</b><br/><small>In the United States, nearly three-quarters of the help for the homeless comes from the private sector, mostly from church soup kitchens.</small>
+<b>Homer Simpson</b><br/><small>Fictional cartoon character created by Matt Groening. D'oh!</small>
+<b>Homework</b><br/><small>Something to do during comercials.</small>
+<b>Hooligans</b><br/><small>"Hey! Kids! Get outta my yard!"</small>
+<b>Horseback Riding</b><br/><small>WHOAAA!!!</small>
+<b>Hot Lava</b><br/><small>There's no better way to serve it.</small>
+<b>House Guests</b><br/><small>How many visitors does it take to drive you crazy? Go on -take a guest!</small>
+<b>Hummingbirds</b><br/><small>Why do hummingbirds hum? Because they don't know the words ... ... da-dum, dum!</small>
+<b>Humphrey Bogart</b><br/><small>1899-1957, American film actor, starred in such classics as The Maltese Falcon and Casablanca. "Here's looking at you kid."</small>
+<b>Icebergs</b><br/><small>May reach 300 to 500 feet above the oceans's surface. Ask the captain of the Titanic about the 90 percent that's UNDER water.</small>
+<b>In A Coma</b><br/><small>A deep, prolonged state of unconsciousness ... sometimes you just feel that way.</small>
+<b>Incense</b><br/><small>Incense is better than no sense at all.</small>
+<b>India</b><br/><small>The world's seventh largest country by area, but the second most populous, with one billion people.</small>
+<b>Indiana Jones</b><br/><small>Fictional archeologist and action hero. Proof that a good hat and a whip can take you a long way.</small>
+<b>Industrial Revolution</b><br/><small>The first Industrial Revolution occurred in Great Britain at the end of the 1700s. The second came with the invention of the "Clapper."</small>
+<b>Infomercials</b><br/><small>One of these days, one of them may even say something informative.</small>
+<b>Inside The Sun</b><br/><small>Consisting mostly of hydrogen, the temperature reaches almost 16,000,000 K (about 29,000,000 F).</small>
+<b>Intellectuals</b><br/><small>They think they're so smart.</small>
+<b>Ireland</b><br/><small>Island of the British Isles, west of Great Britain. Known for its distinctive traditional dance and music.</small>
+<b>Israel</b><br/><small>Located on the Mediterranean, the state of Israel was reated by a 1948 U.N. mandate.</small>
+<b>Italy</b><br/><small>European Republic, shaped like a boot - a very fashionable boot.</small>
+<b>Jack Nicholson</b><br/><small>1937- , American motion-picture actor of "Chinatown," "Terms Of Endearment" and "The Shining." He's as good as it gets!</small>
+<b>Jack The Ripper</b><br/><small>Accused of murdering six women in 1888, and suspected in other murders. Still at large.</small>
+<b>Jackie Chan</b><br/><small>1954-, actor, director, martial artist. Screen name, Sing Lung, means "Becoming the Dragon." That's "MISTER Becoming the Dragon" to you!</small>
+<b>Jacques Cousteau</b><br/><small>1910-97, French naval officer, marine explorer, and author. Best known as a documentary filmmaker.</small>
+<b>Jamaica</b><br/><small>Third largest island of the Greater Antilles, south of Cuba. Tropical climate, reggae music, and jerk cooking.</small>
+<b>James Bond</b><br/><small>Fictional British secret agent created by English author Ian Fleming. Shaken, but never stirred.</small>
+<b>James Dean</b><br/><small>1931-55, American actor of film, stage, and television. His role in Rebel Without a Cause helped define "cool."</small>
+<b>Japan</b><br/><small>An Asian constitutional monarchy. The capital city is Tokyo. Let's see ... sushi, Godzilla, earthquakes ...</small>
+<b>Japanese</b><br/><small>How many Japanese does it take to screw in a light bulb? Who needs light bulbs when you've got OUR new technology!</small>
+<b>Jelly Beans</b><br/><small>Well, as long as we HAVE to eat our vegetables ...</small>
+<b>Jennifer Lopez</b><br/><small>1970-, American singer and actor of Selena, Money Train, and Maid In Manhattan.</small>
+<b>Jerry Springer</b><br/><small>1944- , controversial talk-show host. Don't those people know that millions of us are watching?</small>
+<b>Jesse Jackson</b><br/><small>1941-, American civil rights leader. Named to "The Gallup List of Ten Most Respected by Americans" for ten years.</small>
+<b>Jesse Ventura</b><br/><small>1951-, wrestler, Navy Seal, and former governor of Minnesota. Author of I Ain't Got Time To Bleed.</small>
+<b>Jim Carrey</b><br/><small>1962- , Canadian comedian and actor. Famous for outrageous faces, and dumb and dumber characters.</small>
+<b>Jimmy Stewart</b><br/><small>1908-97, America's favorite self-image. Mr. Smith Goes to Washington, Rear Window, Vertigo, and It's a Wonderful Life, ... and it probably was.</small>
+<b>Joan Of Arc</b><br/><small>1412-31, patron saint of France who decisively turned the tide of the Hundred Years' War, which really burned her up.</small>
+<b>Jodie Foster</b><br/><small>1962- , American actor began her career on Mayberry, R.F.D. and went on to win Academy Awards for The Accused and Silence Of The Lambs.</small>
+<b>John F. Kennedy</b><br/><small>1917-63, 35th president of the US. "Ask not what your country can do for you; ask what you can do for your country."</small>
+<b>John Glenn</b><br/><small>1921- , The first U.S. astronaut to orbit the earth in 1962, and a U.S. Senator. Never too old to shoot for the moon!</small>
+<b>John Philip Sousa</b><br/><small>1854-1932, American bandmaster and composer of Stars and Stripes Forever. Known as "The March King."</small>
+<b>John Travolta</b><br/><small>1954 - , American actor of "Welcome Back, Kotter," "Grease," "Saturday Night Fever" and "Pulp Fiction." That man can dance!</small>
+<b>Judge Judy</b><br/><small>Ms. Sheindlin presides over real-life cases on this TV courtroom show. "I'm the boss, applesauce!"</small>
+<b>Julia Roberts</b><br/><small>1967-, American actor and Pretty Woman. Also starred in Steel Magnolias, My Best Friend's Wedding, and Erin Brockovich.</small>
+<b>Junk Mail</b><br/><small>Contests, credit card applications, solicitations and political ads.</small>
+<b>Jupiter</b><br/><small>Story Problem: If one year on Jupiter equals 11.86 Earth years, and one day equals 9.92 Earth hours, how many Earth hours are there in a Jupiter year?</small>
+<b>Katherine Hepburn</b><br/><small>1909-2003, American actor and winner of four Academy Awards. She starred in such classics as The African Queen.</small>
+<b>Keanu Reeves</b><br/><small>1964- , American actor of Bill And Ted's Excellent Adventure, The Matrix and Speed. Keanu means "cool breeze over the mountains."</small>
+<b>Killer Whales</b><br/><small>Black and white predatory whales. Boy, can they sing!</small>
+<b>Kilts</b><br/><small>If Mel Gibson can wear one, so can you.</small>
+<b>King Arthur</b><br/><small>Legendary British king best known for Camelot and round tables.</small>
+<b>King Henry VIII</b><br/><small>1491-1547, King of England, and founder of the Church of England. Six wives, no waiting.</small>
+<b>Knock-Knock Jokes</b><br/><small>Who's there?</small>
+<b>Labor Unions</b><br/><small>Look for the Union label. And, while you're at it, look for Jimmy Hoffa ...</small>
+<b>Large Mouth Bass</b><br/><small>Oh, please, let it not sing ...</small>
+<b>Las Vegas</b><br/><small>The first casino opened in Las Vegas in 1946. Las Vegas ... or it that Lost Wages?"</small>
+<b>Lawyers</b><br/><small>We'd throw some joke in here, but we're afraid of getting sued.</small>
+<b>Leaf Blowers</b><br/><small>Toro, Toro, Toro!</small>
+<b>Leather</b><br/><small>Animal hide. Leather you like it or not.</small>
+<b>Leeches</b><br/><small>Any mention of lawyers, agents, or reporters would be FAR too easy ...</small>
+<b>Lemons</b><br/><small>When life gives you lemons, make lemonade ... or, in the case of a car, take it back. There's a law, you know!</small>
+<b>Lenin's Tomb</b><br/><small>We'd love to visit Lenin's Tomb, but it's probably just another communist plot.</small>
+<b>Leonardo Da Vinci</b><br/><small>1452-1519, Florentine artist, sculptor, architect, engineer, scientist, and all-around smartypants.</small>
+<b>Lightning</b><br/><small>Electrical discharge between rain clouds, or between a rain cloud and the earth, or between a rain cloud and an idiot with a kite.</small>
+<b>Loan Sharks</b><br/><small>As dangerous as "Jaws", but without the charisma.</small>
+<b>Lobster</b><br/><small>Crustaceans closely related to freshwater crayfishes. Market price.</small>
+<b>Local Police</b><br/><small>They know who you are and they know where you live.</small>
+<b>Log Cabins</b><br/><small>Among the many Americans born in log cabins were Preisdents Harrison, Lincoln, and Grant. Just pass the maple syrup.</small>
+<b>Lollipops</b><br/><small>Sucker!</small>
+<b>London</b><br/><small>Founded even before the Romans reached England's shores, now the capital of Great Britain.</small>
+<b>Looking For A Job</b><br/><small>Will work for fool ...</small>
+<b>Los Angeles</b><br/><small>LA LA Land.</small>
+<b>Losing Your Job</b><br/><small>They just didn't understand me!</small>
+<b>Lucille Ball</b><br/><small>1911-89, American actor and comedian. You love Lucy? I love Lucy.</small>
+<b>Machine Guns</b><br/><small>Automatic, rapid-fire, repeating weapons. The Gatling gun was used as early as the American Civil War.</small>
+<b>Mad Cow Disease</b><br/><small>Degenerative brain disorder in cattle. The reason they don't know enough to come in out of the rain?</small>
+<b>Madame Curie</b><br/><small>1867-1934, French chemist and physicist who won a Nobel Prize for her work on radiation. Fun fact: A "curie" is a unit of radioactivity.</small>
+<b>Madonna</b><br/><small>1958-, American singer, songwriter, actor, writer, and 1980s pop icon. Blond Ambition.</small>
+<b>Magic Tricks</b><br/><small>"Nothin' up my sleeve ..." - Bullwinkle</small>
+<b>Mahatma Gandhi</b><br/><small>1869-1948, Indian leader and philosopher who preached nonviolence. Was assassinated for his efforts.</small>
+<b>Manhattan</b><br/><small>I'll take Manhattan!.</small>
+<b>Mardi Gras</b><br/><small>Fat Tuesday marks the final day before the Christian fast of Lent, a 40-day period of self-denial and abstinence. SO LET'S PARTY!</small>
+<b>Marilyn Monroe</b><br/><small>1926-62, American movie star, pinup and sex symbol. Just ask the Kennedys.</small>
+<b>Mark Twain</b><br/><small>1835-1910, American writer and humorist, best known for the adventures of Tom Sawyer and Huckleberry Finn.</small>
+<b>Marriage</b><br/><small>If love and marriage go together like a horse and carriage ... who's the horse?</small>
+<b>Mars</b><br/><small>The fourth planet from the sun. Where men come from.</small>
+<b>Martha Stewart</b><br/><small>1941-, television personality, magazine editor, and author. Domestic arts are her stock-in-trade.</small>
+<b>Martin Luther King, Jr.</b><br/><small>1929-68, American civil rights leader and advocate of nonviolent resistance. Was assassinated for his efforts.</small>
+<b>Meat Cleavers</b><br/><small>No relation to Ward, June, or the Beaver ...</small>
+<b>Meatloaf</b><br/><small>Large and intimidating -the dish not the singer!</small>
+<b>Meg Ryan</b><br/><small>1961- , American actor and girl-next-door star of When Harry Met Sally, Sleepless In Seattle, and You've Got Mail.</small>
+<b>Mel Gibson</b><br/><small>1956-, Australian actor. Known for The Road Warrior, Braveheart and :eatha; Weapon I, II, III, IV ...</small>
+<b>Men</b><br/><small>REAL Men.</small>
+<b>Men In Black</b><br/><small>We're not here. You don't see us. The government did NOT send us.</small>
+<b>Meryl Streep</b><br/><small>1959-, accomplished American actor, two-time Oscar winner, with over a dozen Academy Award nominations.</small>
+<b>Mexico</b><br/><small>Federal republic in North America. The capital and largest city is Mexico City.</small>
+<b>Mice</b><br/><small>"The best-laid schemes o' mice an' men ..." -Robert Burns</small>
+<b>Michael Jackson</b><br/><small>1958-, American popular singer, dancer, and songwriter. Welcome to Neverland.</small>
+<b>Michael Jordon</b><br/><small>1963- , American professional basketball legend, led Chicago to six world championships. No bull.</small>
+<b>Michelangelo</b><br/><small>1475-1564, inspired Italian sculptor, architect, painter, and poet. A REAL Renaissance man.</small>
+<b>Michelle Pfeiffer</b><br/><small>1957-, American actor whose career began with Grease 2. She'd like us to forget that but remember her Oscar nominations.</small>
+<b>Microsoft</b><br/><small>A leading American software company. We'd say more but we don't want to monopolize your time ...</small>
+<b>Midlife Crisis</b><br/><small>"Here comes your 19th nervous breakdown ..." -The Rolling Stone</small>
+<b>Mike Tyson</b><br/><small>1966- , American heavyweight boxer. Lend him your ear ...</small>
+<b>Miles Davis</b><br/><small>1926-91, innovative, influential, and respected American jazz trumpter player and band layer.</small>
+<b>Milk</b><br/><small>Three glasses a day will give you ... the gratitude of the dairy industry.</small>
+<b>Milk Duds</b><br/><small>Chocolate and caramel candy balls. Tooth extractions at no extra charge!</small>
+<b>Mirrors</b><br/><small>And now, a moment for reflection.</small>
+<b>Mold</b><br/><small>Fuzzy growth produced on organic matter by several types of fungi. Particularly attracted to students' refrigerators</small>
+<b>Money</b><br/><small>"The best things in life are free/ But you can give them to the birds and bees/ Just give me money ..." -Bradford and Gordy</small>
+<b>Morticians</b><br/><small>Why do you hang around with THOSE stiffs ...?</small>
+<b>Mosquitoes</b><br/><small>They suck.</small>
+<b>Motorcycles</b><br/><small>The air in your hair and bugs in your teeth.</small>
+<b>Mount Rushmore</b><br/><small>Memorial carved into the side of the Black Hills in South Dakota. Heads above all other monuments.</small>
+<b>MTV</b><br/><small>"Video killed the radio star." -The Buggles</small>
+<b>Mud</b><br/><small>Water. Dirt. You do the math.</small>
+<b>Mudslides</b><br/><small>Chocolate drink or natural disaster ... both occur frequently in California.</small>
+<b>Muhammad Ali</b><br/><small>1942- , American heavyweight boxing champion. "Floats like a butterfly, stings like a bee."</small>
+<b>Musicals</b><br/><small>South Pacific, The King and I, The Sound of Music, A Chorus Line, Cats, Rent ...</small>
+<b>My 16th Birthday</b><br/><small>Dad, can I have the keys to the car, please?</small>
+<b>My Bank Account</b><br/><small>Speaking of theoretical mathematics and unreal numbers ...</small>
+<b>My Bathroom</b><br/><small>"The bathroom was drenched with their splashings" -Aldous Huxley</small>
+<b>My Bedroom</b><br/><small>"No one knows what goes on behind closed doors." -Charlie Rich</small>
+<b>My Body</b><br/><small>Mine is a temple. Specifically, the Temple of Doom ...</small>
+<b>My Boss</b><br/><small>... is an idiot. You know it; we know it.</small>
+<b>My Dreams</b><br/><small>"What dreams may come ..." -Shakespeare's Hamlet</small>
+<b>My Family</b><br/><small>They'll drive you nuts. As long as you do the same to them, it's all even.</small>
+<b>My First Kiss</b><br/><small>Sparks were flying. Of course, that could have been the braces ...</small>
+<b>My Friends</b><br/><small>With friends like there, who needs enemies?</small>
+<b>My Future</b><br/><small>"The future's so bright, I gotta wear shades ..." -Timbuk-3</small>
+<b>My Hair</b><br/><small>Hair today, gone tomorrow ...</small>
+<b>My High School Prom</b><br/><small>As if adolescence isn't awkward and painful enough ...</small>
+<b>My Job</b><br/><small>Love it or leave it.</small>
+<b>My Love Life</b><br/><small>"All you need is love ..." -The Beatles</small>
+<b>My Mind</b><br/><small>It's a terrible thing to waste.</small>
+<b>My Neighborhood</b><br/><small>"Please, won't you be my neighbor?" -Fred Rogers</small>
+<b>My Past</b><br/><small>What's past is past ... unless you're a politician ...</small>
+<b>My Personality</b><br/><small>"I'm good enough, smart enough and, gosh darn it, people like me." -Stewart Smalley played by Al Franken</small>
+<b>My Refrigerator</b><br/><small>It's a science experiment!</small>
+<b>Napoleon Bonaparte</b><br/><small>1769-1821, Emperor of France. Met his Waterloo at the Battle of Waterloo. The name should have tipped him off ...</small>
+<b>NASCAR</b><br/><small>Stock car racing began after World War II, breaking records for speed and for the number of advertisements on a single jacket.</small>
+<b>Neil Simon</b><br/><small>1927-, American producer, playwright, and screenwriter of The Odd Couple, Biloxi Blues, The Sunshine Boys, California Suite, and many more.</small>
+<b>New Orleans</b><br/><small>The Big Easy.</small>
+<b>New Shoes</b><br/><small>Make you feel like dancing ...</small>
+<b>New York City</b><br/><small>America's most populous city. So good, they named it twice.</small>
+<b>Niagara Falls</b><br/><small>Niagara Falls was formed about 12,000 years ago, when glaciers retreated north, and honeymooners approached from the south.</small>
+<b>Nicholas Cage</b><br/><small>1964- , American actor known for his edgy characters in Leaving Los Vegas, Raising Arizona, and Moonstruck.</small>
+<b>Ninjas</b><br/><small>Teenage mutant turtles need not apply.</small>
+<b>Nobel Peace Prize</b><br/><small>Established by Alfred Nobel. Swedish industrialist and inventor of dynamite. Led to an explosion of peace efforts.</small>
+<b>Noisy Neighbors</b><br/><small>WHAT? I CAN'T HEAR YOU!</small>
+<b>Normal Rockwell</b><br/><small>1894-1978, American painter, illustrator and all-around interpreter of small town American life.</small>
+<b>Nuclear Power Plants</b><br/><small>"You've turned a potential Chernobyl into a mere Three Mile Island." -Montgomery Burns, "The Simpsons"</small>
+<b>NYPD</b><br/><small>The New York Police Department. They're so good, they have their own TV show.</small>
+<b>Oil Spills</b><br/><small>The American oil tanker, Exxon Valdez, went aground in Prince William Sound, Alaska, Mar. 24, 1989. Slick Move.</small>
+<b>Olive Oil</b><br/><small>Derived from fresh ripe fruit, which contain about 20% oil. Better than "olive" the other oils.</small>
+<b>On-Line Shopping</b><br/><small>Enter your credit card number now. This is a secure site ... Sure it is ...</small>
+<b>Oprah Winfrey</b><br/><small>1954- , Television talk show host, actor and all-around American success story.</small>
+<b>Oral Surgery</b><br/><small>You said a mouthful.</small>
+<b>Oranges</b><br/><small>Face it ... nothing rhymes with orange.</small>
+<b>Oxygen</b><br/><small>Oxygen was discovered in 1774. You'd think someone would have noticed it earlier.</small>
+<b>Pablo Picasso</b><br/><small>1881-1973, Spanish painter and sculptor, one of the greatest artists of the 20th century. If only he could draw eyes ...</small>
+<b>Parenting</b><br/><small>The process of discovering you are becoming just like YOUR parents.</small>
+<b>Paris, France</b><br/><small>The governmental, cultural and gastronomic capital of France. Or the world. Just ask the French.</small>
+<b>Paying Bills</b><br/><small>Also known as "Debt Restructuring."</small>
+<b>Paying Taxes</b><br/><small>Death or Taxes? Do we have to choose right away?</small>
+<b>Penguins</b><br/><small>Flightless, aquatic birds that reside in the Southern Hemisphere. All dressed up and no place to go.</small>
+<b>Picking Your Nose</b><br/><small>Noses run in our family.</small>
+<b>Pigeons</b><br/><small>Birds with small heads, short necks, stout bodies, and an incredible attraction to statues.</small>
+<b>Pigs</b><br/><small>Domesticated mammal of the swine family. Thaaa ... thaaa ... that's all, folks!</small>
+<b>Piranha</b><br/><small>Carnivorous fish found in rivers of South America. When you feel like a bite ...</small>
+<b>Pirates</b><br/><small>"Yo, ho, yo, ho, a pirate's life for me ..." - Pirates of the Caribbean</small>
+<b>Pit Bulls</b><br/><small>Any of several crossbreeds of bulldogs with terriers. Or, several radio hosts we could mention.</small>
+<b>Plane Crashes</b><br/><small>Statistically safer than driving ... unless you crash.</small>
+<b>Plastic</b><br/><small>Giant molecules of organic polymeric materials. Bags and bags of the stuff.</small>
+<b>Playing Chess</b><br/><small>Has tantalized many of the world's greatest minds for almost 14 centuries. It just confuses the rest of us.</small>
+<b>Poison Ivy</b><br/><small>Itching for a walk in the woods?</small>
+<b>Pokemon</b><br/><small>Cute cartoon monsters you gotta catch. What you do with them is up to you ...</small>
+<b>Pond Scum</b><br/><small>Simple organisms that carry out photosynthesis ... or spammers.</small>
+<b>Poodles</b><br/><small>The only breed that is better groomed than their owners.</small>
+<b>Popcorn</b><br/><small>Air poppers are for air heads ... I say bring on the butter!</small>
+<b>Porsche Boxster</b><br/><small>A two-seat, six cylander roadster - elegant design and superior drivability.</small>
+<b>Postal Workers</b><br/><small>"Neither snow, nor rain, nor heat, nor gloom of night, stays these couriers from the swift completion of their appointed rounds."</small>
+<b>Power Tools</b><br/><small>"More power! More power! Argh! Argh!" -Tim, the Tool Man, Taylor, "Home Improvement"</small>
+<b>Prince Charming</b><br/><small>The perfect man ... mythical, of course.</small>
+<b>Princess Di</b><br/><small>1962-97, beloved English Princess who died in an auto crash. "Good-bye England's Rose ..." -Elton John</small>
+<b>Pro Wrestling</b><br/><small>They're just faking it. But then, so are we.</small>
+<b>Psychiatrists</b><br/><small>"And how do you feel about that?"</small>
+<b>Psychics</b><br/><small>The Psychic Friends Network went bankrupt in 1997. Perhaps they should have seen it coming ...</small>
+<b>Public Radio</b><br/><small>"Good morning . . . . . This morning . . . . . . . . . . . .we have Wolfgang . . . Amadeus Mozart . . . for your listening pleasure . . ."</small>
+<b>Puff Daddy</b><br/><small>1971- , American rap artist. "I'll be Missing You" shot him to stardom; no pun intended.</small>
+<b>Pulling Weeds</b><br/><small>It's either this or chemical warfare.</small>
+<b>Pumping Iron</b><br/><small>When a great weight needs to be lifted.</small>
+<b>Pushups</b><br/><small>Exercises, a type of bra, or the ice cream treat.</small>
+<b>Pyramids</b><br/><small>Built by ancient civilizations, found mainly in Egypt, Guatemala, Honduras, Mexico and Peru. Probably the result of some pyramid scheme.</small>
+<b>Quentin Terantino</b><br/><small>1963- , Groundbreaking American director and actor. Nice movies, but not nearly enough blood.</small>
+<b>Quicksand</b><br/><small>Just don't let it get you down.</small>
+<b>Ragweed</b><br/><small>A weed of the genus Ambrosia. Nothing to sneeze at.</small>
+<b>Rain</b><br/><small>"When the rain comes, they run and hide their heads; they might as well be dead." -The Beatles</small>
+<b>Rainbows</b><br/><small>"Someday they'll find it/ The Rainbow Connection/ The lovers, the dreamers and me ..." -Kermit the Frog</small>
+<b>Rappers</b><br/><small>PAENTAL ADVISORY EXPLICIT CONTENT Hasn't seemed to hurt sales...</small>
+<b>Reading A Good Book</b><br/><small>So many books, so little time.</small>
+<b>Recreational Vehicles</b><br/><small>If they're trying to get away from it all, why are they taking it all with them?</small>
+<b>Recycling</b><br/><small>More than one million tons of aluminum are NOT recycled each year. Where do you throw your cans?</small>
+<b>Red Raspberries</b><br/><small>Worth a few scratches.</small>
+<b>Rednecks</b><br/><small>"You might be a redneck if ..." -Jeff Foxworthy</small>
+<b>Redwood Forests</b><br/><small>"From the Redwood Forests to the Gulf Stream Waters/ This land was made for you and me." -Woody Guthrie</small>
+<b>Reggae Music</b><br/><small>This contemporary Caribbean music, originating in Jamaica, remains an influential style of popular music. Ya mon!</small>
+<b>Regis Philbin</b><br/><small>1934- , American talk and game show host. Who wants to be a millionaire? Regis, apparently.</small>
+<b>Remote Controls</b><br/><small>The world's handiest invention. That is, if you can find it.</small>
+<b>Republicans</b><br/><small>A U.S. political party symbolized by an elephant ... and don't forget it!</small>
+<b>Richard Nixon</b><br/><small>1913-94, 37th President of the United States and the only president to have resigned from office. At least that's what the tapes say ...</small>
+<b>Robert DeNiro</b><br/><small>1943- , Pre-eminent American actor who earned Academy Awards for The Godfather II and Raging Bull. "Are you looking at me?"</small>
+<b>Road Kill</b><br/><small>Mmmmmm. Them's good eatin'.</small>
+<b>Road Trips</b><br/><small>"Get Your Kicks on Route 66." -Nelson Riddle</small>
+<b>Robin Williams</b><br/><small>1952- , versatile American comedian and actor. The furriest man in show business.</small>
+<b>Rock And Roll -It's here to stay!
+Rock Concert</b><br/><small>If it's too loud - you're too old.</small>
+<b>Rocket Scientists</b><br/><small>Hey! They're not rocket scie ... oh ... never mind.</small>
+<b>Rocky Mountains</b><br/><small>These extend 2,000 miles from northeastern British Columbia to central New Mexico, and keep the Californians away from everyone else ...</small>
+<b>Rolling The Car</b><br/><small>You'll flip for this one ...</small>
+<b>Roman Numerals</b><br/><small>There's a I in VII chance you'll know them.</small>
+<b>Romeo And Juliet</b><br/><small>William Shakespeare's best known play, written in 1595. Youthful love and hasty temperaments.</small>
+<b>Root Beer Floats</b><br/><small>Actually, it's the ice cream that floats!</small>
+<b>Rosa Parks</b><br/><small>1913-, civil rights icon arrested in 1956 for violating U.S. segregation laws by refusing to give up her bus seat to a white passenger.</small>
+<b>Rosie O'Donnell</b><br/><small>1962-, American actor and comedian. She's in a league of her own!</small>
+<b>Rubber Gloves</b><br/><small>Just in case ...</small>
+<b>Running A Marathon</b><br/><small>26 miles, 385 yards: the distance run by a Greek soldier from the town of Marathon to Athens in 490 BC.</small>
+<b>Rush Limbaugh</b><br/><small>1951- , conservative talk-radio personality. Claims to host his radio show with half his brain tied behind his back, just to make it fair.</small>
+<b>Russia</b><br/><small>The world's largest country, spanning 11 time zones. Famous for borscht, ballet, chess and vodka -just don't mix them.</small>
+<b>Rust</b><br/><small>"Rust never sleeps." -Neil Young</small>
+<b>Saddam Hussein</b><br/><small>1937-, dictator of Iraq 1979-2003.</small>
+<b>Sailors</b><br/><small>"In the Navy, you can sail the seven seas ..." -The Village People</small>
+<b>Salads</b><br/><small>Lettuce not knock the vegetarians.</small>
+<b>Salsa Dancing</b><br/><small>Popular form of Latin American dance. A little jazz, a little blues, a touch of rock and lots of heat.</small>
+<b>Salvador Dali</b><br/><small>1904-89, Spansih artist best known for his dream imagery and surrealism, including the limp watches in The Persistence Of Memory.</small>
+<b>Samuel L. Jackson</b><br/><small>1948-, powerful American actor of Pulp Fiction, Jackie Brown, and The Negotiator.</small>
+<b>Saturday Cartoons</b><br/><small>Get your blanket, a bowl of cereal and snuggle in for three hours of commercials.</small>
+<b>San Francisco</b><br/><small>California's City by the Bay. Where many hearts are left.</small>
+<b>Saturn</b><br/><small>Sixth planet from the sun, and the second largest in the solar system. Has a nice ring to it, don't you think?</small>
+<b>Scavenger Hunt</b><br/><small>OK kids, here's your list: a marshmallow, a safety pin, a red rubber band, and a moon rock. Go find 'em!</small>
+<b>Scene Of The Crime</b><br/><small>It was Colonel Mustard, in the library, with the candlestick.</small>
+<b>Schindler's List</b><br/><small>1993 Steven Spielberg film. Powerful real-life story of a Catholic businessman who eventually saved over 1000 Jews in Nazi Poland.</small>
+<b>Science Fair Projects</b><br/><small>No human subjects, please!</small>
+<b>Science Fiction</b><br/><small>In a galaxy far, far away ...</small>
+<b>Screeching</b><br/><small>Please stop.</small>
+<b>Sean Connery</b><br/><small>1930- , Accomplished Scottish actor, although best known as the REAL Bond, JAMES Bond ...</small>
+<b>Shania Twain</b><br/><small>1965- , Canadian country singer and songwriter. "Shania" means "I'm on my way" in Ojibwa.</small>
+<b>Sharks</b><br/><small>Many species living today are similar to those from 100 million years ago. Because change is scary.</small>
+<b>Shopping Mall</b><br/><small>Three-quarters of the North American population visit a shopping mall at least once a month.</small>
+<b>Silk</b><br/><small>Produced as a cocoon covering by the silk worm, and used in fine fabrics and textiles.</small>
+<b>Silly Putty</b><br/><small>It's putty in your hands!</small>
+<b>Skateboarding</b><br/><small>It's just going downhill ... down stairs ... down ramps ...</small>
+<b>Skiing</b><br/><small>The Super Giant Slalom: Swiss for "suicide."</small>
+<b>Skinheads</b><br/><small>Shaved heads, big boots. Some are Nazis, some are not.</small>
+<b>Skunks</b><br/><small>Black and white striped mammals known for their offensive smelling defensive spray.</small>
+<b>Skydiving</b><br/><small>Parachute canopies are usually made from nylon fabric that lasts for thousands of jumps - whether the skydiver does or not.</small>
+<b>Sleeping Pills</b><br/><small>I remember taking them ... I just ... don't rememmer ... how mamy.</small>
+<b>Slivers</b><br/><small>Also known as splinters. The worst ones are under your fingernails.</small>
+<b>Sloppy Joes</b><br/><small>My favorite recipe -open the can.</small>
+<b>Smithsonian Institution</b><br/><small>Located in Washington, D.C., the largest museum complex in the world. Wouldn't that be a great garage sale?</small>
+<b>Snakes</b><br/><small>Surprising, snakes move rapidly without legs. Also surprising, they find OTHER snakes attractive.</small>
+<b>Snow</b><br/><small>Transparent ice crystals which form around dust and other small particles. Get my drift?</small>
+<b>Social Security</b><br/><small>American program designed to provide income and services in the event of retirement, sickness, disability, death or unemployment.</small>
+<b>Socks</b><br/><small>"Black socks, they never get dirty, the longer you wear them the stronger they get." -Bill Harley</small>
+<b>South Africa</b><br/><small>Two oceans, rugged mountains, traditional villages, game sanctuaries, wineries...forget the past and bring on the tourists.</small>
+<b>South Park</b><br/><small>Highly-rated, highly offensive animated cartoon series. "Oh my God! We killed Kenny!"</small>
+<b>Soy Sauce</b><br/><small>A brewed seasoning made from soybeans, wheat, and salt.</small>
+<b>Spam</b><br/><small>Mystery meat, or mystery E-mails ...</small>
+<b>Speeding Tickets</b><br/><small>"No, officer, I don't have any idea how fast I was going."</small>
+<b>Spiders</b><br/><small>There are more than 34,000 species of spiders. Try not to think about THAT right before bedtime.</small>
+<b>Spike Lee</b><br/><small>1957-, American film maker and Knicks fan. Best known for Do the Right Thing, Malcolm X, and 4 Little Girls.</small>
+<b>Spilled Milk</b><br/><small>Got milk? WHOOPS! Apparently not ...</small>
+<b>Spit</b><br/><small>Ladies and gentlemen, straight from the Salivary Glands ...</small>
+<b>Spontaneous Combustion</b><br/><small>The ignition of substances without application of an external heat source. A good plot for "The X-Files."</small>
+<b>Sport Utility Vehicles</b><br/><small>Need new tires?</small>
+<b>Sports Channels</b><br/><small>Any team, any time.</small>
+<b>Star Fruit</b><br/><small>Looks like plastic, tastes like lemons.</small>
+<b>Starry Night</b><br/><small>A sky bright with stars, a classic Van Gogh painting, and a Don McLean song. Three cards in one!</small>
+<b>State Fair</b><br/><small>Aw, gee whiz, a blue ribbon for Bessie!</small>
+<b>Steak And Potatoes</b><br/><small>Hot off the grill!</small>
+<b>Stephen King</b><br/><small>1947- , American author of horror novels, who's sold more than 100 million copies of his books. Talk about frightening ...</small>
+<b>Steve Martin</b><br/><small>1945- , American comedian, actor, writer, and "wild and crazy guy."</small>
+<b>Steven Spielberg</b><br/><small>1947-, American movie director and producer, and overachiever. From E.T. to Schindler's List... too many to list.</small>
+<b>Stonehenge</b><br/><small>Prehistoric stone monument located north of Salisbury, England.</small>
+<b>Strawberry Shortcake</b><br/><small>Summertime and the eating is easy ...</small>
+<b>Stubbed Toes</b><br/><small>It'll feel better when it quits hurting.</small>
+<b>Stunt People</b><br/><small>When you need someone to take the fall.</small>
+<b>Summer Camp</b><br/><small>If the bugs don't get you, the poison ivy will!</small>
+<b>Sunday Drivers</b><br/><small>Now available ANY day of the week!</small>
+<b>Superman</b><br/><small>Fictional comic book superhero loved by Lois Lane and Jerry Seinfeld.</small>
+<b>Supermodels</b><br/><small>Long legs = big bucks.</small>
+<b>Surfing The Net</b><br/><small>www.otb-games.com</small>
+<b>Sushi</b><br/><small>Who would ever have guessed that raw fish could be so fashionable?</small>
+<b>Swiss Bank Accounts</b><br/><small>Do you think everyone in Switzerland has one?</small>
+<b>Swiss Chocolate</b><br/><small>"What use are cartridges in battle? I always carry chocolate instead." -George Bernard Shaw</small>
+<b>Swiss Cheese</b><br/><small>Guess it comes from holey cows ...</small>
+<b>Taking A Bath</b><br/><small>Bathing facilities have been found in excavations in India from before 2000 BC. Soap-on-a-Rope hasn't.</small>
+<b>Talk Radio</b><br/><small>Talk about air pollution.</small>
+<b>Teachers</b><br/><small>If you can play this game, thank a teacher.</small>
+<b>Telemarketers</b><br/><small>"No, thank you ... No, I'm not interested ... No, I have to go now ..."</small>
+<b>Televangelists</b><br/><small>Not to be confused with Teletubbies.</small>
+<b>Television</b><br/><small>One-hundred and sixty-four channels, and nothing worth watching.</small>
+<b>Telling The Truth</b><br/><small>"There are two kinds of truth. There are real truths and there are made-up truths." -Marion Barry, ex-mayor of Washington, D.C.</small>
+<b>Terrorist Attack</b><br/><small>We will never negotiate with terrorists.</small>
+<b>Thanksgiving Day</b><br/><small>The fourth Thursday of November in the U.S.; the second Monday in October in Canada.</small>
+<b>The 1920s</b><br/><small>Pros: the Jazz Age. Cons: Presidents who look like librarians.</small>
+<b>The 1950s</b><br/><small>Pros: Barbies, barbecues, and bikinis. Cons: McCarthy, the Korean War, television.</small>
+<b>The 1960s</b><br/><small>Pros: the Moon Lsnding, the music. Cons: hippies who refuse to believe they're over.</small>
+<b>The 1970s</b><br/><small>Pros ... uh ... pros ... uh ... GIVE US A MINUTE, OKAY?</small>
+<b>The 1980s</b><br/><small>Pros: meant the end of the 1970s. Cons: '80s nostalgia.</small>
+<b>The 21st Century</b><br/><small>The future is NOW!</small>
+<b>The Academy Awards</b><br/><small>The statue known as "Oscar" weighs only eight and a half pounds. So why does it carry so much weight?</small>
+<b>The Beach</b><br/><small>A day at the beach is no day at the beach, ya know?</small>
+<b>The Beatles</b><br/><small>1960s British band. Only the most revolutionary, influential and universally acclaimed group of the 20th century. That's all.</small>
+<b>The CIA</b><br/><small>The Central Intelligence Agency is responsible for keeping the U.S. government informed of foreign actions affecting the nation's interest.</small>
+<b>The Cold War</b><br/><small>The post-World War II struggle between the US and its allies, and the former USSR and its allies. Things could have gotten hot.</small>
+<b>The Common Loon</b><br/><small>A spotted, red-eyed diving bird -or various friends or family.</small>
+<b>The Dallas Cowboys</b><br/><small>National Football League team known for their cheerleaders and their performance, both on and off the field.</small>
+<b>The Dump</b><br/><small>Just remember to recycle.</small>
+<b>The Eiffel Tower</b><br/><small>Designed and built by French engineer Alexandre Gustave Eiffel for the Paris World's Fair of 1889.</small>
+<b>The Electric Chair</b><br/><small>In U.S. prisons, an alternating current of about 2000 volts is used for electrocution.</small>
+<b>The End Of The World</b><br/><small>"It's the end of the world as we know it, and I feel fine ..." -REM</small>
+<b>The Everglades</b><br/><small>A vast marsh covering much of southern Florida. Watch out for alligators!</small>
+<b>The Far Left</b><br/><small>They get high Marx from some.</small>
+<b>The Far Right</b><br/><small>Far right for some and far wrong for others.</small>
+<b>The FBI</b><br/><small>The Federal Bureau of Investigation: the investigative agency for the U.S. Department of Justice. They're listening ...</small>
+<b>The First Day Of School</b><br/><small>"Fear has many eyes." -Cervantes</small>
+<b>The French Riviera</b><br/><small>Holiday home of the rich, the famous, and the half-naked.</small>
+<b>The Godfather</b><br/><small>The 1972 critically acclaimed Mafia movie that made us as offer we couldn't refuse.</small>
+<b>The Grand Canyon</b><br/><small>217 miles long, 4 to 18 miles wide, and more than 1 mile deep. Now THAT'S grand.</small>
+<b>The Grateful Dead</b><br/><small>American rock band, founded in 1965 and best known for their "Dead Head" fans.</small>
+<b>The Great Chicago Fire</b><br/><small>The noteworthy fire of 1871 ... a hot time in the old town ...</small>
+<b>The Great Depression</b><br/><small>Prozac was invented six decades too late.</small>
+<b>The Green Bay Packers</b><br/><small>Twelve time National Football League world champions, beloved by "Cheeseheads" everywhere. Are those brats done yet?</small>
+<b>The Gulf War</b><br/><small>January - February, 1991. This six week conflict with Iraq was also known as "Desert Storm."</small>
+<b>The Indy 500</b><br/><small>Contestants must drive the full 500 miles. Bathroom breaks ARE allowed.</small>
+<b>The Internet</b><br/><small>Computer-based worldwide information network, and global shopping market.</small>
+<b>The IRS</b><br/><small>The Internal Revenue Service: agency of the U.S. Department of the Treasury responsible for collecting taxes. A human audity.</small>
+<b>The JFK Assassination</b><br/><small>November 22, 1963. The funeral of President Kennedy was watched on television by millions around the world.</small>
+<b>The KKK</b><br/><small>If they're supposed to be the master race, why do they keep misspelling "Clan"?</small>
+<b>The Land Of Oz</b><br/><small>"I've a feeling we're not in Kansas anymore, Toto." -Dorothy, "The Wizard Of Oz"</small>
+<b>The Little Mermaid</b><br/><small>The 1837 story by Hans Christian Anderson or the 1989 animated film by Disney. Guess which made more money?</small>
+<b>The Mafia</b><br/><small>A loose association of criminal groups, bound by a blood oath and sworn to secrecy. Of course, now we have to kill you.</small>
+<b>The Marx Brothers</b><br/><small>Chico, Groucho, Harpo, amd sometimes Zeppo. Their 1930s films include Duck Soup and Animal Crackers.</small>
+<b>The Metric System</b><br/><small>No, thank you. We like our inches and feet!</small>
+<b>The Midwest</b><br/><small>America's central plains states. They're not like folks 'round here ...</small>
+<b>The Milky Way</b><br/><small>The galaxy that includes the sun, its solar system, and a chewy layer of caramel.</small>
+<b>The Mississippi River</b><br/><small>The Algonquin words "Misi sipi" mean "big river." What's Algonquin for "muddy"?</small>
+<b>The National Enquirer</b><br/><small>American tabloid newspaper. Inquiring minds want to know ... Why the heck does this thing sell?</small>
+<b>The New York Yankees</b><br/><small>Legendary American baseball team. With so much success, it's obvious why they're reviled.</small>
+<b>The NRA</b><br/><small>National Rifle Association. They're gunning for your vote.</small>
+<b>The Ocean</b><br/><small>How deep is the ocean? 12,000 feet. If they'd known that, maybe they wouldn't have written that stupid song.</small>
+<b>The Old Man And The Sea</b><br/><small>Ernest Hemingway's classic novel - fishing, hunger, fishing, torment, fishing, personal loss ... fishing ...</small>
+<b>The Olympics</b><br/><small>An international athletic competition held every four years. The thrill of victors and the agony of defeat.</small>
+<b>The Opera</b><br/><small>It ain't over 'til the fat lady sings. Unfortunately, sometimes, not even then.</small>
+<b>The Ozone Layer</b><br/><small>Short for ozonosphere. Theories about the ozone layer are full of holes.</small>
+<b>The Pentagon</b><br/><small>The five-sided home of the U.S. Department of Defense.</small>
+<b>The Pyramids</b><br/><small>The Egyptian pyramids were built from about 2700 BC to about 1000 BC. Tut, tut, tut ...</small>
+<b>The Renaissance</b><br/><small>Beginning in the 1300s, started in Italy and spread across Europe. Kind of like Espresso bars ...</small>
+<b>The Rolling Stones</b><br/><small>British "bad boy" rock band formed in 1962. Still touring?</small>
+<b>The San Andreas Fault</b><br/><small>Geological feature in California stretching 600 miles. Like the state doesn't have enough faults already.</small>
+<b>The South</b><br/><small>Dixie: South of the Mason-Dixon line, that is. They're not like folks 'round here ...</small>
+<b>The Statue Of Liberty</b><br/><small>"Give me your tired, your poor/ Your huddled masses yearning to breathe free ..." -Emma Lazarus</small>
+<b>The Super Bowl</b><br/><small>Who needs another national holiday?</small>
+<b>The Supreme Court</b><br/><small>The highest court in the United States. Robes, but no wigs.</small>
+<b>The Three Tenors</b><br/><small>Opera stars Placido Domingo, Jose Carreras, and Luciano Pavarotti began recording as The Three Tenors in 1990.</small>
+<b>The Titanic</b><br/><small>It sank in 1912. Get over it!</small>
+<b>The Universe</b><br/><small>Everything. The big "It." Huge. Massive. THAT big.</small>
+<b>The Vatican</b><br/><small>The Papal State in the middle of Rome. Home of the Pope, Swiss Guards, and lots of pigeons.</small>
+<b>The Vietnam Memorial</b><br/><small>"The Wall," built in 1982, was designed by 21-year-old architecture student, Maya Lin.</small>
+<b>The Williams Sisters</b><br/><small>Venus, 1980-, and Serena, 1981-, Williams, American tennis champs. One heck of a sister act.</small>
+<b>The Wright Brothers</b><br/><small>In 1903, Wilbur and Orville made the first powered airplane flights in history. Although there were delays at the airport.</small>
+<b>The YMCA</b><br/><small>The Young Men's Christian Association has 30 million members in 110 countries. "It's fun to stay at the Y-M-C-A." -The Village People</small>
+<b>Thomas Edison</b><br/><small>1847-1931, American inventor, developed a light bulb, generator, sound-recorder, and motion picture projector. Show off.</small>
+<b>Thunder</b><br/><small>"Here it comes again, Thunder and Lightning..." -ELO.</small>
+<b>Tibet</b><br/><small>Mountainous region of China and religious enclave for a form of Buddhism called Lamaism. Known as the roof of the world.</small>
+<b>Ticks</b><br/><small>All ticks are bloodsucking parasites, but not all bloodsucking parasites are ticks.</small>
+<b>Tidal Waves</b><br/><small>The gigantic ocean waves that strike with tremendous force, and cause considerable damage to life and property. Kind of like Spring Break.</small>
+<b>Tiger Woods</b><br/><small>1975- , American star of the golf circuit. Known for his athletic skill, and youthful, classic style.</small>
+<b>Toasted Marshmallows</b><br/><small>How do you like yours - golden brown or flaming?</small>
+<b>Toasters</b><br/><small>Wait -don't stick that fork in there!</small>
+<b>Tobacco Companies</b><br/><small>Who says tobacco's not addictive? THEY can't give it up ...</small>
+<b>Toes</b><br/><small>"This little piggy went to market ..."</small>
+<b>Tom Cruise</b><br/><small>1962-, American actor. It looked like Ricky Business early on, but by 1986 he was Top Gun. No Mission Impossible for him.</small>
+<b>Tom Hanks</b><br/><small>1956-, American actor and star of such varied films as Big, Philadelphia, Forrest Gump, Saving Private Ryan and Castaway.</small>
+<b>Top Of A Rollercoaster</b><br/><small>Just remember: what goes UP ...</small>
+<b>Tornadoes</b><br/><small>Funnel-shaped cloud whirling destructively at speeds up to 300 mph. "Honey, do you hear a freight train ... Honey?"</small>
+<b>Toys</b><br/><small>They're not just for kids, anymore ...</small>
+<b>Trailer Parks</b><br/><small>Also known as tornado magnets.</small>
+<b>Trampolines</b><br/><small>Trampolines have been used in circuses wince the 18th century. Despite slumps in popularity, they always seem to bounce back!</small>
+<b>Tree Huggers</b><br/><small>"Environmentalists" to the left. "Wackos" to the right.</small>
+<b>Truck Stops</b><br/><small>Breakfast 24 hours a day and you're on your way.</small>
+<b>Tyrannosaurus Rex</b><br/><small>Large carnivorous dinosaur of the latter part of the Mesozoic era. My, what big teeth you have!</small>
+<b>Underwear</b><br/><small>"Let's keep this brief."</small>
+<b>United Nations</b><br/><small>The U.N. was founded in 1945, after World War II ended. Its mission is to maintain world peace. If we ever achieve it, that is ...</small>
+<b>Vacations</b><br/><small>"Vacation, all I ever wanted, Vacation, had to get away ..." -Go-Go's</small>
+<b>Vampires</b><br/><small>Legendary bloodsucking monsters.</small>
+<b>Victorian England</b><br/><small>An era characterized by moral severity and pompous conservatism.</small>
+<b>Video Games</b><br/><small>Just how DO you get to the thirteenth level of "Doom"?</small>
+<b>Vietnam, 1968</b><br/><small>More than 30,000 Americans had been killed in the Vietnam War by the end of 1968.</small>
+<b>Vincent Van Gogh</b><br/><small>1853-90, Dutch post-impressionist painter known for dramatic sunflowers and self-portraits. Only one of his paintings sold during his lifetime.</small>
+<b>Violins</b><br/><small>It's a pain in the neck, but keep practicing.</small>
+<b>VW Beetles</b><br/><small>The prototype for the original VW Beetle was developed in 1934, and production begin in 1945. Functional, yet so fashionable.</small>
+<b>Waco, Texas</b><br/><small>Texas city near where a 51-day standoff between law-enforcement officials and members of the Branch Davidians occurred in 1993.</small>
+<b>Wall Street</b><br/><small>The financial center of the United States. See also: roller coaster.</small>
+<b>Walt Disney</b><br/><small>1901-1966, the head of some Mickey Mouse company.</small>
+<b>Warts</b><br/><small>Small, benign, circumscribed tumors of the outer layer of the skin. Warts and all!</small>
+<b>Watching Football</b><br/><small>Sheer athletic prowess by players in peak physical condition is a glorious thing to behold. Pass the chips and beer.</small>
+<b>Water Parks</b><br/><small>You can go down Dead Man's Drop and I'll take the Lazy River.</small>
+<b>Waterbeds</b><br/><small>Could serve as a safety precaution for those who smoke in bed.</small>
+<b>Waterfalls</b><br/><small>"Don't go chasing waterfalls..." -TLC</small>
+<b>Watermelons</b><br/><small>Pardeeville, WI - home of the Watermelon Seed-Spitting & Speed-Eating Championship. The record is 2.5 lbs. of melon eaten in 3.5 seconds.</small>
+<b>Weapons Dealers</b><br/><small>OK, what kind you need? Assault, Automatic, Atomic ...?</small>
+<b>Weddings</b><br/><small>"Ding, dong, the bells are gonna chime ..." -My Fair Lady</small>
+<b>Wheat</b><br/><small>Mainly used in flour. World output of wheat is more than 600 million metric tons a year ... so someone's making a lot of dough.</small>
+<b>Wheel Of Fortune</b><br/><small>American TV game show, BIG MONEY! BIG MONEY!.</small>
+<b>Whipped Cream</b><br/><small>Great on strawberry shortcake, banana splits, chocolate pudding ...</small>
+<b>Whips</b><br/><small>"Crack that whip ... whip it, whip it good." -Devo</small>
+<b>Whoopie Goldberg</b><br/><small>1950-, American actor and comedian. Starred in such movies as Ghost, which earned her an Academy Award. Whoopee!</small>
+<b>Will Smith</b><br/><small>1968- , Successful American rap star, TV star and wildly successful motion picture star. He's got it all. We hate him.</small>
+<b>William Shakespeare</b><br/><small>1564-1616, The English poet and playwright. And all the world IS a stage ...</small>
+<b>Wimbledon</b><br/><small>Strawberries ... cream ... temper tantrums ...</small>
+<b>Windsurfing</b><br/><small>Really just surfing for lazy people.</small>
+<b>Wine Tasting</b><br/><small>Spit or swallow?</small>
+<b>Winning The Lottery</b><br/><small>The more you play, the more THEY win.</small>
+<b>Witch Hunts</b><br/><small>Popular locations: Salem, Massachusetts and Washington, D.C.</small>
+<b>Women</b><br/><small>REAL Women.</small>
+<b>Women's Soccer</b><br/><small>The 1999 World Cup finals was the most-watched women's sporting event in history.</small>
+<b>Wood Chippers</b><br/><small>"I guess that was your accomplice in the wood chipper." -Marge Gunderson, Fargo</small>
+<b>Woodstock</b><br/><small>The 1969 love, music and mud festival attended by 400,000. Or, the little yellow bird.</small>
+<b>Woody Allen</b><br/><small>1935- , American comedian, actor and director, of Bananas, Annie Hall, Hannah and Her Sisters, and lots of New York Stories.</small>
+<b>Worms</b><br/><small>"A man may fish with the worm that hath eat of a king, and eat of the fish that has fed of that worm." -"Hamlet" Shakespeare</small>
+<b>X-Ray Vision</b><br/><small>Available to Superman -for emergency use only.</small>
+<b>X-Rays</b><br/><small>X-Rays were discovered in 1895 by the German physicist Wilhelm Conrad Roentgen. Now if they could just get those X-ray glasses down.</small>
+<b>Yellowstone Park</b><br/><small>Home to 3000 geysers and hot springs. More gas and hot air than Washington, D.C.</small>
+<b>Zen</b><br/><small>Japanese form of Buddhism, originated in China. Zen again, maybe not.</small>
+<b>Zucchini</b><br/><small>A squashed vegetable.</small>
