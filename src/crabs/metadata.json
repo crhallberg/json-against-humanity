@@ -2,5 +2,6 @@
     "abbr": "crabs",
     "name": "[$] Crabs Adjust Humidity",
     "icon": "wrench",
+    "official": false,
     "description": "- placeholder -"
 }

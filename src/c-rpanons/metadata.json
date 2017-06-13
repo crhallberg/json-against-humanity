@@ -2,5 +2,6 @@
     "abbr": "c-rpanons",
     "name": "[C] RPAnons",
     "icon": "user-secret",
+    "official": false,
     "description": "- placeholder -"
 }

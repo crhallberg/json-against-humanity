@@ -1,4 +1,5 @@
 import os
+import re
 import json
 
 with open('cah.json') as j:
@@ -12,8 +13,14 @@ for deck in cah:
     "abbr": "%s",
     "name": "%s",
     "icon": "%s",
+    "official": %s,
     "description": "- placeholder -"
 }
-"""  % (deck, obj['name'], obj["icon"] if ("icon" in obj) else "")
+"""  % (
+        deck,
+        obj['name'],
+        obj["icon"] if ("icon" in obj) else "",
+        'false' if re.match('^\[[C|\$]\] ', obj['name']) else 'true'
+        )
     with open('src/%s/metadata.json' % deck, 'w') as outfile:
         outfile.write(data)
