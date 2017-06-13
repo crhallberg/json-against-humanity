@@ -21,13 +21,3 @@ Card sources, merged by hand and machine: [Hangouts Against Humanity](https://gi
 **What font is CAH?** Cards Against Humanity cards are in [Helvetica® Neue](https://www.myfonts.com/fonts/linotype/neue-helvetica/). It's not free. I use [Roboto](http://www.google.com/fonts/specimen/Roboto) (500 weight).
 
 **Are you associated with ______?** No. Only in my dreams.
-
-## TODO
-- [x] Normalize similar white cards
-- [x] Extract metadata
-- [x] Compile to JSON
-- [x] Normalize ending punctuation
-- [ ] Fix hyphens
-- [ ] Fix blatant grammar
-- [ ] Test MD to HTML
-  - [ ] Remove HTML files

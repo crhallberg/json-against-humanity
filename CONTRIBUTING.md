@@ -17,3 +17,11 @@ I am new to Python, this is publishing is a play project for me, so help me out!
 
  - *Python** - I'm using 2.7.
  - [**markdownify**](https://github.com/matthewwithanm/python-markdownify) - for HTML to MD conversion ([unroll.py](../unroll.py))
+
+# TODO
+- [ ] Fix hyphens (for phrases like half-elf)
+- [ ] Fix blatant grammar mistakes
+- [ ] Create unittests
+  - [ ] Setup
+  - [ ] Test MD to HTML
+    - [ ] Once this test passes, remove HTML files from src/
