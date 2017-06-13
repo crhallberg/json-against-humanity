@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "wrench", 
-    "abbr": "crabs", 
-    "name": "[$] Crabs Adjust Humidity"
+    "abbr": "crabs",
+    "name": "[$] Crabs Adjust Humidity",
+    "icon": "wrench",
+    "description": "- placeholder -"
 }

@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "thumbs-down", 
-    "abbr": "reject", 
-    "name": "Reject Pack"
+    "abbr": "reject",
+    "name": "Reject Pack",
+    "icon": "thumbs-down",
+    "description": "- placeholder -"
 }

@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "globe", 
-    "abbr": "www", 
-    "name": "World Wide Web Pack"
+    "abbr": "www",
+    "name": "World Wide Web Pack",
+    "icon": "globe",
+    "description": "- placeholder -"
 }

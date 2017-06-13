@@ -8,11 +8,12 @@ for deck in cah:
     if deck in ['blackCards', 'whiteCards', 'order']:
         continue
     obj = cah[deck]
-    data = {
-        'abbr': deck,
-        'name': obj['name'],
-        'icon': obj['icon'] if ('icon' in obj) else '',
-        'description': '- placeholder -',
-    }
+    data =  """{
+    "abbr": "%s",
+    "name": "%s",
+    "icon": "%s",
+    "description": "- placeholder -"
+}
+"""  % (deck, obj['name'], obj["icon"] if ("icon" in obj) else "")
     with open('src/%s/metadata.json' % deck, 'w') as outfile:
-        json.dump(data, outfile, indent=4)
+        outfile.write(data)

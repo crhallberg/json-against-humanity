@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "cutlery", 
-    "abbr": "food", 
-    "name": "Food Pack"
+    "abbr": "food",
+    "name": "Food Pack",
+    "icon": "cutlery",
+    "description": "- placeholder -"
 }

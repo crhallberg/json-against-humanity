@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": 1, 
-    "abbr": "CAHe1", 
-    "name": "The First Expansion"
+    "abbr": "CAHe1",
+    "name": "The First Expansion",
+    "icon": "1",
+    "description": "- placeholder -"
 }

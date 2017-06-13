@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "video-camera", 
-    "abbr": "c-vidya", 
-    "name": "[C] Vidya"
+    "abbr": "c-vidya",
+    "name": "[C] Vidya",
+    "icon": "video-camera",
+    "description": "- placeholder -"
 }

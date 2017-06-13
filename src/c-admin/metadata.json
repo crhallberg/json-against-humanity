@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "thumbs-o-up", 
-    "abbr": "c-admin", 
-    "name": "[C] Admin's Picks"
+    "abbr": "c-admin",
+    "name": "[C] Admin's Picks",
+    "icon": "thumbs-o-up",
+    "description": "- placeholder -"
 }

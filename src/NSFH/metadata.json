@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "exclamation-triangle", 
-    "abbr": "NSFH", 
-    "name": "[C] Not Safe For Humanity"
+    "abbr": "NSFH",
+    "name": "[C] Not Safe For Humanity",
+    "icon": "exclamation-triangle",
+    "description": "- placeholder -"
 }

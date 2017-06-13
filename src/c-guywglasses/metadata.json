@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "street-view", 
-    "abbr": "c-guywglasses", 
-    "name": "[C] That Guy With The Glasses"
+    "abbr": "c-guywglasses",
+    "name": "[C] That Guy With The Glasses",
+    "icon": "street-view",
+    "description": "- placeholder -"
 }

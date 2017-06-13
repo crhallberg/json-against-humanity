@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "close", 
-    "abbr": "c-xkcd", 
-    "name": "[C] xkcd"
+    "abbr": "c-xkcd",
+    "name": "[C] xkcd",
+    "icon": "close",
+    "description": "- placeholder -"
 }

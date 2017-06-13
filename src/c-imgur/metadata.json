@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "info", 
-    "abbr": "c-imgur", 
-    "name": "[C] Imgur"
+    "abbr": "c-imgur",
+    "name": "[C] Imgur",
+    "icon": "info",
+    "description": "- placeholder -"
 }

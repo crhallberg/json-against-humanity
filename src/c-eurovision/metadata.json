@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": "music", 
-    "abbr": "c-eurovision", 
-    "name": "[C] Eurovision Song Contest"
+    "abbr": "c-eurovision",
+    "name": "[C] Eurovision Song Contest",
+    "icon": "music",
+    "description": "- placeholder -"
 }

@@ -1,6 +1,6 @@
 {
-    "description": "- placeholder -", 
-    "icon": 5, 
-    "abbr": "CAHe5", 
-    "name": "The Fifth Expansion"
+    "abbr": "CAHe5",
+    "name": "The Fifth Expansion",
+    "icon": "5",
+    "description": "- placeholder -"
 }
