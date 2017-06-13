@@ -2,7 +2,7 @@
 
 Finally, [Cards Against Humanity](https://cardsagainsthumanity.com/) as plain text and JSON.
 
-CONTRIBUTING (coming soon)
+[CONTRIBUTING](./CONTRIBUTING.md)
 
 ## Fine Print
 
