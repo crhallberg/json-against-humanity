@@ -4,7 +4,7 @@
 
 ## TODO
 - [x] Normalize similar white cards
-- [ ] Extract metadata
+- [x] Extract metadata
 - [ ] Compile to JSON
 - [ ] Normalize ending punctuation
 - [ ] Fix hyphens
