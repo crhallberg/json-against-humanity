@@ -1,4 +1,5 @@
 import os
+import re
 import json
 '''
 JSON format:
@@ -30,10 +31,16 @@ for deckDir in os.listdir('src/'):
 blackCards = list(blackCards)
 whiteCards = list(whiteCards)
 
+def treatCards(card):
+    # Trim
+    # Fix ending punctuation
+    # Convert to regular line breaks
+    return re.sub(r'([^\.\?!])$', '\g<1>.', card.strip()).replace('\\n', '\n')
+
 cah = {
     'cards': {
-        'black': [x.replace('\\n', '\n') for x in blackCards],
-        'white': [x.replace('\\n', '\n') for x in whiteCards]
+        'black': [treatCards(x) for x in blackCards],
+        'white': [treatCards(x) for x in whiteCards]
     },
     'decks': []
 }
@@ -45,7 +52,7 @@ for deckDir in os.listdir('src/'):
         with open('src/' + deckDir + '/white.md.txt') as f:
             metadata['white'] = [whiteCards.index(x.strip()) for x in f.readlines()]
         cah['decks'].append(metadata)
-dump = json.dumps(cah)
+dump = json.dumps(cah).encode('utf8')
 with open('compiled.md.json', 'w') as outfile:
     outfile.write(dump)
     outfile.flush()

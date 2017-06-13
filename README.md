@@ -5,8 +5,8 @@
 ## TODO
 - [x] Normalize similar white cards
 - [x] Extract metadata
-- [ ] Compile to JSON
-- [ ] Normalize ending punctuation
+- [x] Compile to JSON
+- [x] Normalize ending punctuation
 - [ ] Fix hyphens
 - [ ] Fix blatant grammar
 - [ ] Test MD to HTML
