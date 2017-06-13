@@ -16,7 +16,7 @@ I am new to Python, this is publishing is a play project for me, so help me out!
 ### Dependencies
 
  - **Python** - I'm using 2.7.
- - [**markdownify**](https://github.com/matthewwithanm/python-markdownify) - for HTML to MD conversion ([unroll.py](../unroll.py))
+ - [**markdownify**](https://github.com/matthewwithanm/python-markdownify) - for HTML to MD conversion ([unroll.py](../dev/unroll.py))
 
 # TODO
 - [ ] Fix hyphens (for phrases like half-elf)
