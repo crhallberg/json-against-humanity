@@ -7,7 +7,7 @@ I will be vigilant of Pull Requests, that is my prefered method of contribution.
 Make a directory in [src/](../src) with these files:
  - **metadata.json** - With the name, abbreviation, [icon](http://fontawesome.io/icons/ "Font Awesome"), description, and whether or not the pack is official
  - **black.md.txt** - One per line, `\\n` instead of `\n`, don't escape underscores (for now)
- - **white.md.txt** - ""
+ - **white.md.txt** - ^^^
 
 ## Contributing code
 
@@ -15,7 +15,7 @@ I am new to Python, this is publishing is a play project for me, so help me out!
 
 ### Dependencies
 
- - *Python** - I'm using 2.7.
+ - **Python** - I'm using 2.7.
  - [**markdownify**](https://github.com/matthewwithanm/python-markdownify) - for HTML to MD conversion ([unroll.py](../unroll.py))
 
 # TODO
