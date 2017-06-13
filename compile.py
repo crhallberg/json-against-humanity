@@ -30,6 +30,7 @@ for deckDir in os.listdir('src/'):
         whiteCards.update(wcards)
 blackCards = list(blackCards)
 whiteCards = list(whiteCards)
+print ('b:%u + w:%u = %u' % (len(blackCards), len(whiteCards), len(blackCards)+len(whiteCards)))
 
 def treatCards(card):
     # Trim
@@ -44,14 +45,23 @@ cah = {
     },
     'decks': []
 }
+officialBlack = 0
+officialWhite = 0
 for deckDir in os.listdir('src/'):
     with open('src/%s/metadata.json' % deckDir) as j:
         metadata = json.load(j)
         with open('src/' + deckDir + '/black.md.txt') as f:
-            metadata['black'] = [blackCards.index(x.strip()) for x in f.readlines()]
+            bcards = [blackCards.index(x.strip()) for x in f.readlines()]
+            metadata['black'] = bcards
+            if metadata['official']:
+                officialBlack += len(bcards)
         with open('src/' + deckDir + '/white.md.txt') as f:
-            metadata['white'] = [whiteCards.index(x.strip()) for x in f.readlines()]
+            wcards = [whiteCards.index(x.strip()) for x in f.readlines()]
+            metadata['white'] = wcards
+            if metadata['official']:
+                officialWhite += len(wcards)
         cah['decks'].append(metadata)
+print ('official - b:%u + w:%u = %u' % (officialBlack, officialWhite, officialBlack + officialWhite))
 dump = json.dumps(cah).encode('utf8')
 with open('compiled.md.json', 'w') as outfile:
     outfile.write(dump)
