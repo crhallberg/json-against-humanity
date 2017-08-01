@@ -9,6 +9,8 @@ Make a directory in [src/](../src) with these files:
  - **black.md.txt** - One per line, `\\n` instead of `\n`, don't escape underscores (for now)
  - **white.md.txt** - ^^^
 
+Run `python compile.py` to create `compact.md.json` and `full.md.json`.
+
 ## Contributing code
 
 I am new to Python, this is a play project for me, so help me out!
