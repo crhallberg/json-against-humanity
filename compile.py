@@ -8,8 +8,7 @@ JSON format:
         black: []
         white: []
     decks: [
-        {
-            abbr: "",
+        abbr: {
             name: "",
             icon: "",
             description: "",
@@ -33,7 +32,7 @@ blackCards = list(blackCards)
 whiteCards = list(whiteCards)
 print ('b:%u + w:%u = %u' % (len(blackCards), len(whiteCards), len(blackCards)+len(whiteCards)))
 
-compact = { 'decks': [] }
+compact = { 'decks': {} }
 officialBlack = 0
 officialWhite = 0
 for deckDir in os.listdir('src/'):
@@ -49,7 +48,8 @@ for deckDir in os.listdir('src/'):
             metadata['white'] = wcards
             if metadata['official']:
                 officialWhite += len(wcards)
-        compact['decks'].append(metadata)
+        compact['decks'][metadata['abbr']] = metadata
+        del compact['decks'][metadata['abbr']]['abbr']
 print ('official - b:%u + w:%u = %u' % (officialBlack, officialWhite, officialBlack + officialWhite))
 
 def treatCards(card):
