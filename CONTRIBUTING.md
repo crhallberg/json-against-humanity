@@ -11,7 +11,7 @@ Make a directory in [src/](../src) with these files:
 
 ## Contributing code
 
-I am new to Python, this is publishing is a play project for me, so help me out!
+I am new to Python, this is a play project for me, so help me out!
 
 ### Dependencies
 
