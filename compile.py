@@ -38,11 +38,11 @@ def treatCards(card):
     # Convert to regular line breaks
     return re.sub(r'([^\.\?!])$', '\g<1>.', card.strip()).replace('\\n', '\n')
 
-compact = { 'decks': {} }
 officialBlack = 0
 officialWhite = 0
 blackJSON = []
 whiteJSON = []
+decks = {}
 for deckDir in os.listdir('src/'):
     with open('src/%s/metadata.json' % deckDir) as j:
         metadata = json.load(j)
@@ -60,14 +60,17 @@ for deckDir in os.listdir('src/'):
                 officialWhite += len(wcards)
         with open('src/' + deckDir + '/white.md.txt') as f:
             whiteJSON.extend([{ 'text': treatCards(x), 'deck': deckDir, 'icon': metadata['icon'] } for x in f.readlines()])
-        compact['decks'][metadata['abbr']] = metadata
-        del compact['decks'][metadata['abbr']]['abbr']
+        decks[metadata['abbr']] = metadata
+        del decks[metadata['abbr']]['abbr']
 print ('official - b:%4u + w:%u = %7s' % (officialBlack, officialWhite, '{:,}'.format(officialBlack + officialWhite)))
 
 #Compact format
-compact['cards'] = {
-    'black': [{ 'text': treatCards(x), 'pick': max(1, x.count('_')) } for x in blackCards],
-    'white': [{ 'text': treatCards(x) } for x in whiteCards]
+compact = {
+    'cards': {
+        'black': [{ 'text': treatCards(x), 'pick': max(1, x.count('_')) } for x in blackCards],
+        'white': [{ 'text': treatCards(x) } for x in whiteCards]
+    },
+    'decks': decks
 }
 compactdump = json.dumps(compact).encode('utf8')
 with open('compact.md.json', 'w') as outfile:
@@ -76,13 +79,13 @@ with open('compact.md.json', 'w') as outfile:
 
 # Full format
 print ('w/ dups  - b:%u + w:%u = %7s' % (len(blackJSON), len(whiteJSON), '{:,}'.format(len(blackJSON)+len(whiteJSON))))
-for i in compact['decks']:
-    del compact['decks'][i]['black']
-    del compact['decks'][i]['white']
+for i in decks:
+    del decks[i]['black']
+    del decks[i]['white']
 full = {
     "black": blackJSON,
     "white": whiteJSON,
-    "metadata": compact['decks']
+    "metadata": decks
 }
 fulldump = json.dumps(full).encode('utf8')
 with open('full.md.json', 'w') as outfile:
