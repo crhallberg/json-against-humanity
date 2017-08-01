@@ -23,7 +23,7 @@ I am new to Python, this is a play project for me, so help me out!
 # TODO
 - [ ] Fix hyphens (for phrases like half-elf)
 - [ ] Fix blatant grammar mistakes
-- [ ] Auto-convert `.md.txt` files to `.html.txt` files
+- [ ] Create `.html.json` files
 - [ ] Create unittests
   - [ ] Setup
   - [ ] Test MD to HTML
