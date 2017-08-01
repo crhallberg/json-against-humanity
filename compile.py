@@ -19,6 +19,7 @@ JSON format:
         }
     ]
 '''
+
 blackCards = set([])
 whiteCards = set([])
 for deckDir in os.listdir('src/'):
@@ -32,19 +33,7 @@ blackCards = list(blackCards)
 whiteCards = list(whiteCards)
 print ('b:%u + w:%u = %u' % (len(blackCards), len(whiteCards), len(blackCards)+len(whiteCards)))
 
-def treatCards(card):
-    # Trim
-    # Fix ending punctuation
-    # Convert to regular line breaks
-    return re.sub(r'([^\.\?!])$', '\g<1>.', card.strip()).replace('\\n', '\n')
-
-cah = {
-    'cards': {
-        'black': [treatCards(x) for x in blackCards],
-        'white': [treatCards(x) for x in whiteCards]
-    },
-    'decks': []
-}
+compact = { 'decks': [] }
 officialBlack = 0
 officialWhite = 0
 for deckDir in os.listdir('src/'):
@@ -60,9 +49,21 @@ for deckDir in os.listdir('src/'):
             metadata['white'] = wcards
             if metadata['official']:
                 officialWhite += len(wcards)
-        cah['decks'].append(metadata)
+        compact['decks'].append(metadata)
 print ('official - b:%u + w:%u = %u' % (officialBlack, officialWhite, officialBlack + officialWhite))
-dump = json.dumps(cah).encode('utf8')
-with open('compiled.md.json', 'w') as outfile:
+
+def treatCards(card):
+    # Trim
+    # Fix ending punctuation
+    # Convert to regular line breaks
+    return re.sub(r'([^\.\?!])$', '\g<1>.', card.strip()).replace('\\n', '\n')
+
+compact['cards'] = {
+    'black': [{ 'text': treatCards(x), 'pick': max(1, x.count('_')) } for x in blackCards],
+    'white': [{ 'text': treatCards(x) } for x in whiteCards]
+}
+dump = json.dumps(compact).encode('utf8')
+with open('compact.md.json', 'w') as outfile:
     outfile.write(dump)
     outfile.flush()
+
