@@ -30,11 +30,19 @@ for deckDir in os.listdir('src/'):
         whiteCards.update(wcards)
 blackCards = list(blackCards)
 whiteCards = list(whiteCards)
-print ('b:%u + w:%u = %u' % (len(blackCards), len(whiteCards), len(blackCards)+len(whiteCards)))
+print ('cards    - b:%u + w:%u = %7s' % (len(blackCards), len(whiteCards), '{:,}'.format(len(blackCards)+len(whiteCards))))
+
+def treatCards(card):
+    # Trim
+    # Fix ending punctuation
+    # Convert to regular line breaks
+    return re.sub(r'([^\.\?!])$', '\g<1>.', card.strip()).replace('\\n', '\n')
 
 compact = { 'decks': {} }
 officialBlack = 0
 officialWhite = 0
+blackJSON = []
+whiteJSON = []
 for deckDir in os.listdir('src/'):
     with open('src/%s/metadata.json' % deckDir) as j:
         metadata = json.load(j)
@@ -43,27 +51,40 @@ for deckDir in os.listdir('src/'):
             metadata['black'] = bcards
             if metadata['official']:
                 officialBlack += len(bcards)
+        with open('src/' + deckDir + '/black.md.txt') as f:
+            blackJSON.extend([{ 'text': treatCards(x), 'pick': max(1, x.count('_')), 'deck': deckDir, 'icon': metadata['icon'] } for x in f.readlines()])
         with open('src/' + deckDir + '/white.md.txt') as f:
             wcards = [whiteCards.index(x.strip()) for x in f.readlines()]
             metadata['white'] = wcards
             if metadata['official']:
                 officialWhite += len(wcards)
+        with open('src/' + deckDir + '/white.md.txt') as f:
+            whiteJSON.extend([{ 'text': treatCards(x), 'deck': deckDir, 'icon': metadata['icon'] } for x in f.readlines()])
         compact['decks'][metadata['abbr']] = metadata
         del compact['decks'][metadata['abbr']]['abbr']
-print ('official - b:%u + w:%u = %u' % (officialBlack, officialWhite, officialBlack + officialWhite))
+print ('official - b:%4u + w:%u = %7s' % (officialBlack, officialWhite, '{:,}'.format(officialBlack + officialWhite)))
 
-def treatCards(card):
-    # Trim
-    # Fix ending punctuation
-    # Convert to regular line breaks
-    return re.sub(r'([^\.\?!])$', '\g<1>.', card.strip()).replace('\\n', '\n')
-
+#Compact format
 compact['cards'] = {
     'black': [{ 'text': treatCards(x), 'pick': max(1, x.count('_')) } for x in blackCards],
     'white': [{ 'text': treatCards(x) } for x in whiteCards]
 }
-dump = json.dumps(compact).encode('utf8')
+compactdump = json.dumps(compact).encode('utf8')
 with open('compact.md.json', 'w') as outfile:
-    outfile.write(dump)
+    outfile.write(compactdump)
     outfile.flush()
 
+# Full format
+print ('w/ dups  - b:%u + w:%u = %7s' % (len(blackJSON), len(whiteJSON), '{:,}'.format(len(blackJSON)+len(whiteJSON))))
+for i in compact['decks']:
+    del compact['decks'][i]['black']
+    del compact['decks'][i]['white']
+full = {
+    "black": blackJSON,
+    "white": whiteJSON,
+    "metadata": compact['decks']
+}
+fulldump = json.dumps(full).encode('utf8')
+with open('full.md.json', 'w') as outfile:
+    outfile.write(fulldump)
+    outfile.flush()
