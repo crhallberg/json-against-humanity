@@ -1,0 +1,90 @@
+How did I lose my virginity?
+Why can't I sleep at night?
+What's that smell?
+I got 99 problems but _ ain't one.
+Maybe she's born with it. Maybe it's _.
+What's the next Happy Meal® toy?
+Here is the church\\nHere is the steeple\\nOpen the doors\\nAnd there is _.
+It's a pity that kids these days are all getting involved with _.
+I get by with a little help from _.
+Alternative medicine is now embracing the curative powers of _.
+They said we were crazy. They said we couldn't put _ inside of _. They were wrong.
+What's what sound?
+What ended my last relationship?
+The Natural History Museum has just opened an interactive exhibit on _.
+I drink to forger _.
+Dear Agony Aunt, I'm having some trouble with _ and would like your advice.
+What's Batman's guilty pleasure?
+This is the way the world ends /\\n This is the way the world ends /\\n Not with a bang but with _.
+What's a girl's best friend?
+Daddy, why is mummy crying?
+_. That's how I want to die.
+For my next trick, I will pull _ out of _.
+I'm sorry, Sir, but I couldn't complete my homework because of _.
+_ is a slippery slope that leads to _.
+The theme for next year's Eurovision Song Contest is "We are _."
+Nobody expects the Spanish Inquisition. Our chief weapons are fear, surprise and _.
+In Wormwood Scrubs, word is you can trade 200 cigarettes for _.
+What's the most emo?
+In 1,000 years when paper money is a distant memory, how will we pay for good and services?
+Introducing the amazing superhero/sidekick duo! It's _ and _!
+In M. Night Shyamalan's new movie, Bruce Willis discovers that _ had really been _ all along.
+A romantic candlelit dinner would be incomplete without _.
+_? Jim'll fix it!
+White people like _.
+When I am Prime Minister of the United Kingdom, I will create the Ministry of _.
+Next from J.K. Rowling: Harry Potter and the Chamber of _.
+What kept Margaret Thatcher busy during her waning years?
+In a world ravaged by _, our only solace is _.
+War!\\n\\nWhat is it good for?
+During sex, I like to think about _.
+What are my parents hiding from me?
+What will always get you laid?
+In her latest feature-length film, Tracy Beaker struggles with _ for the first time.
+Airport security guidelines now prohibit _ on airplanes.
+What don't you want to find in your Kung Pao Chicken?
+What will I bring back in time to convince people that I am a powerful wizard?
+How am I maintaining my relationship status?
+_. It's a trap!
+The school trip was completely ruined by _.
+What did I bring back from Amsterdam?
+After the earthquake, Sean Penn brought _ to the people of Haiti.
+TFL apologizes for the delay in train service due to _.
+Step 1: _. Step 2: _. Step 3: Profit.
+And the BAFTA for _ goes to _.
+But before I kill you, Mr. Bond, I must show you _.
+What gives me uncontrollable gas?
+Today on The Jeremy Kyle Show: "Help! My son is _!"
+Next on Sky Sports: The World Championship of _.
+When Pharaoh remained unmoved, Moses called down a Plague of _.
+What's my secret power?
+What's there a ton of in heaven?
+What would grandma find disturbing, yet oddly charming?
+I never truly understood _ until I encountered _.
+What did the U.S. airdrop to the children of Afghanistan?
+What helps Obama unwind?
+What did Vin Diesel eat for dinner?
+_: good to the last drop.
+Why am I sticky?
+What gets better with age?
+_: kid-tested, mother-approved.
+Channel 5's new reality show features eight washed-up celebrities living with _.
+Instead of coal, Father Christmas now gives the bad children _.
+A recent laboratory study shows that undergraduates have 50% less sex after being exposed to _.
+Life for American Indians was forever changed when the White Man introduced them to _.
+Make a haiku.
+I do not know with what weapons World War III will be fought, but World War IV will be fought with _.
+Why do I hurt all over?
+What am I giving up for Lent?
+Fun tip! When your man asks you to go down on him, try surprising him with _ instead.
+Coming to the West End this year, _: The Musical.
+_: Once you pop, the fun don't stop.
+Channel 4 presents "_, the Story of _."
+When I am a billionaire, I shall erect a 50-foot statue to commemorate _.
+When I was tripping on acid, _ turned into _.
+That's right, I killed _. How you ask? _.
+What are school administrators using to curb rampant teenage pregnancy?
+_ + _ = _.
+What never fails to liven up the party?
+What's the new fad diet?
+_. That's why mums go to Iceland.

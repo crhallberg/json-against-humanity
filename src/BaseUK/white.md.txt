@@ -1,0 +1,460 @@
+Being on fire.
+Racism.
+Old-people smell.
+A micropenis.
+Used knickers.
+Classist undertones.
+Not giving a shit about the Third World.
+A man on the brink of orgasm.
+The bloody welsh.
+A windmill full of corpses.
+The gays.
+An oversized lollipop.
+African children.
+An asymmetric boob job.
+A Super Soaker™ full of cat piss.
+Blowing up Parliament.
+An Oedipus complex.
+A tiny horse.
+The Chelsea smile.
+Penis envy.
+Barack Obama.
+My humps.
+Waking up half-naked in a Little Chef car park.
+Scientology.
+Dry heaving.
+Badger culling.
+Darth Vader.
+The sudden appearance of the Go Compare man.
+Women in yogurt adverts.
+Seeing Granny naked
+Elderly Japanese men.
+Free samples.
+Estrogen.
+Sexual tension.
+Famine.
+A stray pube.
+Men.
+Heartwarming orphans.
+Genuine human connection.
+A bag of magic beans.
+Repression.
+Prancing.
+My relationship status.
+Overcompensation.
+Peeing a little bit.
+Pooping back and forth. Forever.
+A ginger's freckled ballsack.
+Testicular torsion.
+The Devil himself.
+The World of Warcraft.
+Some bloody peace and quiet.
+MechaHitler.
+Being fabulous.
+Pictures of boobs.
+A gentle caress of the inner thigh.
+Wiping her bum.
+Doing a shit in Pudsey Bear's eyehole.
+Lance Armstrong's missing testicle.
+England.
+The Pope.
+Flying sex snakes.
+Emma Watson.
+My ex-wife.
+Sexy pillow fights.
+A Fleshlight.
+Cybernetic enhancements.
+Civilian casualties.
+Magnets.
+The female orgasm.
+Bitches.
+Madeline McCann.
+Auschwitz.
+Finger painting.
+A sober Irishman who doesn't care for potatoes.
+The Jews.
+Being marginalized.
+The Blood of Christ.
+Dead parents.
+The art of seduction.
+Dying of dysentary.
+The entrenched class system.
+The North.
+Rubbing Boris Johnson's belly until he falls asleep.
+The Hillsborough Disaster.
+Natalie Portman.
+Agriculture.
+Ripping off the Beatles.
+Suprise sex!
+The homosexual agenda.
+Bio-engineered assult turtles with acid breath.
+The end of days.
+An M. Night Shyamalan plot twist.
+Funky fresh rhymes.
+The light of a billion suns.
+Amputees.
+Throwing a virgin into a volcano.
+Italians.
+Explosions.
+A good sniff.
+Destroying the evidence.
+Children on leashes.
+Catapults.
+One trillion dollars.
+Establishing dominance.
+Dying.
+Silence.
+Growing a pair.
+YOU MUST CONSTRUCT ADDITIONAL PYLONS.
+Justin Bieber.
+The Holy Bible.
+Balls.
+Praying the gay away.
+Teenage pregnancy.
+German dungeon porn.
+Jedward.
+My inner demons.
+Powerful thighs.
+A bleached arsehole.
+Crippling debt.
+Kamikaze pilots.
+Teaching a robot to love.
+Police brutality.
+Horse meat.
+A madman who lives in a police box and kidnaps women.
+The Scouts.
+Michael Jackson.
+A really cool hat.
+Copping a feel.
+Crystal meth.
+Shapeshifters.
+Fingering.
+A disappointing birthday party.
+Getting naked and watching CBeebies.
+My soul.
+The unstoppable tide of Islam.
+Ed Balls.
+Eugenics.
+Synergistic management solutions.
+RoboCop.
+Serfdom.
+Stephen Hawking talking dirty.
+Saying "I love you."
+Millwall fans.
+Public ridicule.
+Holding down a child and farting all over him.
+Penis breath.
+Object permanence.
+Chivalry.
+Lockjaw.
+The cool, refreshing taste of Pepsi®.
+Daniel Radcliffe's delicious arsehole.
+Wet dreams.
+Crumbs all over the bloody carpet.
+Firing a rifle into the air while balls deap in a squealing hog.
+Panda sex.
+Necrophillia.
+Grave robbing.
+Not wearing trousers.
+Muhammed (Peace Be Unto Him).
+Multiple stab wounds.
+A ball of earwax, semen, and toenail clippings.
+A monkey smoking a cigar.
+Smegma.
+A live studio audience.
+Making a pouty face.
+The violation of our most basic human rights.
+Unfathomable stupidity.
+Sunshine and rainbows.
+Whipping it out.
+The token minority.
+The terrorists.
+Cheating in the Paralympics.
+A snapping turtle biting the tip of your penis.
+The Honey Monster.
+The Great Depression.
+Emotions.
+Getting so angry that you pop a boner.
+Same-sex ice dancing.
+Anything that comes out of Prince Philip's mouth.
+Man meat.
+Incest.
+David Bowie flying in on a tiger made of lightning.
+Flightless birds.
+Doing the right thing.
+When you fart and a little bit comes out.
+Frolicking.
+Being a dick to children.
+Queen Elizabeth's immaculate anus.
+The Black Death.
+Raptor attacks.
+Swooping.
+Perfunctory foreplay.
+Full frontal nudity.
+Vigorous jazz hands.
+Nipple blades.
+A bitch slap.
+A mad cow.
+Mouth herpes.
+A robust mongoloid.
+Mutually-assured destruction
+A fanny fart.
+The Stig.
+Stalin.
+Lactation.
+Wanking into a pool of children's tears.
+The true meaning of Christmas.
+Self-loathing.
+A brain tumor.
+Dead babies.
+New Age music.
+A thermonuclear detonation.
+Geese.
+A posh wank.
+God.
+A spastic nerd.
+Harry Potter erotica.
+Kids with bum cancer.
+Lumberjack fantasies.
+The American Dream.
+Pubery.
+Sweet, sweet vengeance.
+Winking at old people.
+Haggis.
+Oompa-Loompas.
+Being hunted like a fox.
+Preteens.
+Jade Goody's cancerous remains.
+Having anuses for eyes.
+Erectile dysfunction.
+Insering a Mason jar into my anus.
+Cheeky bum sex.
+A saxophone solo.
+Land mines.
+Jehova's Witness.
+Me time.
+Nickelback.
+Vigilante justice.
+Leaked footage of Kate Middleton's colonoscopy.
+Opposable thumbs.
+Ghosts.
+Alcoholism.
+Poorly-timed Holocaust jokes.
+Inappropriate yodeling.
+Battlefield amputations.
+Exactly what you'd expect.
+A time travel paradox.
+A foul mouth.
+Running out of semen.
+An endless stream of diarrhoea.
+A sassy black woman.
+Being a motherfucking sorcerer.
+A mopey zoo lion.
+A murder most foul.
+A falcon with a cap on its head.
+Farting and walking away.
+A mating display.
+The Chinese gymnastics team.
+Friction.
+The petty troubles of landed gentry.
+Fear itself.
+Scousers.
+Yeast.
+Maureen of Blackpool, Reader's Wife of the Year 1988.
+Licking things to claim them as your own.
+Vikings.
+Bogies.
+Hot cheese.
+Nicolas Cage.
+A defective condom.
+The inevitable heat death of the universe.
+Blood, toil, tears and sweat.
+William Shatner.
+Tentacle porn.
+Sperm whales.
+Lady Gaga.
+Chunks of dead hitchhiker.
+Gloryholes.
+Daddy issues.
+A mime having a stroke.
+White people.
+A lifetime of sadness.
+Tasteful sideboob.
+A sea of troubles.
+Nazis.
+A cooler full of organs.
+Giving 100%.
+Scalping the Milkybar kid.
+Concealing an erection.
+The morbidly obese.
+A homoerotic volleyball montage.
+Puppies!
+Natural male enhancement.
+Brown people.
+Dropping a chandelier on your enemies and riding the rope up.
+Soup that is too hot.
+Three dicks at the same time.
+Hormone injections.
+Pulling out.
+The Big Bang.
+An AK-47 assault rifle.
+The wrath of Vladimir Putin.
+Court-ordered rehab.
+Christopher Walken.
+Giving birth to the Antichrist.
+A foetus.
+Not reciprocating oral sex.
+Ecstasy.
+Hot people.
+Foreskin.
+The BNP.
+The miracle of childbirth.
+Waiting 'til marriage.
+Two midgets shitting into a bucket.
+David Cameron.
+A sad handjob.
+Just touching David Beckham's hair.
+The glass ceiling.
+Extremely tight trousers.
+Your weird brother.
+Hip hop jewels.
+Breaking out into song and dance.
+Druids.
+Trench foot.
+An argument with Richard Dawkins.
+The Rev. Dr. Martin Luther King Jr.
+The French.
+Dirty nappies.
+Germans on holiday.
+Sexual peeing.
+White privilege.
+Hope.
+Taking off your shirt.
+One Direction's supple, hairless bodies.
+Ethnic cleansing.
+Paedophiles.
+Daddies® Brown Sauce.
+Getting really high.
+Natural selection.
+A gassy antelope.
+My sex life.
+Arnold Schwarzenegger.
+Pretending to care.
+Pronouncing the names of northern Welsh towns.
+Getting wed, having a few kids, taking some pictures, retiring to the south of France, and dying.
+An ugly face.
+Sex with Patrick Stewart.
+BATMAN!!!
+Homeless people.
+Spaniards.
+Centaurs.
+A salty surprise.
+72 virgins.
+Embryonic stem cells.
+Pixelated bukake.
+Seppuku.
+An icepick lobotomy.
+Dark and mysterious forces beyond our control.
+Menstrual rage.
+The rhythms of Africa.
+Invading Poland.
+Gentleman's Relish.
+Horrifying laser hair removal accidents.
+Autocannibalism.
+Slapping a biscuit out of an orphan's mouth.
+Riding off into the sunset.
+Goblins.
+Excalibur.
+Shiny objects.
+Being rich.
+Gary Glitter.
+Leprosy.
+World peace.
+Dick fingers.
+Chainsaws for hands.
+A white van man.
+Miley Cyrus at 55.
+Laying an egg.
+The folly of man.
+My genitals.
+Grandma.
+Flesh-eating bacteria.
+Poor people.
+50,000 volts straight to the nipples.
+Hurling one's body down a hill in pursuit of a wheel of cheese.
+Strong female characters.
+Poor life choices.
+Altar boys.
+My vagina.
+Pac-Man uncontrollably guzzling cum.
+Sniffing glue.
+The placenta.
+The profoundly handicapped.
+Spontaneous human combustion.
+The KKK.
+The clitoris.
+Shitting out a perfect Cumberland sausage.
+Consensual sex.
+Black people.
+A bucket of fish heads.
+Hospice care.
+Passive-aggressive Post-it notes.
+The entire cast of Downton Abbey.
+The heart of a child.
+The pirate's life.
+Cottaging.
+Being fat and stupid.
+Five litres of Special Brew.
+Sean Penn.
+Sean Connery.
+Expecting a burp and vomiting on the floor.
+Wifely duties.
+A pyramid of severed heads.
+Genghis Khan.
+A vindaloo poo.
+Crucifixion.
+A subscription to Men's Fitness.
+The milk man.
+Friendly fire.
+Women's suffrage.
+AIDS.
+A bit of slap and tickle.
+8 oz. of sweet Mexican black-tar heroin.
+A thousand Scottish warriors lifting their kilts in unison.
+Edible underwear.
+My collection of high-tech sex toys.
+The Force.
+Bees?
+Buckfast Tonic Wine.
+Tories.
+A micropig wearing a tiny raincoat and booties.
+Jobs.
+Masturbation.
+Tom Cruise.
+A balanced breakfast.
+Anal beads.
+Drinking alone.
+Cards Against Humanity.
+Coat hanger abortions.
+400 years of colonial atrocities.
+Cuddling.
+Faffing about.
+A nice cup of tea.
+Mining accidents.
+Morgan Freeman's voice.
+A middle-aged man on roller skates.
+Gandhi.
+Jimmy Savile.
+Spectacular abs.
+Keanu Reeves.
+Child beauty pageants.
+Child abuse.
+LYNX® Body Spray.
+Science.
+A tribe of warrior women.
+Viagra®.
+Her Majesty, Queen Elizabeth II.
+The way James Bond treats women.
+Dogging.
+Take-backsies.
+An erection that lasts longer than four hours.
