@@ -6,33 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="Cards Against Humanity,JSON Against Humanity,JSON,plain text,expansion,pack">
     <title>JSON Against Humanity</title>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:600,800|Montserrat:700' rel='stylesheet' type='text/css'>
-    <link href='css/vendor/normalize.css' rel='stylesheet' type='text/css'>
-    <link href="css/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='css/vendor/chex.css' rel='stylesheet' type='text/css'>
-    <link href='css/vendor/skeleton.css' rel='stylesheet' type='text/css'>
-    <link href='css/vendor/tooltip.only.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,900|Montserrat:700" rel="stylesheet" type="text/css" />
+    <link href="css/vendor/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/vendor/chex.css" rel="stylesheet" type="text/css" />
+    <link href="css/vendor/tooltip.only.css" rel="stylesheet" type="text/css" />
     <style>
+      html { font-size: 16px; }
       body {
-        line-height: 2rem;
+        margin: .5rem;
+        font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        color: #404040;
       }
-      .container {
-        display: flex;
-        max-width: 1200px;
-        padding: 0; 
-      }
-      .col {
-        padding-left: 1rem; 
-        padding-right: 1rem; 
-      }
-      .left-column { 
-        flex: 0 2 100%; 
-        line-height: 2.5rem;
-      }
-      .right-column { flex: 0 1 100%; }
+      h1, h2, b { color: #222; }
       
       .hidden { display: none; }
       .show-desktop { display: none; }
+      @media (min-width: 768px) {  
+        .container {
+          display: flex;
+          max-width: 1200px;
+          margin: auto;
+          padding: 0; 
+        }
+        .col {
+          padding-left: 1rem; 
+          padding-right: 1rem; 
+        }
+        .left-column { flex: 0 2 100%; }
+        .right-column { flex: 0 1 100%; }
+        
+        .show-mobile { display: none; }
+        .show-desktop { display: initial; }
+      }
+      
+      .toggle-top { margin-top: 1rem; }
       .fa-number {
         font-family: "Montserrat";
         font-style: normal;
@@ -41,25 +52,32 @@
       .red { color: red; }
       .blue { color: blue; }
       .green { color: green; }
-      
-      h2 { text-shadow: 0 3px 2px rgba(0,0,0,.2); }
-      h3 { text-shadow: 0 2px 0 rgba(0,0,0,.15); }
-      hr { margin: 1rem 0; }
-      label { margin: 0; }
-      p { margin-bottom: 2rem; }
-      
-      @media (min-width: 550px) {
-        ul { line-height: 2rem; }
-        ul ul { margin: .5rem 0 .5rem 3rem; }
-        .container {
-          padding-left: 1.5rem;
-          padding-right: 1.5rem;
-        }
-        .show-mobile { display: none; }
-        .show-desktop { display: initial; }
+      code {
+        margin: 0 .2rem;
+        padding: 2px 4px;
+        border: 1px solid #ddd;
+        font-size: small;
+        vertical-align: top;
+        white-space: nowrap;
+        background-color: #f0f0f0;
+        border-radius: 4px;
       }
-      @media (min-width: 750px) {
-        body { padding: 1rem; }
+      
+      label { margin: 0; }
+      [type="submit"] {
+        padding: .6rem 2rem .5rem;
+        border: 0;
+        font-size: small;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #000;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      [type="submit"]:hover {
+        border-color: #555;
+        background-color: #555;
       }
       
       /* Chex */
@@ -77,12 +95,15 @@
     </style>
   </head>
   <body>
-    <form method="POST" action="./output.php" id="asdf">
+    <form method="POST" action="./output.php">
       <div class="show-mobile">
-        <h2>JSON Against Humanity</h2>
+        <h1>JSON Against Humanity</h1>
         <p>Finally, <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> as plain text and JSON.</p>
-        <input type="submit" name="type" value="JSON" class="button-primary"/>
-        <input type="submit" name="type" value="Plain Text" class="button-primary"/>
+        <p>
+          <b>Download selected decks:</b><br/>
+          <input type="submit" name="type" value="JSON"/>
+          <input type="submit" name="type" value="Plain Text"/>
+        </p>
       </div>
       <div class="container">
         <div class="left-column col">
@@ -102,20 +123,25 @@
         </div>
         <div class="right-column col">
           <div class="show-desktop">
-            <h2>JSON Against Humanity</h2>
+            <h1>JSON Against Humanity</h1>
             <p>Finally, <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> as plain text and JSON.</p>
-            <p><a href="https://github.com/crhallberg/json-against-humanity">Now Open-Source! <i class="fa fa-heart"></i></a></p>
-            <input type="submit" name="type" value="JSON" class="button-primary"/>
-            <input type="submit" name="type" value="Plain Text" class="button-primary"/>
+            <p>
+              <b>Download selected decks:</b><br/>
+              <input type="submit" name="type" value="JSON"/>
+              <input type="submit" name="type" value="Plain Text"/>
+            </p>
           </div>
-          <p><i>Cards contain HTML markup for formatting like italics and line breaks.</i></p>
-          <h3>Plain Text Format</h3>
+          <p><i>Cards are formatting in Markdown for italics and line breaks.</i></p>
+          <p><a href="https://github.com/crhallberg/json-against-humanity">Now Open-Source! <i class="fa fa-heart"></i></a></p>
+          
+          <h2>Plain Text Format</h2>
           <ul>
             <li>Black Cards</li>
             <li>- empty line -</li>
             <li>White Cards</li>
           </ul>
-          <h3>JSON Format</h3>
+          
+          <h2>JSON Format</h2>
           <ul>
             <li><b>order</b> - list of deck abbreviation keys, in the order <span class="show-desktop">on the left</span><span class="show-mobile">above</span>.</li>
             <li><b>blackCards</b> - list of black card objects: <code>{"text":"", "pick":#}</code>.</li>
@@ -129,12 +155,12 @@
               </ul>
             </li>
           </ul>
-          <h3>Fine Print</h3>
+          
+          <h2>Fine Print</h2>
           <p>Please <a href="https://store.cardsagainsthumanity.com/">buy Cards Against Humanity</a>. They deserve your gross, germ-covered money more than either of us, honestly.</p>
           <p>Card sources, merged by hand and machine: <a href="https://github.com/samurailink3/hangouts-against-humanity">Hangouts Against Humanity</a>, <a href="https://pyx-3.pretendyoure.xyz/zy/viewcards.jsp">Pretend You're Xyzzy</a> and <a href="https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&usp=sharing#gid=55">this spreadsheet</a> I found through <a href="https://boardgamegeek.com/">Board Game Geek</a>.</p>
-          <p>CSS Framework: <a href="https://getskeleton.com/">Skeleton 2.0.4</a>.</p>
 
-          <h3>FAQ</h3>
+          <h2>FAQ</h2>
           <p><b>How many cards are there?</b> 2,724 black cards. 7,263 white cards.<br/>
           <a href="https://store.cardsagainsthumanity.com/">With all expansions</a>, there are about <abbr title="413 black, 1,661 white">2,065</abbr> official Cards Against Humanity cards you can buy with money.</p>
 <!--
@@ -144,7 +170,7 @@
           <p><b>Is this legal?</b>
           Yes. <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> is distributed under a <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0 license</a>, and so is this website and all the data that comes out of it. That means you can use, remix, and share the game for free, but you can't sell it without permission. Consult <a href="https://cardsagainsthumanity.com/#info">their FAQ</a> if you don't believe me. If you have paperwork that says otherwise, <a href="https://crhallberg.com/#email">email me</a>, we can work this out.</p>
           <p><b>What font is CAH?</b>
-          Cards Against Humanity cards are in <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">Helvetica&reg; Neue</a>. It's not free. I use <a href="https://www.google.com/fonts/specimen/Roboto">Roboto</a> <small>(500 weight)</small>. This site is in <a href="https://www.theleagueofmoveabletype.com/raleway">Raleway</a> <small>(600 and 800 weight)</small>.</p>
+          Cards Against Humanity cards are in <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">Helvetica&reg; Neue</a>. It's not free. This site uses a close free equivalant: 500 weight <a href="https://www.google.com/fonts/specimen/Roboto">Roboto</a>.</p>
           <p><b>Are you associated with ______?</b>
           No. Only in my dreams.</p>
           <p><b>Who are you?</b>

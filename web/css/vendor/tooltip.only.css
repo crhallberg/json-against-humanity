@@ -24,7 +24,7 @@ span[role="tooltip"] {
   z-index: 10;
   padding: 0.25em 0.5em;
   box-shadow: 0 0 1px #fff;
-  font-size: smaller;
+  font-size: small;
   line-height: 1em;
   text-align: center;
   text-indent: 0;
