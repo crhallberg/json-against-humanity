@@ -1,0 +1,47 @@
+:root {
+  --chex-bg: transparent;
+  --chex-text: inherit;
+  --chex-check: rgba(0,0,0,.2);
+  --chex-selected-bg: #000;
+  --chex-selected-text: #fff;
+  --chex-disabled-text: rgba(0,0,0,.6);
+}
+
+.chex label {
+  display: inline-block;
+  padding: .25rem;
+  color: var(--chex-text);
+  background-color: var(--chex-bg);
+  cursor: pointer;
+  user-select: none;
+}
+
+.chex input[type="checkbox"],
+.chex input[type="radio"] { display: none; }
+.chex label::before {
+  display: inline-block;
+  width: 1em;
+  padding-right: .25em;
+  font-family: "FontAwesome";
+  color: var(--chex-check);
+}
+.chex :checked ~ label,
+.chex :checked ~ label a {
+  background: var(--chex-selected-bg);
+  color: var(--chex-selected-text);
+}
+.chex :checked ~ label::before { color: var(--chex-selected-text); }
+
+.chex input[type="checkbox"] ~ label::before  { content: "\f0c8"; }
+.chex input[type="checkbox"]:checked ~ label::before { content: "\f00c"; }
+.chex input[type="radio"] ~ label::before { content: "\f111"; }
+.chex input[type="radio"]:checked ~ label::before { content: "\f192"; }
+
+
+/* Disabled */
+.chex :disabled ~ label {
+  color: var(--chex-disabled-text);
+  cursor: default;
+}
+.chex input[type="checkbox"]:disabled ~ label::before { content: "\f146"; }
+.chex input[type="radio"]:disabled ~ label::before { content: "\f056"; }
