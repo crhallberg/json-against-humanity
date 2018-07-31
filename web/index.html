@@ -14,35 +14,40 @@
     <link href='css/vendor/tooltip.only.css' rel='stylesheet' type='text/css'>
     <style>
       body {
-        padding: 1rem 0;
-        text-align: center;
         line-height: 2rem;
       }
-      .hidden { display: none; }
-      .container { padding: 0; }
-      .columns { text-align: left; }
-      .chex label {
-        padding-left: .5rem;
-        padding-right: .5rem;
-        white-space: nowrap;
+      .container {
+        display: flex;
+        max-width: 1200px;
+        padding: 0; 
       }
+      .col {
+        padding-left: 1rem; 
+        padding-right: 1rem; 
+      }
+      .left-column { 
+        flex: 0 2 100%; 
+        line-height: 2.5rem;
+      }
+      .right-column { flex: 0 1 100%; }
+      
+      .hidden { display: none; }
+      .show-desktop { display: none; }
       .fa-number {
         font-family: "Montserrat";
+        font-style: normal;
         font-weight: 700;
       }
       .red { color: red; }
       .blue { color: blue; }
       .green { color: green; }
-      .left-column {
-        padding: 1rem 0;
-        line-height: 2.5rem;
-      }
+      
       h2 { text-shadow: 0 3px 2px rgba(0,0,0,.2); }
       h3 { text-shadow: 0 2px 0 rgba(0,0,0,.15); }
       hr { margin: 1rem 0; }
       label { margin: 0; }
       p { margin-bottom: 2rem; }
-      .show-desktop { display: none; }
+      
       @media (min-width: 550px) {
         ul { line-height: 2rem; }
         ul ul { margin: .5rem 0 .5rem 3rem; }
@@ -55,6 +60,13 @@
       }
       @media (min-width: 750px) {
         body { padding: 1rem; }
+      }
+      
+      /* Chex */
+      .chex label {
+        padding-left: .5rem;
+        padding-right: .5rem;
+        white-space: nowrap;
       }
 
       /* Tooltip */
@@ -73,7 +85,7 @@
         <input type="submit" name="type" value="Plain Text" class="button-primary"/>
       </div>
       <div class="container">
-        <div class="left-column five columns">
+        <div class="left-column col">
           <div class="top-toggles hidden">
             <div class="chex">
               <input type="checkbox" class="toggle" onChange="toggle(this)" id="toggle-all" />
@@ -88,7 +100,7 @@
           <div id="deck-list">Loading...</div>
           <hr class="show-mobile"/>
         </div>
-        <div class="seven columns">
+        <div class="right-column col">
           <div class="show-desktop">
             <h2>JSON Against Humanity</h2>
             <p>Finally, <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> as plain text and JSON.</p>
@@ -118,7 +130,7 @@
             </li>
           </ul>
           <h3>Fine Print</h3>
-          <p>Please <a href="https://store.cardsagainsthumanity.com/">buy Cards Against Humanity</a>. They deserve your gross, germ-covered money more than you do.</p>
+          <p>Please <a href="https://store.cardsagainsthumanity.com/">buy Cards Against Humanity</a>. They deserve your gross, germ-covered money more than either of us, honestly.</p>
           <p>Card sources, merged by hand and machine: <a href="https://github.com/samurailink3/hangouts-against-humanity">Hangouts Against Humanity</a>, <a href="https://pyx-3.pretendyoure.xyz/zy/viewcards.jsp">Pretend You're Xyzzy</a> and <a href="https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&usp=sharing#gid=55">this spreadsheet</a> I found through <a href="https://boardgamegeek.com/">Board Game Geek</a>.</p>
           <p>CSS Framework: <a href="https://getskeleton.com/">Skeleton 2.0.4</a>.</p>
 
