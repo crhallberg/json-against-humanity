@@ -12,8 +12,6 @@
     <link href='css/vendor/chex.css' rel='stylesheet' type='text/css'>
     <link href='css/vendor/skeleton.css' rel='stylesheet' type='text/css'>
     <link href='css/vendor/tooltip.only.css' rel='stylesheet' type='text/css'>
-
-    <script src="/js/vendor/fetch.js"></script>
     <style>
       body {
         padding: 1rem 0;
@@ -65,139 +63,92 @@
       [role="tooltip"].blue::before { color: blue; }
       [role="tooltip"].blue::after { background-color: blue; }
     </style>
-    <script>
-      function toggle(source) {
-        var checkboxes = document.querySelectorAll('input[type=checkbox]');
-        for(var i=checkboxes.length;i--;) {
-          if (checkboxes[i].className != 'toggle') {
-            checkboxes[i].checked = source.checked;
-          }
-        }
-      }
-      function toggleOfficial(source) {
-        var checkboxes = document.querySelectorAll('input[type=checkbox]:not(.toggle)');
-        for(var i=checkboxes.length;i--;) {
-          checkboxes[i].checked = source.checked && checkboxes[i].className == 'official';
-        }
-      }
-    </script>
   </head>
   <body>
-      <form method="POST" action="./output.php" id="asdf">
-        <div class="show-mobile">
-          <h2>JSON Against Humanity</h2>
-          <p>Finally, <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> as plain text and JSON.</p>
-          <input type="submit" name="type" value="JSON" class="button-primary"/>
-          <input type="submit" name="type" value="Plain Text" class="button-primary"/>
-        </div>
-        <div class="container">
-          <div class="left-column five columns">
-            <div class="top-toggles hidden">
-              <div class="chex">
-                <input type="checkbox" class="toggle" onChange="toggle(this)" id="toggle-all" />
-                <label for="toggle-all">Toggle All</label>
-              </div>
-              <div class="chex">
-                <input type="checkbox" class="toggle" onChange="toggleOfficial(this)" id="toggle-official" />
-                <label for="toggle-official">Toggle Official</label>
-              </div>
-              <hr/>
+    <form method="POST" action="./output.php" id="asdf">
+      <div class="show-mobile">
+        <h2>JSON Against Humanity</h2>
+        <p>Finally, <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> as plain text and JSON.</p>
+        <input type="submit" name="type" value="JSON" class="button-primary"/>
+        <input type="submit" name="type" value="Plain Text" class="button-primary"/>
+      </div>
+      <div class="container">
+        <div class="left-column five columns">
+          <div class="top-toggles hidden">
+            <div class="chex">
+              <input type="checkbox" class="toggle" onChange="toggle(this)" id="toggle-all" />
+              <label for="toggle-all">Toggle All</label>
             </div>
-            <div id="deck-list">Loading...</div>
-            <hr class="show-mobile"/>
+            <div class="chex">
+              <input type="checkbox" class="toggle" onChange="toggleOfficial(this)" id="toggle-official" />
+              <label for="toggle-official">Toggle Official</label>
+            </div>
+            <hr/>
           </div>
-          <div class="seven columns">
-            <div class="show-desktop">
-              <h2>JSON Against Humanity</h2>
-              <p>Finally, <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> as plain text and JSON.</p>
-              <p><a href="https://github.com/crhallberg/json-against-humanity">Now Open-Source! <i class="fa fa-heart"></i></a></p>
-              <input type="submit" name="type" value="JSON" class="button-primary"/>
-              <input type="submit" name="type" value="Plain Text" class="button-primary"/>
-            </div>
-            <p><i>Cards contain HTML markup for formatting like italics and line breaks.</i></p>
-            <h3>Plain Text Format</h3>
-            <ul>
-              <li>Black Cards</li>
-              <li>- empty line -</li>
-              <li>White Cards</li>
-            </ul>
-            <h3>JSON Format</h3>
-            <ul>
-              <li><b>order</b> - list of deck abbreviation keys, in the order <span class="show-desktop">on the left</span><span class="show-mobile">above</span>.</li>
-              <li><b>blackCards</b> - list of black card objects: <code>{"text":"", "pick":#}</code>.</li>
-              <li><b>whiteCards</b> - list of white card strings.</li>
-              <li><b>[deck]</b> - deck object, accessed by abbreviation in <code>order</code>.
-                <ul>
-                  <li><b>name</b> - Full name of this set.</li>
-                  <li><b>black</b> - Indexes for all the black cards in this set, see <code>blackCards</code>.</li>
-                  <li><b>white</b> - Indexes for all the white cards in this set, see <code>whiteCards</code>.</li>
-                  <li><b>icon</b> - Recommended <a href="https://fortawesome.github.io/Font-Awesome/icons/">Font Awesome</a> icon for this set. Most of these are awful. Some of these are numbers, which I rendered in 700 weight <a href="https://www.google.com/fonts/specimen/Montserrat">Montserrat</a>.</li>
-                </ul>
-              </li>
-            </ul>
-            <h3>Fine Print</h3>
-            <p>Please <a href="https://store.cardsagainsthumanity.com/">buy Cards Against Humanity</a>. They deserve your gross, germ-covered money more than you do.</p>
-            <p>Card sources, merged by hand and machine: <a href="https://github.com/samurailink3/hangouts-against-humanity">Hangouts Against Humanity</a>, <a href="https://pyx-3.pretendyoure.xyz/zy/viewcards.jsp">Pretend You're Xyzzy</a> and <a href="https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&usp=sharing#gid=55">this spreadsheet</a> I found through <a href="https://boardgamegeek.com/">Board Game Geek</a>.</p>
-            <p>CSS Framework: <a href="https://getskeleton.com/">Skeleton 2.0.4</a>.</p>
+          <div id="deck-list">Loading...</div>
+          <hr class="show-mobile"/>
+        </div>
+        <div class="seven columns">
+          <div class="show-desktop">
+            <h2>JSON Against Humanity</h2>
+            <p>Finally, <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> as plain text and JSON.</p>
+            <p><a href="https://github.com/crhallberg/json-against-humanity">Now Open-Source! <i class="fa fa-heart"></i></a></p>
+            <input type="submit" name="type" value="JSON" class="button-primary"/>
+            <input type="submit" name="type" value="Plain Text" class="button-primary"/>
+          </div>
+          <p><i>Cards contain HTML markup for formatting like italics and line breaks.</i></p>
+          <h3>Plain Text Format</h3>
+          <ul>
+            <li>Black Cards</li>
+            <li>- empty line -</li>
+            <li>White Cards</li>
+          </ul>
+          <h3>JSON Format</h3>
+          <ul>
+            <li><b>order</b> - list of deck abbreviation keys, in the order <span class="show-desktop">on the left</span><span class="show-mobile">above</span>.</li>
+            <li><b>blackCards</b> - list of black card objects: <code>{"text":"", "pick":#}</code>.</li>
+            <li><b>whiteCards</b> - list of white card strings.</li>
+            <li><b>[deck]</b> - deck object, accessed by abbreviation in <code>order</code>.
+              <ul>
+                <li><b>name</b> - Full name of this set.</li>
+                <li><b>black</b> - Indexes for all the black cards in this set, see <code>blackCards</code>.</li>
+                <li><b>white</b> - Indexes for all the white cards in this set, see <code>whiteCards</code>.</li>
+                <li><b>icon</b> - Recommended <a href="https://fortawesome.github.io/Font-Awesome/icons/">Font Awesome</a> icon for this set. Most of these are awful. Some of these are numbers, which I rendered in 700 weight <a href="https://www.google.com/fonts/specimen/Montserrat">Montserrat</a>.</li>
+              </ul>
+            </li>
+          </ul>
+          <h3>Fine Print</h3>
+          <p>Please <a href="https://store.cardsagainsthumanity.com/">buy Cards Against Humanity</a>. They deserve your gross, germ-covered money more than you do.</p>
+          <p>Card sources, merged by hand and machine: <a href="https://github.com/samurailink3/hangouts-against-humanity">Hangouts Against Humanity</a>, <a href="https://pyx-3.pretendyoure.xyz/zy/viewcards.jsp">Pretend You're Xyzzy</a> and <a href="https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&usp=sharing#gid=55">this spreadsheet</a> I found through <a href="https://boardgamegeek.com/">Board Game Geek</a>.</p>
+          <p>CSS Framework: <a href="https://getskeleton.com/">Skeleton 2.0.4</a>.</p>
 
-            <h3>FAQ</h3>
-            <p><b>How many cards are there?</b> 2,724 black cards. 7,263 white cards.<br/>
-            <a href="https://store.cardsagainsthumanity.com/">With all expansions</a>, there are about <abbr title="413 black, 1,661 white">2,065</abbr> official Cards Against Humanity cards you can buy with money.</p>
-            <p><b>I just want to play.</b>
-            <a href="https://crhallberg.com/cah">Try this mobile web version I made</a>.</p>
-            <p><b>Is this legal?</b>
-            Yes. <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> is distributed under a <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0 license</a>, and so is this website and all the data that comes out of it. That means you can use, remix, and share the game for free, but you can't sell it without permission. Consult <a href="https://cardsagainsthumanity.com/#info">their FAQ</a> if you don't believe me. If you have paperwork that says otherwise, <a href="https://crhallberg.com/#email">email me</a>, we can work this out.</p>
-            <p><b>What font is CAH?</b>
-            Cards Against Humanity cards are in <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">Helvetica&reg; Neue</a>. It's not free. I use <a href="https://www.google.com/fonts/specimen/Roboto">Roboto</a> <small>(500 weight)</small>. This site is in <a href="https://www.theleagueofmoveabletype.com/raleway">Raleway</a> <small>(600 and 800 weight)</small>.</p>
-            <p><b>Are you associated with ______?</b>
-            No. Only in my dreams.</p>
-            <p><b>Who are you?</b>
-            <a href="https://crhallberg.com">Chris Hallberg</a>.</p>
-            <p><b>I think you should ______.</b>
-            <a href="https://twitter.com/crhallberg">Tweet at me</a>.</p>
-            <p><b>I have the best* deck in the whole wide world will you include it here?</b>
-            Sure. Send me a social media inquery of your choice.</p>
-            <p><b>I want to give you money.</b>
-            Very nice of you, but no can do,<br/>CAH is <abbr title="Creative Commons, Attribution-NonCommercial-ShareAlike 2.0 Generic">CC-BY-<b>NC</b>-SA</abbr>. Click below for the lawyer speak.</p>
-            <p><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/"><img height="50" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.eu.png"></a></p>
-            <p><small>* - doubt it</small></p>
-          </div>
+          <h3>FAQ</h3>
+          <p><b>How many cards are there?</b> 2,724 black cards. 7,263 white cards.<br/>
+          <a href="https://store.cardsagainsthumanity.com/">With all expansions</a>, there are about <abbr title="413 black, 1,661 white">2,065</abbr> official Cards Against Humanity cards you can buy with money.</p>
+<!--
+          <p><b>I just want to play.</b>
+          <a href="https://cah.crhallberg.com">Try this mobile web version I made</a>.</p>
+--->
+          <p><b>Is this legal?</b>
+          Yes. <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> is distributed under a <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0 license</a>, and so is this website and all the data that comes out of it. That means you can use, remix, and share the game for free, but you can't sell it without permission. Consult <a href="https://cardsagainsthumanity.com/#info">their FAQ</a> if you don't believe me. If you have paperwork that says otherwise, <a href="https://crhallberg.com/#email">email me</a>, we can work this out.</p>
+          <p><b>What font is CAH?</b>
+          Cards Against Humanity cards are in <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">Helvetica&reg; Neue</a>. It's not free. I use <a href="https://www.google.com/fonts/specimen/Roboto">Roboto</a> <small>(500 weight)</small>. This site is in <a href="https://www.theleagueofmoveabletype.com/raleway">Raleway</a> <small>(600 and 800 weight)</small>.</p>
+          <p><b>Are you associated with ______?</b>
+          No. Only in my dreams.</p>
+          <p><b>Who are you?</b>
+          <a href="https://crhallberg.com">Chris Hallberg</a>.</p>
+          <p><b>I think you should ______.</b>
+          <a href="https://twitter.com/crhallberg">Tweet at me</a>.</p>
+          <p><b>I have the best* deck in the whole wide world will you include it here?</b>
+          Sure. Send me a social media inquery of your choice.</p>
+          <p><b>I want to give you money.</b>
+          Very nice of you, but no can do,<br/>CAH is <abbr title="Creative Commons, Attribution-NonCommercial-ShareAlike 2.0 Generic">CC-BY-<b>NC</b>-SA</abbr>. Click below for the lawyer speak.</p>
+          <p><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/"><img height="50" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.eu.png"></a></p>
+          <p><small>* - doubt it</small></p>
         </div>
-      </form>
-    </div>
-    <script>
-      fetch('./data/order.json').then(response => response.json()).then(function(deck) {
-        var html = '';
-        for(var i=0;i<deck.order.length;i++) {
-          html += '<div class="chex">'
-            + '<input type="checkbox" name="decks[]" value="'+deck.order[i]+'" id="'+deck.order[i]+'"';
-          if (deck[deck.order[i]].name[0] != '[') {
-            html += ' class="official"';
-          }
-          if(i == 0) {
-            html += ' checked';
-          }
-          html += '> <label for="'+deck.order[i]+'">'+deck[deck.order[i]].name;
-          if(deck[deck.order[i]].icon) {
-            if (deck.order[i].match('greenbox')) {
-              html += ' <i class="fa green fa-square"></i>';
-            } else if(typeof deck[deck.order[i]].icon === "string") {
-              html += ' <i class="fa fa-'+deck[deck.order[i]].icon+'"></i>';
-            } else {
-              html += ' <i class="fa fa-number">'+deck[deck.order[i]].icon+'</i>';
-            }
-          }
-          if (deck.order[i].match('CAHe[1-3]')) {
-            html += ' <span role="tooltip" class="red" aria-label="Part of the Red Box Expansion"><i class="fa red fa-square"></i></span>';
-          }
-          if (deck.order[i].match('CAHe[4-6]')) {
-            html += ' <span role="tooltip" class="blue" aria-label="Part of the Blue Box Expansion"><i class="fa blue fa-square"></i></span>';
-          }
-          html += '</label></div>';
-        }
-        document.getElementById('deck-list').innerHTML = html;
-        document.querySelector('.top-toggles').classList.remove('hidden');
-      });
-    </script>
+      </div>
+    </form>
+    <script src="/js/vendor/fetch.js"></script>
+    <script src="/js/nav.js"></script>
   </body>
 </html>
