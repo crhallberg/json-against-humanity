@@ -10,6 +10,7 @@
     <link href="css/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='css/vendor/chex.css' rel='stylesheet' type='text/css'>
     <link href='css/vendor/skeleton.css' rel='stylesheet' type='text/css'>
+    <link href='css/vendor/tooltip.only.css' rel='stylesheet' type='text/css'>
 
     <script src="/js/vendor/fetch.js"></script>
     <style>
@@ -56,6 +57,12 @@
       @media (min-width: 750px) {
         body { padding: 1rem; }
       }
+
+      /* Tooltip */
+      [role="tooltip"].red::before { color: red; }
+      [role="tooltip"].red::after { background-color: red; }
+      [role="tooltip"].blue::before { color: blue; }
+      [role="tooltip"].blue::after { background-color: blue; }
     </style>
     <script>
       function toggle(source) {
@@ -180,10 +187,10 @@
             }
           }
           if (deck.order[i].match('CAHe[1-3]')) {
-            html += ' <i class="fa red fa-square" title="Part of the Red Box Expansion"></i>';
+            html += ' <span role="tooltip" class="red" aria-label="Part of the Red Box Expansion"><i class="fa red fa-square"></i></span>';
           }
           if (deck.order[i].match('CAHe[4-6]')) {
-            html += ' <i class="fa blue fa-square" title="Part of the Blue Box Expansion"></i>';
+            html += ' <span role="tooltip" class="blue" aria-label="Part of the Blue Box Expansion"><i class="fa blue fa-square"></i></span>';
           }
           html += '</label></div>';
         }

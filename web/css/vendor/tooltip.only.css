@@ -1,0 +1,78 @@
+/**
+ * Made with love by Chris Hallberg (@crhallberg)
+ * Thank you to Indrashish Ghosh (ghosh.io) for inspiration (https://github.com/ghosh/microtip)
+ *
+ * https://crhallberg.com/css/tooltip.only.css
+ */
+[role="tooltip"] {
+  position: relative;
+}
+a[role="tooltip"],
+span[role="tooltip"] {
+  display: inline-block;
+}
+[role="tooltip"]::before,
+[role="tooltip"]::after {
+  position: absolute;
+  top: -8px;
+  display: none;
+  box-sizing: border-box;
+  margin-left: 50%;
+}
+[role="tooltip"]::after {
+  transform: translate(-50%, -100%);
+  z-index: 10;
+  padding: 0.25em 0.5em;
+  box-shadow: 0 0 1px #fff;
+  font-size: smaller;
+  line-height: 1em;
+  text-align: center;
+  text-indent: 0;
+  white-space: nowrap;
+  color: #fff;
+  background-color: #739;
+  content: attr(aria-label);
+}
+[role="tooltip"]::before {
+  transform: translateX(-50%);
+  z-index: 15;
+  border: 0 solid transparent;
+  border-width: 4px;
+  content: "";
+  color: #739;
+  border-top-color: currentColor;
+}
+@media (min-width: 768px) {
+  [role="tooltip"]:hover::before,
+  [role="tooltip"]:hover::after {
+    display: table;
+  }
+}
+
+/* Positioning */
+
+[data-tooltip-position="top-left"]::after {
+  transform: translate(-95%, -100%);
+}
+[data-tooltip-position="top-right"]::after {
+  transform: translate(-5%, -100%);
+}
+
+[data-tooltip-position|="bottom"]::before,
+[data-tooltip-position|="bottom"]::after {
+  top: auto;
+  bottom: -8px;
+}
+[data-tooltip-position|="bottom"]::before {
+  border-top-color: transparent;
+  border-bottom-color: currentColor;
+}
+[data-tooltip-position="bottom"]::after {
+  transform: translate(-50%, 100%);
+}
+[data-tooltip-position="bottom-left"]::after {
+  transform: translate(-95%, 100%);
+}
+[data-tooltip-position="bottom-right"]::after {
+  transform: translate(-5%, 100%);
+}
