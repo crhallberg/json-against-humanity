@@ -1,0 +1,25 @@
+@import "./vendor/inter/inter.css";
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 500;
+}
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Roboto,
+      "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+}
+
+.container {
+  max-width: 64rem;
+  margin: auto;
+}
