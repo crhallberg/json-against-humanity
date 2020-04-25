@@ -22,10 +22,10 @@ JSON format:
 blackCards = set([])
 whiteCards = set([])
 for deckDir in os.listdir('src/'):
-    with open('src/' + deckDir + '/black.md.txt') as f:
+    with open('src/' + deckDir + '/black.md.txt', encoding="utf8") as f:
         bcards = [x.strip() for x in f.readlines()]
         blackCards.update(bcards)
-    with open('src/' + deckDir + '/white.md.txt') as f:
+    with open('src/' + deckDir + '/white.md.txt', encoding="utf8") as f:
         wcards = [x.strip() for x in f.readlines()]
         whiteCards.update(wcards)
 blackCards = list(blackCards)
@@ -46,19 +46,19 @@ decks = {}
 for deckDir in os.listdir('src/'):
     with open('src/%s/metadata.json' % deckDir) as j:
         metadata = json.load(j)
-        with open('src/' + deckDir + '/black.md.txt') as f:
+        with open('src/' + deckDir + '/black.md.txt', encoding="utf8") as f:
             bcards = [blackCards.index(x.strip()) for x in f.readlines()]
             metadata['black'] = bcards
             if metadata['official']:
                 officialBlack += len(bcards)
-        with open('src/' + deckDir + '/black.md.txt') as f:
+        with open('src/' + deckDir + '/black.md.txt', encoding="utf8") as f:
             blackJSON.extend([{ 'text': treatCards(x), 'pick': max(1, x.count('_')), 'deck': deckDir, 'icon': metadata['icon'] } for x in f.readlines()])
-        with open('src/' + deckDir + '/white.md.txt') as f:
+        with open('src/' + deckDir + '/white.md.txt', encoding="utf8") as f:
             wcards = [whiteCards.index(x.strip()) for x in f.readlines()]
             metadata['white'] = wcards
             if metadata['official']:
                 officialWhite += len(wcards)
-        with open('src/' + deckDir + '/white.md.txt') as f:
+        with open('src/' + deckDir + '/white.md.txt', encoding="utf8") as f:
             whiteJSON.extend([{ 'text': treatCards(x), 'deck': deckDir, 'icon': metadata['icon'] } for x in f.readlines()])
         decks[metadata['abbr']] = metadata
         del decks[metadata['abbr']]['abbr']
@@ -72,10 +72,7 @@ compact = {
     },
     'decks': decks
 }
-compactdump = json.dumps(compact).encode('utf8')
-with open('compact.md.json', 'w') as outfile:
-    outfile.write(compactdump)
-    outfile.flush()
+json.dump(compact, open('compact.md.json', 'w', encoding="utf8"))
 
 # Full format
 print ('w/ dups  - b:%u + w:%u = %7s' % (len(blackJSON), len(whiteJSON), '{:,}'.format(len(blackJSON)+len(whiteJSON))))
@@ -87,7 +84,4 @@ full = {
     "white": whiteJSON,
     "metadata": decks
 }
-fulldump = json.dumps(full).encode('utf8')
-with open('full.md.json', 'w') as outfile:
-    outfile.write(fulldump)
-    outfile.flush()
+json.dump(full, open('full.md.json', 'w', encoding="utf8"))
