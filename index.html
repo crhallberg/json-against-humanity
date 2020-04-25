@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <style>
+      html {
+        font-size: 16px;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol";
+      }
+    </style>
+    <script src="web/CAHDeck.js"></script>
+  </head>
+  <body>
+    <script>
+      let deck = CAHDeck.fromCompact("./compact.md.json").then((deck) => {
+        console.log(
+          deck
+            .listDecks()
+            .filter((d) => d.official)
+            .map((d) => d.abbr)
+        );
+        console.log(deck.getDecks(["Base", "90s"]).white.length);
+      });
+    </script>
+  </body>
+</html>
