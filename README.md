@@ -66,10 +66,16 @@ Card sources, merged by hand and machine: [Hangouts Against Humanity](https://gi
 
 ## FAQ
 
-**Is this legal?** Yes. Cards Against Humanity is distributed under a [Creative Commons BY-NC-SA 2.0 license](https://creativecommons.org/licenses/by-nc-sa/2.0/), and so is this website and all the data that comes out of it. That means you can use, remix, and share the game for free, but you can't sell it without permission. Consult [their FAQ](https://cardsagainsthumanity.com/#info) if you don't believe me. If you have paperwork that says otherwise, email me, we can work this out.
+**How many cards are there?** [Check the website](https://crhallberg/cah).
 
 **What font is CAH?** Cards Against Humanity cards are in [Helvetica® Neue](https://www.myfonts.com/fonts/linotype/neue-helvetica/). It's not free. I use [Inter Medium](https://rsms.me/inter/).
 
 **Are you associated with **\_\_**?** No. Only in my dreams.
 
 **I'm just getting started and I have a lot of questions** You can reach me on Twitter as [@crhallberg](https://twitter.com/crhallberg). I'd love to hear from you! My DMs are open if privacy is a concern.
+
+**Is this legal?** Yes. Cards Against Humanity is distributed under a [Creative Commons BY-NC-SA 2.0 license](https://creativecommons.org/licenses/by-nc-sa/2.0/).  think their website puts it best:
+
+> Cards Against Humanity is available under a BY-NC-SA 2.0 Creative Commons license. That means you can use our content to make whatever, but you have to give us credit, you can’t profit from the use of our content (this means ad revenue is not allowed), and you have to share whatever you make in the same way we share it (this means you can’t submit our content to any app store). We own the name "Cards Against Humanity," so you have to call your crappy thing something else.
+
+This project meets the share-alike standard with an updated Creative Commons license, the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/), as recommended by CC and allowed by their [similar license clause](https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses). If you have questions or paperwork that says otherwise, email me, we can work this out.
