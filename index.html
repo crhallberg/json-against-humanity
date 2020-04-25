@@ -21,11 +21,11 @@
       let deck = CAHDeck.fromCompact("./compact.md.json").then((deck) => {
         console.log(
           deck
-            .listDecks()
+            .listPacks()
             .filter((d) => d.official)
             .map((d) => d.abbr)
         );
-        console.log(deck.getDecks(["Base", "90s"]).white.length);
+        console.log(deck.getPacks(["Base", "90s"]).white.length);
       });
     </script>
   </body>

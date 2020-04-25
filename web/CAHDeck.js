@@ -1,17 +1,17 @@
 class CAHDeck {
   _hydrateCompact(json) {
-    let decks = {};
+    let packs = {};
     for (let abbr in json.decks) {
-      let deck = json.decks[abbr];
-      deck.white = deck.white.map((index) =>
-        Object.assign(json.cards.white[index], { deck: abbr, icon: deck.icon })
+      let pack = json.decks[abbr];
+      pack.white = pack.white.map((index) =>
+        Object.assign(json.cards.white[index], { pack: abbr, icon: pack.icon })
       );
-      deck.black = deck.black.map((index) =>
-        Object.assign(json.cards.black[index], { deck: abbr, icon: deck.icon })
+      pack.black = pack.black.map((index) =>
+        Object.assign(json.cards.black[index], { pack: abbr, icon: pack.icon })
       );
-      decks[abbr] = deck;
+      packs[abbr] = pack;
     }
-    return decks;
+    return packs;
   }
 
   async _loadDeck() {
@@ -41,16 +41,16 @@ class CAHDeck {
     return n;
   }
 
-  listDecks() {
-    let decks = [];
+  listPacks() {
+    let packs = [];
     for (let abbr in this.deck) {
       let { name, official, description } = this.deck[abbr];
-      decks.push({ abbr, name, official, description });
+      packs.push({ abbr, name, official, description });
     }
-    return decks;
+    return packs;
   }
 
-  getDecks(decks) {
+  getPacks(decks) {
     let white = [];
     let black = [];
     for (let deck of decks) {
