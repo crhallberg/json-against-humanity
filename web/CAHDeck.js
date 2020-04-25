@@ -1,7 +1,6 @@
 class CAHDeck {
   _hydrateCompact(json) {
     let decks = {};
-    console.log(Object.keys(json));
     for (let abbr in json.decks) {
       let deck = json.decks[abbr];
       deck.white = deck.white.map((index) =>
