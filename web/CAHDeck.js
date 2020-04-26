@@ -44,13 +44,27 @@ class CAHDeck {
   listPacks() {
     let packs = [];
     for (let abbr in this.deck) {
-      let { name, official, description } = this.deck[abbr];
-      packs.push({ abbr, name, official, description });
+      let { name, official, description, icon, white, black } = this.deck[abbr];
+      packs.push({
+        abbr,
+        name,
+        official,
+        description,
+        icon,
+        counts: {
+          white: white.length,
+          black: black.length,
+          total: white.length + black.length,
+        },
+      });
     }
     return packs;
   }
 
   getPacks(decks) {
+    if (typeof decks == "undefined") {
+      decks = Object.keys(this.deck);
+    }
     let white = [];
     let black = [];
     for (let deck of decks) {
