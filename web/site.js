@@ -27,14 +27,14 @@ function bindDeckBtns(contEl = document) {
       "click",
       (e) => {
         btn.classList.toggle("is-checked");
-        tallySelected();
         if (typeof btn.dataset.pack != "undefined") {
           if (btn.classList.contains("is-checked")) {
             selectedDecks.add(btn.dataset.pack);
           } else {
-            selectedDecks.remove(btn.dataset.pack);
+            selectedDecks.delete(btn.dataset.pack);
           }
         }
+        tallySelected();
       },
       false
     );
