@@ -10,120 +10,132 @@
     <script src="web/CAHDeck.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="sidebar">
-        <nav id="bulk-controls" aria-label="Bulk Deck Controls">
-          <ul class="deck-list">
-            <li class="deck">
-              <button id="select-all" class="deck-btn"><i class="fa fa-fw fa-square"></i> Select All</button>
-              <button id="select-official"  class="deck-btn is-checked"><i class="fa fa-fw fa-square"></i> Select Official</button>
-            </li>
-          </ul>
-        </nav>
-        <nav id="deck-list" aria-label="Individual Deck Selections"></nav>
-      </div>
-      <main class="readme">
-        <h1>JSON Against Humanity</h1>
+    <div class="container wrapper">
+      <div class="flex">
+        <div class="sidebar">
+          <nav id="bulk-controls" aria-label="Bulk Deck Controls">
+            <ul class="deck-list">
+              <li class="deck">
+                <button id="select-all" class="deck-btn"><i class="fa fa-fw fa-square"></i> Select All</button>
+                <button id="select-official"  class="deck-btn is-checked"><i class="fa fa-fw fa-square"></i> Select Official</button>
+              </li>
+            </ul>
+          </nav>
+          <nav id="deck-list" aria-label="Individual Deck Selections"></nav>
+        </div>
+        <main class="readme">
+          <h1>JSON Against Humanity</h1>
 
-        <p>Finally, <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> as plain text and JSON.</p>
+          <p>Finally, <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a> as plain text and JSON.</p>
 
-        <h2>FAQ</h2>
+          <h2>FAQ</h2>
 
-        <dl>
-          <dt>How many cards are there?</dt>
-          <dd id="card-counts"><i>Let me think about it for a second...</i></dd>
+          <dl>
+            <dt>How many cards are there?</dt>
+            <dd id="card-counts"><i>Let me think about it for a second...</i></dd>
 
-          <dt>Wha&mdash; where the heck did you find all those cards??</dt>
-          <dd>Card sources, merged by hand and machine: <a href="https://github.com/samurailink3/hangouts-against-humanity">Hangouts Against Humanity</a>, <a href="http://pyx-3.pretendyoure.xyz/zy/viewcards.jsp">Pretend You're Xyzzy</a> and <a href="https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&amp;usp=sharing#gid=55">this spreadsheet</a> I found through <a href="https://boardgamegeek.com/">Board Game Geek</a>.</dd>
+            <dt>Wha&mdash; where the heck did you find all those cards??</dt>
+            <dd>Card sources, merged by hand and machine: <a href="https://github.com/samurailink3/hangouts-against-humanity">Hangouts Against Humanity</a>, <a href="http://pyx-3.pretendyoure.xyz/zy/viewcards.jsp">Pretend You're Xyzzy</a> and <a href="https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&amp;usp=sharing#gid=55">this spreadsheet</a> I found through <a href="https://boardgamegeek.com/">Board Game Geek</a>.</dd>
 
-          <dt>What font is CAH?</dt>
-          <dd>Cards Against Humanity cards are in <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">Helvetica® Neue</a>. It's not free. I use <a href="https://rsms.me/inter/">Inter Medium</a>.</dd>
+            <dt>What font is CAH?</dt>
+            <dd>Cards Against Humanity cards are in <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">Helvetica® Neue</a>. It's not free. I use <a href="https://rsms.me/inter/">Inter Medium</a>.</dd>
 
-          <dt>Who are you?</dt>
-          <dd><a href="https://crhallberg.com">Chris Hallberg</a>.</dd>
+            <dt>Who are you?</dt>
+            <dd><a href="https://crhallberg.com">Chris Hallberg</a>.</dd>
 
-          <dt>I'm just getting started and I have a lot of questions</dt>
-          <dd>You can reach me on Twitter as <a href="https://twitter.com/crhallberg">@crhallberg</a>. I'd love to hear from you! My DMs are open if privacy is a concern.</dd>
+            <dt>I'm just getting started and I have a lot of questions</dt>
+            <dd>You can reach me on Twitter as <a href="https://twitter.com/crhallberg">@crhallberg</a>. I'd love to hear from you! My DMs are open if privacy is a concern.</dd>
 
-          <dt>I have the best feature idea! Can you add this?<br/>
-          I just came up with the best deck in the whole wide world will you include it here?</dt>
-          <dd>Sure! <a href="https://github.com/crhallberg/json-against-humanity/blob/master/CONTRIBUTING.md">Open a pull request</a> or <a href="https://twitter.com/crhallberg">tweet at me</a>.</dd>
+            <dt>I have the best feature idea! Can you add this?<br/>
+            I just came up with the best deck in the whole wide world will you include it here?</dt>
+            <dd>Sure! <a href="https://github.com/crhallberg/json-against-humanity/blob/master/CONTRIBUTING.md">Open a pull request</a> or <a href="https://twitter.com/crhallberg">tweet at me</a>.</dd>
 
-          <dt>Are you associated with ______?</dt>
-          <dd>No. Only in my dreams.</dd>
+            <dt>Are you associated with ______?</dt>
+            <dd>No. Only in my dreams.</dd>
 
-          <dt>I want to give you money.</dt>
-          <dd>Very nice of you, but no can do, CAH is CC-BY-<b>NC</b>-SA. See below for the lawyer speak.</dd>
-        </dl>
+            <dt>I want to give you money.</dt>
+            <dd>Very nice of you, but no can do, CAH is CC-BY-<b>NC</b>-SA. See below for the lawyer speak.</dd>
+          </dl>
 
-        <h2>Fine Print</h2>
+          <h2>Fine Print</h2>
 
-        <dl>
-          <dt>Is this legal?</dt>
-          <dd>
-            <p>Yes. Cards Against Humanity is distributed under a <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0 license</a>.</p>
+          <dl>
+            <dt>Is this legal?</dt>
+            <dd>
+              <p>Yes. Cards Against Humanity is distributed under a <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0 license</a>.</p>
 
-            <p>I think their website puts it best:</p>
+              <p>I think their website puts it best:</p>
 
-            <blockquote><p>Cards Against Humanity is available under a BY-NC-SA 2.0 Creative Commons license. That means you can use our content to make whatever, but you have to give us credit, you can’t profit from the use of our content (this means ad revenue is not allowed), and you have to share whatever you make in the same way we share it (this means you can’t submit our content to any app store). We own the name "Cards Against Humanity," so you have to call your crappy thing something else.</p></blockquote>
+              <blockquote><p>Cards Against Humanity is available under a BY-NC-SA 2.0 Creative Commons license. That means you can use our content to make whatever, but you have to give us credit, you can’t profit from the use of our content (this means ad revenue is not allowed), and you have to share whatever you make in the same way we share it (this means you can’t submit our content to any app store). We own the name "Cards Against Humanity," so you have to call your crappy thing something else.</p></blockquote>
 
-            <p>This project meets the Share-Alike requirement with an updated Creative Commons (CC) license, the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC&nbsp;BY-NC-SA&nbsp;4.0&nbsp;license</a>, as recommended by CC and allowed by CC's <a href="https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses">similar license clause</a>. If you have questions or paperwork that says otherwise, email me, we can work this out.</p>
-         </dd>
-        </dl>
+              <p>This project meets the Share-Alike requirement with an updated Creative Commons (CC) license, the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC&nbsp;BY-NC-SA&nbsp;4.0&nbsp;license</a>, as recommended by CC and allowed by CC's <a href="https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses">similar license clause</a>. If you have questions or paperwork that says otherwise, email me, we can work this out.</p>
+          </dd>
+          </dl>
 
-        <h2>File formats</h2>
+          <h2>File formats</h2>
 
-        <h3>compact.json</h3>
+          <h3>compact.json</h3>
 
-        <pre><code>{
-  "white": ["Answer cards in plain text, formatted with **Markdown**"],
-  "black": [
-    { "text": "_Prompt_ cards\nformatted with _.", "pick": 1 },
-    { "text": "I want a _ **and** _ sandwich! No corners!", "pick": 2 }
-  ],
-  "packs": {
-    "abbreviation": {
+          <pre><code>{
+    "white": ["Answer cards in plain text, formatted with **Markdown**"],
+    "black": [
+      { "text": "_Prompt_ cards\nformatted with _.", "pick": 1 },
+      { "text": "I want a _ **and** _ sandwich! No corners!", "pick": 2 }
+    ],
+    "packs": {
+      "abbreviation": {
+        "name": "The Base Set",
+        "description": "Sweet dirty vanilla",
+        "official": true,
+        "icon": "fa-a-font-awesome-icon or number",
+        "white": [0, 1, 2, "indexes for every white card in this pack"],
+        "black": [0, 1, 2, "indexes for every black card in this pack"]
+      }
+    }
+  }</code></pre>
+
+          <h3>full.json</h3>
+
+          <pre><code>{
+    "base": {
       "name": "The Base Set",
       "description": "Sweet dirty vanilla",
       "official": true,
-      "icon": "fa-a-font-awesome-icon or number",
-      "white": [0, 1, 2, "indexes for every white card in this pack"],
-      "black": [0, 1, 2, "indexes for every black card in this pack"]
-    }
-  }
-}</code></pre>
+      "icon": "fa-base-set-example",
+      "white": [
+        {
+          "text": "Answer cards in plain text, formatted with **Markdown**",
+          "icon": "fa-base-set-example",
+          "pack": "base"
+        }
+      ],
+      "black": [
+        {
+          "text": "_Prompt_ cards\nformatted with _.",
+          "pick": 1,
+          "icon": "fa-base-set-example",
+          "pack": "base"
+        }
+      ]
+    },
+    "pack2": {},
+    "pack3": {}
+  }</code></pre>
 
-        <h3>full.json</h3>
+        </main>
+      </div>
 
-        <pre><code>{
-  "base": {
-    "name": "The Base Set",
-    "description": "Sweet dirty vanilla",
-    "official": true,
-    "icon": "fa-base-set-example",
-    "white": [
-      {
-        "text": "Answer cards in plain text, formatted with **Markdown**",
-        "icon": "fa-base-set-example",
-        "pack": "base"
-      }
-    ],
-    "black": [
-      {
-        "text": "_Prompt_ cards\nformatted with _.",
-        "pick": 1,
-        "icon": "fa-base-set-example",
-        "pack": "base"
-      }
-    ]
-  },
-  "pack2": {},
-  "pack3": {}
-}</code></pre>
-
-          <p>Please buy <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a>. They deserve your gross, germ-covered money more than you do.</p>
-      </main>
+      <p class="text-center">Please buy <a href="https://cardsagainsthumanity.com/">Cards Against Humanity</a>. They deserve your gross, germ-covered money more than you do.</p>
     </div>
+
+    <nav class="checkout" aria-label="Download Toolbar">
+      <div class="container flex">
+        <p class="flex-1">You are set to download <span id="checkout-count">a bunch of</span> cards.</p>
+        <button class="checkout-btn" id="download-compact">Download compact.json</button>
+        <button class="checkout-btn" id="download-full">Download full.json</button>
+        <button class="checkout-btn" id="download-text">Download plaintext</button>
+      </div>
+    </nav>
 
     <!--
       GitHub Corner

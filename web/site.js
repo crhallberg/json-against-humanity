@@ -2,12 +2,39 @@ function comma(number) {
   return Number(number).toLocaleString();
 }
 
-function bindDeckBtns(decksEl) {
-  decksEl.querySelectorAll(".deck-btn").forEach((btn) => {
+let tallyEl;
+let selectedDecks = new Set();
+function tallySelected() {
+  if (typeof tallyEl == "undefined") {
+    tallyEl = document.getElementById("checkout-count");
+  }
+  let sum = 0;
+  for (let abbr of selectedDecks) {
+    sum += PACKLIST[abbr].counts.total;
+  }
+  tallyEl.innerHTML = comma(sum);
+}
+
+function bindDeckBtns(contEl = document) {
+  contEl.querySelectorAll(".deck-btn").forEach((btn) => {
+    if (
+      btn.classList.contains("is-checked") &&
+      typeof btn.dataset.pack != "undefined"
+    ) {
+      selectedDecks.add(btn.dataset.pack);
+    }
     btn.addEventListener(
       "click",
       (e) => {
         btn.classList.toggle("is-checked");
+        tallySelected();
+        if (typeof btn.dataset.pack != "undefined") {
+          if (btn.classList.contains("is-checked")) {
+            selectedDecks.add(btn.dataset.pack);
+          } else {
+            selectedDecks.remove(btn.dataset.pack);
+          }
+        }
       },
       false
     );
@@ -41,6 +68,7 @@ function cardCounts(deck) {
   document.getElementById("card-counts").innerHTML = html;
 }
 
+let PACKLIST = {};
 function deckCheckboxes(deck) {
   let packs = deck.listPacks();
   packs = packs.sort((a, b) => {
@@ -61,16 +89,23 @@ function deckCheckboxes(deck) {
 
   let html = '<ul class="deck-list">';
   for (let pack of packs) {
+    PACKLIST[pack.abbr] = pack;
     html += `<li class="deck">
-      <button class="deck-btn" data-pack="${pack.abbr}"><i class="fa fa-fw fa-${pack.icon}"></i> ${pack.name}</button>
+      <button class="deck-btn${
+        pack.official ? " is-checked" : ""
+      }" data-pack="${pack.abbr}"><i class="fa fa-fw fa-${pack.icon}"></i> ${
+      pack.name
+    }</button>
     </li>`;
   }
 
   let decksEl = document.getElementById("deck-list");
   decksEl.innerHTML = html + "</ul>";
   bindDeckBtns(decksEl);
+  tallySelected();
 }
 
+bindDeckBtns();
 let deck = CAHDeck.fromCompact("./compact.md.json").then((deck) => {
   cardCounts(deck);
   deckCheckboxes(deck);
