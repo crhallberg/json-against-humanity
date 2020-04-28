@@ -61,16 +61,20 @@ class CAHDeck {
     return packs;
   }
 
-  getPacks(decks) {
-    if (typeof decks == "undefined") {
-      decks = Object.keys(this.deck);
+  getPack(pack) {
+    return this.deck[pack];
+  }
+
+  getPacks(packs) {
+    if (typeof packs == "undefined") {
+      packs = Object.keys(this.deck);
     }
     let white = [];
     let black = [];
-    for (let deck of decks) {
-      if (typeof this.deck[deck] != "undefined") {
-        white.push(...this.deck[deck].white);
-        black.push(...this.deck[deck].black);
+    for (let pack of packs) {
+      if (typeof this.deck[pack] != "undefined") {
+        white.push(...this.deck[pack].white);
+        black.push(...this.deck[pack].black);
       }
     }
     return { white, black };
