@@ -15,7 +15,7 @@ function tallySelected() {
   tallyEl.innerHTML = comma(sum);
 }
 
-function bindDeckBtns(contEl = document) {
+function bindPackBtns(contEl = document) {
   contEl.querySelectorAll(".deck-btn").forEach((btn) => {
     if (
       btn.classList.contains("is-checked") &&
@@ -93,19 +93,19 @@ function deckCheckboxes(deck) {
     html += `<li class="deck">
       <button class="deck-btn${
         pack.official ? " is-checked" : ""
-      }" data-pack="${pack.abbr}"><i class="fa fa-fw fa-${pack.icon}"></i> ${
-      pack.name
-    }</button>
+      }" data-pack="${pack.abbr}"><i class="deck-icon fa fa-fw fa-${
+      pack.icon
+    }"></i> ${pack.name}</button>
     </li>`;
   }
 
   let decksEl = document.getElementById("deck-list");
   decksEl.innerHTML = html + "</ul>";
-  bindDeckBtns(decksEl);
+  bindPackBtns(decksEl);
   tallySelected();
 }
 
-bindDeckBtns();
+bindPackBtns();
 let deck = CAHDeck.fromCompact("./compact.md.json").then((deck) => {
   cardCounts(deck);
   deckCheckboxes(deck);
