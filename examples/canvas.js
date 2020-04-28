@@ -32,7 +32,7 @@ function wrap(text) {
   for (let i = 1; i < words.length; i++) {
     curr += " " + words[i];
     let tm = c.measureText(curr);
-    if (tm.width >= 160) {
+    if (tm.width > 155) {
       lines.push(prev);
       curr = words[i];
     }
