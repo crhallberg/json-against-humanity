@@ -16,8 +16,7 @@ function drawCard(card) {
   c.rotate(card.rot);
   c.fillStyle = card.black ? "#000" : "#fff";
   c.fillRect(-100, -100, 200, 300);
-  c.strokeStyle = "#000";
-  c.strokeRect(-100, -100, 200, 300);
+  // Text
   c.fillStyle = card.black ? "#fff" : "#000";
   for (let i = 0; i < card.text.length; i++) {
     c.fillText(card.text[i], -80, -80 + 22 * i);
