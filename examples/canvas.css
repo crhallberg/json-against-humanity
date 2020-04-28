@@ -1,0 +1,67 @@
+@import "../web/vendor/inter/inter.css";
+
+html {
+  font-size: 16px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: #757575;
+}
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Roboto,
+      "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+}
+#a {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+}
+#pack-list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 20%;
+  margin: 0;
+  padding: 1rem 2rem;
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  overflow-y: auto;
+}
+.deck-btn {
+  display: block;
+  width: 100%;
+  margin: 0.5rem;
+  padding: 0.5rem 2rem;
+  border: 0;
+  font: inherit;
+  text-align: left;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  appearance: none;
+}
+.deck-btn:hover,
+.deck-btn:focus {
+  background-color: #e0e0e0;
+}
+
+.deck-btn:active {
+  color: #fff;
+  background-color: #000;
+}
