@@ -114,6 +114,35 @@ function deckCheckboxes(deck) {
   let decksEl = document.getElementById("deck-list");
   decksEl.innerHTML = html + "</ul>";
   bindPackBtns(decksEl);
+
+  function toggleBtn(mainBtn, query, otherBtn) {
+    let deckBtns = decksEl.querySelectorAll(query);
+    mainBtn.addEventListener(
+      "click",
+      function toggleOfficial() {
+        otherBtn.classList.remove("is-checked");
+        if (mainBtn.classList.contains("is-checked")) {
+          deckBtns.forEach((btn) => {
+            selectedDecks.add(btn.dataset.pack);
+            btn.classList.add("is-checked");
+          });
+        } else {
+          deckBtns.forEach((btn) => {
+            selectedDecks.delete(btn.dataset.pack);
+            btn.classList.remove("is-checked");
+          });
+        }
+        tallySelected();
+      },
+      false
+    );
+  }
+
+  let allBtn = document.getElementById("select-all");
+  let officialBtn = document.getElementById("select-official");
+  toggleBtn(allBtn, ".deck-btn", officialBtn);
+  toggleBtn(officialBtn, ".deck-btn.is-official", allBtn);
+
   tallySelected();
 }
 
