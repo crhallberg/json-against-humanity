@@ -42,7 +42,7 @@
             <dd>The primary source is <a href="https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&amp;usp=sharing#gid=55">this Google Sheet</a> I found through <a href="https://boardgamegeek.com/">Board Game Geek</a>. Previous sources included <a href="https://github.com/samurailink3/hangouts-against-humanity">Hangouts Against Humanity</a>, <a href="http://pyx-3.pretendyoure.xyz/zy/viewcards.jsp">Pretend You're Xyzzy</a>, and contributions from viewers like you.</dd>
 
             <dt>What font is CAH?</dt>
-            <dd>Cards Against Humanity cards are in <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">Helvetica® Neue</a>. It's not free. I use <a href="https://rsms.me/inter/">Inter Medium</a>.</dd>
+            <dd>Cards Against Humanity cards are in <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">Helvetica® Neue</a>. It's not free. I use <a href="https://rsms.me/inter/">Inter&nbsp;Medium</a>.</dd>
 
             <dt>Who are you?</dt>
             <dd><a href="https://crhallberg.com">Chris Hallberg</a>.</dd>
@@ -73,7 +73,7 @@
               <blockquote><p>Cards Against Humanity is available under a BY-NC-SA 2.0 Creative Commons license. That means you can use our content to make whatever, but you have to give us credit, you can’t profit from the use of our content (this means ad revenue is not allowed), and you have to share whatever you make in the same way we share it (this means you can’t submit our content to any app store). We own the name "Cards Against Humanity," so you have to call your crappy thing something else.</p></blockquote>
 
               <p>This project meets the Share-Alike requirement with an updated Creative Commons (CC) license, the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC&nbsp;BY-NC-SA&nbsp;4.0&nbsp;license</a>, as recommended by CC and allowed by CC's <a href="https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses">similar license clause</a>. If you have questions or paperwork that says otherwise, email me, we can work this out.</p>
-          </dd>
+            </dd>
           </dl>
 
           <h2>File formats</h2>
@@ -81,50 +81,50 @@
           <h3>compact.json</h3>
 
           <pre><code>{
-    "white": ["Answer cards in plain text, formatted with **Markdown**"],
-    "black": [
-      { "text": "_Prompt_ cards\nformatted with _.", "pick": 1 },
-      { "text": "I want a _ **and** _ sandwich! No corners!", "pick": 2 }
-    ],
-    "packs": {
-      "abbreviation": {
-        "name": "The Base Set",
-        "description": "Sweet dirty vanilla",
-        "official": true,
-        "icon": "fa-a-font-awesome-icon or number",
-        "white": [0, 1, 2, "indexes for every white card in this pack"],
-        "black": [0, 1, 2, "indexes for every black card in this pack"]
-      }
+  "white": ["Answer cards in plain text, formatted with **Markdown**"],
+  "black": [
+    { "text": "_Prompt_ cards\nformatted with _.", "pick": 1 },
+    { "text": "I want a _ **and** _ sandwich! No corners!", "pick": 2 }
+  ],
+  "packs": {
+    "abbreviation": {
+      "name": "The Base Set",
+      "description": "Sweet dirty vanilla",
+      "official": true,
+      "icon": "fa-a-font-awesome-icon or number",
+      "white": [0, 1, 2, "indexes for every white card in this pack"],
+      "black": [0, 1, 2, "indexes for every black card in this pack"]
     }
-  }</code></pre>
+  }
+}</code></pre>
 
           <h3>full.json</h3>
 
           <pre><code>{
-    "base": {
-      "name": "The Base Set",
-      "description": "Sweet dirty vanilla",
-      "official": true,
-      "icon": "fa-base-set-example",
-      "white": [
-        {
-          "text": "Answer cards in plain text, formatted with **Markdown**",
-          "icon": "fa-base-set-example",
-          "pack": "base"
-        }
-      ],
-      "black": [
-        {
-          "text": "_Prompt_ cards\nformatted with _.",
-          "pick": 1,
-          "icon": "fa-base-set-example",
-          "pack": "base"
-        }
-      ]
-    },
-    "pack2": {},
-    "pack3": {}
-  }</code></pre>
+  "base": {
+    "name": "The Base Set",
+    "description": "Sweet dirty vanilla",
+    "official": true,
+    "icon": "fa-base-set-example",
+    "white": [
+      {
+        "text": "Answer cards in plain text, formatted with **Markdown**",
+        "icon": "fa-base-set-example",
+        "pack": "base"
+      }
+    ],
+    "black": [
+      {
+        "text": "_Prompt_ cards\nformatted with _.",
+        "pick": 1,
+        "icon": "fa-base-set-example",
+        "pack": "base"
+      }
+    ]
+  },
+  "pack2": {},
+  "pack3": {}
+}</code></pre>
 
         </main>
       </div>
@@ -133,8 +133,9 @@
     </div>
 
     <nav class="checkout" aria-label="Download Toolbar">
+      <a class="hidden" id="download-link" href="">$</a>
       <div class="container flex">
-        <p class="flex-1">You are set to download <span id="checkout-count">a bunch of</span> cards.</p>
+        <p class="flex-1">You are set to download <span id="checkout-count">a bunch of cards</span>.</p>
         <button class="checkout-btn" id="download-compact">Download compact.json</button>
         <button class="checkout-btn" id="download-full">Download full.json</button>
         <button class="checkout-btn" id="download-text">Download plaintext</button>

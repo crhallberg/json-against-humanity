@@ -12,7 +12,19 @@ function tallySelected() {
   for (let abbr of selectedDecks) {
     sum += PACKLIST[abbr].counts.total;
   }
-  tallyEl.innerHTML = comma(sum);
+  switch (sum) {
+    case 0:
+      tallyEl.innerHTML = "f-ckin' nothin'";
+      break;
+    case 1:
+      tallyEl.innerHTML = "a single, lonesome card";
+      break;
+    case 69:
+      tallyEl.innerHTML = `${comma(sum)} cards. Nice`;
+      break;
+    default:
+      tallyEl.innerHTML = `${comma(sum)} cards`;
+  }
 }
 
 function bindPackBtns(contEl = document) {
@@ -92,7 +104,7 @@ function deckCheckboxes(deck) {
     PACKLIST[pack.abbr] = pack;
     html += `<li class="deck">
       <button class="deck-btn${
-        pack.official ? " is-checked" : ""
+        pack.official ? " is-official is-checked" : ""
       }" data-pack="${pack.abbr}"><i class="deck-icon fa fa-fw fa-${
       pack.icon
     }"></i> ${pack.name}</button>
