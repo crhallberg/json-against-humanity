@@ -1,6 +1,9 @@
 function comma(number) {
   return Number(number).toLocaleString();
 }
+function esc(text) {
+  return text.replace(/\n/g, "\\n");
+}
 
 let tallyEl;
 let selectedDecks = new Set();
@@ -146,8 +149,92 @@ function deckCheckboxes(deck) {
   tallySelected();
 }
 
+let downloadLink;
+function download(filename, text) {
+  if (typeof downloadLink == "undefined") {
+    downloadLink = document.getElementById("download-link");
+  }
+  downloadLink.setAttribute(
+    "href",
+    "data:text/json;charset=utf-8," + encodeURIComponent(text)
+  );
+  downloadLink.setAttribute("download", filename);
+  downloadLink.click();
+}
+document.getElementById("download-compact").addEventListener(
+  "click",
+  function () {
+    let selected = Array.from(selectedDecks);
+    selected.sort(
+      (a, b) => PACKLIST[b].counts.total - PACKLIST[a].counts.total
+    );
+    let packs = deck.getPacks(selected);
+    let indexes = {};
+    for (let abbr of selectedDecks) {
+      indexes[abbr] = { white: [], black: [] };
+    }
+    let white = [];
+    packs.white.forEach((c) => {
+      let index = white.indexOf(esc(c.text));
+      if (index === -1) {
+        indexes[c.pack].white.push(white.length);
+        white.push(esc(c.text));
+      } else {
+        indexes[c.pack].white.push(index);
+      }
+    });
+    let black = [];
+    let blackHashes = [];
+    packs.black.forEach((c) => {
+      let index = blackHashes.indexOf(c.text);
+      if (index === -1) {
+        indexes[c.pack].black.push(black.length);
+        blackHashes.push(c.text);
+        black.push({ text: esc(c.text), pick: c.pick });
+      } else {
+        indexes[c.pack].black.push(index);
+      }
+    });
+    let metadata = {};
+    for (let abbr of selectedDecks) {
+      metadata[abbr] = Object.assign({}, PACKLIST[abbr], {
+        white: indexes[abbr].white,
+        black: indexes[abbr].black,
+      });
+      delete metadata[abbr].counts;
+    }
+    download("cah-compact.json", JSON.stringify({ white, black, metadata }));
+  },
+  false
+);
+document.getElementById("download-full").addEventListener(
+  "click",
+  function () {
+    let json = {};
+    for (let abbr of selectedDecks) {
+      json[abbr] = deck.getPack(abbr);
+    }
+    download("cah-full.json", JSON.stringify(json));
+  },
+  false
+);
+document.getElementById("download-text").addEventListener(
+  "click",
+  function () {
+    let packs = deck.getPacks(Array.from(selectedDecks));
+    let text =
+      packs.white.map((c) => esc(c.text)).join("\n") +
+      "\n----------\n" +
+      packs.black.map((c) => esc(c.text)).join("\n");
+    download("cah.txt", text);
+  },
+  false
+);
+
 bindPackBtns();
-let deck = CAHDeck.fromCompact("./compact.md.json").then((deck) => {
-  cardCounts(deck);
-  deckCheckboxes(deck);
+let deck;
+CAHDeck.fromCompact("./compact.md.json").then((_deck) => {
+  deck = _deck;
+  cardCounts(_deck);
+  deckCheckboxes(_deck);
 });

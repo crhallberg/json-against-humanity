@@ -4,10 +4,10 @@ class CAHDeck {
     for (let abbr in json.decks) {
       let pack = json.decks[abbr];
       pack.white = pack.white.map((index) =>
-        Object.assign(json.cards.white[index], { pack: abbr, icon: pack.icon })
+        Object.assign({}, json.cards.white[index], { pack: abbr, icon: pack.icon })
       );
       pack.black = pack.black.map((index) =>
-        Object.assign(json.cards.black[index], { pack: abbr, icon: pack.icon })
+        Object.assign({}, json.cards.black[index], { pack: abbr, icon: pack.icon })
       );
       packs[abbr] = pack;
     }
