@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "googleapis": "^45.0.0",
+    "nanoid": "^3.1.5"
+  }
+}
