@@ -1,5 +1,6 @@
 {
-  "dependencies": {
+  "devDependencies": {
+    "clean-text-utils": "^1.1.17",
     "googleapis": "^45.0.0",
     "nanoid": "^3.1.5"
   }
