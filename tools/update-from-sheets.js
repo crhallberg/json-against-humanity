@@ -1,7 +1,10 @@
 const fs = require("fs");
-const { nanoid } = require("nanoid");
-const readline = require("readline");
 const { google } = require("googleapis");
+const { nanoid } = require("nanoid");
+const {
+  replace: { exoticChars: replaceExoticChars },
+} = require("clean-text-utils");
+const readline = require("readline");
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"];
@@ -90,7 +93,7 @@ function rangeToDeck({ values }) {
       let picks = row[0].match(/_+/g);
       return [
         packMap[row[2]].id,
-        row[0].replace(/_+/g, "_"),
+        replaceExoticChars(row[0].replace(/_+/g, "_")),
         picks ? picks.length : row[0] == "Make a haiku." ? 3 : 1,
       ];
     });
@@ -100,7 +103,7 @@ function rangeToDeck({ values }) {
     if (!packMap[row[1]]) {
       packMap[row[1]] = { id: nanoid(3), official: !!row[2].match("CAH") };
     }
-    return [packMap[row[1]].id, row[0]];
+    return [packMap[row[1]].id, replaceExoticChars(row[0])];
   });
 }
 
