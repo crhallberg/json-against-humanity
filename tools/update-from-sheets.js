@@ -132,7 +132,7 @@ function saveCardsToJSON(auth) {
       for (let name in packMap) {
         let pack = packMap[name];
         packs[pack.id] = {
-          name,
+          name: name.trim().replace("CAH :", "CAH:"),
           white: [],
           black: [],
           official: pack.official,
