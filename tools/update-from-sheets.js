@@ -160,7 +160,7 @@ function saveCardsToJSON(auth) {
         }
       }
 
-      console.log("saving...");
+      console.log(`saving... (${white.length} white, ${black.length} black)`);
       fs.writeFileSync(
         "./compact.test.json",
         JSON.stringify({ white, black, packs: Object.values(packs) })
