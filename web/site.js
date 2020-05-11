@@ -49,6 +49,8 @@ function bindPackBtns(contEl = document) {
             selectedDecks.delete(btn.dataset.pack);
           }
         }
+        allBtn.classList.remove("is-checked");
+        officialBtn.classList.remove("is-checked");
         tallySelected();
       },
       false
@@ -84,6 +86,9 @@ function cardCounts(deck) {
 }
 
 let PACKLIST = {};
+let allBtn = document.getElementById("select-all");
+let officialBtn = document.getElementById("select-official");
+
 function deckCheckboxes(deck) {
   let packs = deck.listPacks();
   packs = packs.sort((a, b) => {
@@ -120,19 +125,20 @@ function deckCheckboxes(deck) {
 
   function toggleBtn(mainBtn, query, otherBtn) {
     let deckBtns = decksEl.querySelectorAll(query);
+    let allBtns = decksEl.querySelectorAll(".deck-btn");
     mainBtn.addEventListener(
       "click",
       function toggleOfficial() {
+        mainBtn.classList.toggle("is-checked");
         otherBtn.classList.remove("is-checked");
+        allBtns.forEach((btn) => {
+          selectedDecks.delete(btn.dataset.pack);
+          btn.classList.remove("is-checked");
+        });
         if (mainBtn.classList.contains("is-checked")) {
           deckBtns.forEach((btn) => {
             selectedDecks.add(btn.dataset.pack);
             btn.classList.add("is-checked");
-          });
-        } else {
-          deckBtns.forEach((btn) => {
-            selectedDecks.delete(btn.dataset.pack);
-            btn.classList.remove("is-checked");
           });
         }
         tallySelected();
@@ -141,8 +147,6 @@ function deckCheckboxes(deck) {
     );
   }
 
-  let allBtn = document.getElementById("select-all");
-  let officialBtn = document.getElementById("select-official");
   toggleBtn(allBtn, ".deck-btn", officialBtn);
   toggleBtn(officialBtn, ".deck-btn.is-official", allBtn);
 
@@ -231,9 +235,8 @@ document.getElementById("download-text").addEventListener(
   false
 );
 
-bindPackBtns();
 let deck;
-CAHDeck.fromCompact("./compact.md.json").then((_deck) => {
+CAHDeck.fromCompact("../compact.md.json").then((_deck) => {
   deck = _deck;
   cardCounts(_deck);
   deckCheckboxes(_deck);
