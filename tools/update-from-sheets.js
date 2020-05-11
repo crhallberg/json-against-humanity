@@ -129,12 +129,18 @@ function saveCardsToJSON(auth) {
       let black = [];
       let blackSet = new Set();
       let packs = {};
+      for (let name in packMap) {
+        let pack = packMap[name];
+        packs[pack.id] = {
+          name,
+          white: [],
+          black: [],
+          official: pack.official,
+        };
+      }
       for (let card of cards) {
         if (!card[1]) {
           continue;
-        }
-        if (typeof packs[card[0]] == "undefined") {
-          packs[card[0]] = { white: [], black: [] };
         }
         if (card.length === 3) {
           packs[card[0]].black.push(black.length);
@@ -153,21 +159,11 @@ function saveCardsToJSON(auth) {
           }
         }
       }
-      for (let name in packMap) {
-        let pack = packMap[name];
-        packs[pack.id] = Object.assign(
-          {
-            name,
-            official: pack.official,
-          },
-          packs[pack.id]
-        );
-      }
 
       console.log("saving...");
       fs.writeFileSync(
         "./compact.test.json",
-        JSON.stringify({ white, black, packs })
+        JSON.stringify({ white, black, packs: Object.values(packs) })
       );
     }
   );
