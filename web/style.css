@@ -1,4 +1,4 @@
-@import "./vendor/inter/inter.css";
+@import "./vendor/inter.css";
 @import "./vendor/font-awesome/css/all.min.css";
 
 :root {
@@ -30,20 +30,10 @@ html {
 body {
   padding: 1rem;
   font-size: 1rem;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
   font-weight: 500;
   line-height: 1.5;
   color: var(--black);
   background-color: var(--gray-bg);
-}
-@supports (font-variation-settings: normal) {
-  body {
-    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Roboto,
-      "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
-      "Segoe UI Emoji", "Segoe UI Symbol";
-  }
 }
 
 .container {
