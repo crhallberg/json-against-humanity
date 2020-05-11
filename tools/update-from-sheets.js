@@ -82,7 +82,6 @@ let packMap = {};
 function rangeToDeck({ values }) {
   let header = values.shift();
   if (header[0] == "Prompt Cards") {
-    console.log([header[0], header[2], header[3]]);
     return values.map((row) => {
       if (!packMap[row[2]]) {
         packMap[row[2]] = {
@@ -98,7 +97,6 @@ function rangeToDeck({ values }) {
       ];
     });
   }
-  console.log(header.slice(0, 3));
   return values.map((row) => {
     if (!packMap[row[1]]) {
       packMap[row[1]] = { id: nanoid(3), official: !!row[2].match("CAH") };
@@ -124,7 +122,6 @@ function saveCardsToJSON(auth) {
       if (err) return console.log("The API returned an error: " + err);
       console.log("parsing ranges...");
       let cards = ranges.data.valueRanges.map(rangeToDeck).flat();
-      console.log(cards.length);
 
       console.log("separating...");
       let white = [];
