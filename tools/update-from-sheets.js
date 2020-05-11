@@ -85,7 +85,7 @@ function rangeToDeck({ values }) {
     return values.map((row) => {
       if (!packMap[row[2]]) {
         packMap[row[2]] = {
-          id: nanoid(3),
+          id: nanoid(4),
           official: !!row[3].match("CAH"),
         };
       }
@@ -99,7 +99,7 @@ function rangeToDeck({ values }) {
   }
   return values.map((row) => {
     if (!packMap[row[1]]) {
-      packMap[row[1]] = { id: nanoid(3), official: !!row[2].match("CAH") };
+      packMap[row[1]] = { id: nanoid(4), official: !!row[2].match("CAH") };
     }
     return [packMap[row[1]].id, replaceExoticChars(row[0])];
   });
