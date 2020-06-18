@@ -85,11 +85,11 @@ function shuffle(arr) {
   arr.sort((a, b) => Math.random() * 2 - 1); // Random number instead of comparison
 }
 function addCards(btn) {
-  let abbr = btn.dataset.pack;
-  if (typeof loadDecks[abbr] == "undefined") {
-    loadedPacks[abbr] = deck.getPack(abbr);
+  let index = btn.dataset.pack;
+  if (typeof loadDecks[index] == "undefined") {
+    loadedPacks[index] = deck.getPack(index);
   }
-  let pack = loadedPacks[abbr];
+  let pack = loadedPacks[index];
   shuffle(pack.white);
   shuffle(pack.black);
   let cards = pack.white.slice(0, 12);
@@ -136,10 +136,11 @@ function loadDecks(_deck) {
   });
 
   let html = "";
+  let index = 0;
   for (let pack of packs) {
     html += `<li class="deck" role="none">
-      <button class="deck-btn" data-pack="${pack.abbr}">
-        <i class="deck-icon fa fa-fw fa-${pack.icon}"></i> ${pack.name}
+      <button class="deck-btn" data-pack="${index++}">
+        <span class="deck-icon">${pack.icon}</span> ${pack.name}
       </button>
     </li>`;
   }
@@ -150,7 +151,7 @@ function loadDecks(_deck) {
   loop();
 }
 
-CAHDeck.fromCompact("../compact.md.json").then(loadDecks);
+CAHDeck.fromCompact("../compact.json").then(loadDecks);
 
 let a, c;
 function initCanvas() {

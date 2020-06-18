@@ -46,7 +46,7 @@ body {
   display: block;
   width: 100%;
   margin: 0.5rem;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem;
   border: 0;
   font: inherit;
   text-align: left;
@@ -60,8 +60,13 @@ body {
 .deck-btn:focus {
   background-color: #e0e0e0;
 }
-
 .deck-btn:active {
   color: #fff;
   background-color: #000;
+}
+
+.deck-icon {
+  display: inline-block;
+  width: 2rem;
+  text-align: center;
 }
