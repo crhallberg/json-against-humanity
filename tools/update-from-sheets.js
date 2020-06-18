@@ -78,30 +78,36 @@ function getNewToken(oAuth2Client, callback) {
   });
 }
 
+function normalizeName(name) {
+  return name.replace("CAH :", "CAH:").trim();
+}
+
 let packMap = {};
 function rangeToDeck({ values }) {
   let header = values.shift();
   if (header[0] == "Prompt Cards") {
     return values.map((row) => {
-      if (!packMap[row[2]]) {
-        packMap[row[2]] = {
+      let name = normalizeName(row[2]);
+      if (!packMap[name]) {
+        packMap[name] = {
           id: nanoid(4),
           official: !!row[3].match("CAH"),
         };
       }
       let picks = row[0].match(/_+/g);
       return [
-        packMap[row[2]].id,
+        packMap[name].id,
         replaceExoticChars(row[0].replace(/_+/g, "_")),
         picks ? picks.length : row[0] == "Make a haiku." ? 3 : 1,
       ];
     });
   }
   return values.map((row) => {
-    if (!packMap[row[1]]) {
-      packMap[row[1]] = { id: nanoid(4), official: !!row[2].match("CAH") };
+    let name = normalizeName(row[1]);
+    if (!packMap[name]) {
+      packMap[name] = { id: nanoid(4), official: !!name.match("CAH") };
     }
-    return [packMap[row[1]].id, replaceExoticChars(row[0])];
+    return [packMap[name].id, replaceExoticChars(row[0])];
   });
 }
 
@@ -129,20 +135,23 @@ function saveCardsToJSON(auth) {
       let black = [];
       let blackSet = new Set();
       let packs = {};
+      let icons = require("./icons.json");
       for (let name in packMap) {
         let pack = packMap[name];
         packs[pack.id] = {
-          name: name.trim().replace("CAH :", "CAH:"),
+          name,
           white: [],
           black: [],
           official: pack.official,
+          icon: icons[name],
         };
       }
+
       for (let card of cards) {
         if (!card[1]) {
           continue;
         }
-        if (card.length === 3) {
+        if (card.length > 2) {
           packs[card[0]].black.push(black.length);
           if (!blackSet.has(card[1])) {
             blackSet.add(card[1]);
@@ -155,14 +164,16 @@ function saveCardsToJSON(auth) {
           packs[card[0]].white.push(white.length);
           if (!whiteSet.has(card[1])) {
             whiteSet.add(card[1]);
-            white.push(card[1].trim(" |"));
+            white.push(
+              card[1].replace(/^[\s\uFEFF\xA0\|]+|[\s\uFEFF\xA0\|]+$/g, "")
+            ); // trim
           }
         }
       }
 
       console.log(`saving... (${white.length} white, ${black.length} black)`);
       fs.writeFileSync(
-        "./compact.test.json",
+        "../compact.json",
         JSON.stringify({ white, black, packs: Object.values(packs) })
       );
     }
