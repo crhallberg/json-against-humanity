@@ -1,15 +1,21 @@
 class CAHDeck {
   _hydrateCompact(json) {
-    let packs = {};
-    for (let abbr in json.decks) {
-      let pack = json.decks[abbr];
+    let packs = [];
+    for (let pack of json.packs) {
       pack.white = pack.white.map((index) =>
-        Object.assign({}, json.cards.white[index], { pack: abbr, icon: pack.icon })
+        Object.assign(
+          {},
+          { text: json.white[index] },
+          { pack: packs.length, icon: pack.icon }
+        )
       );
       pack.black = pack.black.map((index) =>
-        Object.assign({}, json.cards.black[index], { pack: abbr, icon: pack.icon })
+        Object.assign({}, json.black[index], {
+          pack: packs.length,
+          icon: pack.icon,
+        })
       );
-      packs[abbr] = pack;
+      packs.push(pack);
     }
     return packs;
   }
@@ -43,10 +49,8 @@ class CAHDeck {
 
   listPacks() {
     let packs = [];
-    for (let abbr in this.deck) {
-      let { name, official, description, icon, white, black } = this.deck[abbr];
+    for (let { name, official, description, icon, white, black } of this.deck) {
       packs.push({
-        abbr,
         name,
         official,
         description,
@@ -61,17 +65,17 @@ class CAHDeck {
     return packs;
   }
 
-  getPack(pack) {
-    return this.deck[pack];
+  getPack(index) {
+    return this.deck[index];
   }
 
-  getPacks(packs) {
-    if (typeof packs == "undefined") {
-      packs = Object.keys(this.deck);
+  getPacks(indexes) {
+    if (typeof indexes == "undefined") {
+      indexes = Object.keys(this.deck);
     }
     let white = [];
     let black = [];
-    for (let pack of packs) {
+    for (let pack of indexes) {
       if (typeof this.deck[pack] != "undefined") {
         white.push(...this.deck[pack].white);
         black.push(...this.deck[pack].black);

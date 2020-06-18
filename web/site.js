@@ -12,8 +12,8 @@ function tallySelected() {
     tallyEl = document.getElementById("checkout-count");
   }
   let sum = 0;
-  for (let abbr of selectedDecks) {
-    sum += PACKLIST[abbr].counts.total;
+  for (let index of selectedDecks) {
+    sum += PACKLIST[index].counts.total;
   }
   switch (sum) {
     case 0:
@@ -85,38 +85,35 @@ function cardCounts(deck) {
   document.getElementById("card-counts").innerHTML = html;
 }
 
-let PACKLIST = {};
+let PACKLIST = [];
 let allBtn = document.getElementById("select-all");
 let officialBtn = document.getElementById("select-official");
 
 function deckCheckboxes(deck) {
   let packs = deck.listPacks();
   packs = packs.sort((a, b) => {
-    if (a.abbr == "Base") {
+    if (a.name == "CAH Base Set") {
       return -1;
     }
-    if (b.abbr == "Base") {
+    if (b.name == "CAH Base Set") {
       return 1;
     }
     if (a.official != b.official) {
       return a.official ? -1 : 1;
-    }
-    if (a.official) {
-      return b.counts.total - a.counts.total;
     }
     return a.name < b.name ? -1 : 1;
   });
 
   let html = '<ul class="deck-list">';
   for (let pack of packs) {
-    PACKLIST[pack.abbr] = pack;
     html += `<li class="deck">
       <button class="deck-btn${
         pack.official ? " is-official is-checked" : ""
-      }" data-pack="${pack.abbr}"><i class="deck-icon fa fa-fw fa-${
+      }" data-pack="${PACKLIST.length}"><i class="deck-icon fa fa-fw fa-${
       pack.icon
     }"></i> ${pack.name}</button>
     </li>`;
+    PACKLIST.push(pack);
   }
 
   let decksEl = document.getElementById("deck-list");
@@ -236,7 +233,7 @@ document.getElementById("download-text").addEventListener(
 );
 
 let deck;
-CAHDeck.fromCompact("../compact.md.json").then((_deck) => {
+CAHDeck.fromCompact("../compact.json").then((_deck) => {
   deck = _deck;
   cardCounts(_deck);
   deckCheckboxes(_deck);
