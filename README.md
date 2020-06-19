@@ -12,7 +12,7 @@ Card sources, merged by hand and machine: [Hangouts Against Humanity](https://gi
 
 ## FAQ
 
-**How many cards are there?** 9,923 cards. 2,704 black cards. 7,219 white cards. [With all expansions](https://store.cardsagainsthumanity.com/), there are about 2,065 official Cards Against Humanity cards you can buy with money (2,008 are in this repository).
+**How many cards are there?** 11,182 cards. 2,919 black cards. 8,263 white cards. [With all expansions](https://store.cardsagainsthumanity.com/), there are about 2,065 official Cards Against Humanity cards you can buy with money (3,565 are in this repository).
 
 **I just want to play.** Mobile version is being revamped.
 
