@@ -60,8 +60,6 @@ Finally, [Cards Against Humanity](https://cardsagainsthumanity.com/) as plain te
 
 ## Fine Print
 
-Please buy [Cards Against Humanity](https://cardsagainsthumanity.com/). They deserve your gross, germ-covered money more than you do.
-
 Card sources, merged by hand and machine: [Hangouts Against Humanity](https://github.com/samurailink3/hangouts-against-humanity), [Pretend You're Xyzzy](http://pyx-3.pretendyoure.xyz/zy/viewcards.jsp) and [this spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&usp=sharing#gid=55) I found through [Board Game Geek](https://boardgamegeek.com/).
 
 ## FAQ
