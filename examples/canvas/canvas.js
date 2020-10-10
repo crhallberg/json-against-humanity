@@ -151,7 +151,7 @@ function loadDecks(_deck) {
   loop();
 }
 
-CAHDeck.fromCompact("../compact.json").then(loadDecks);
+CAHDeck.fromCompact("../cah-all-compact.json").then(loadDecks);
 
 let a, c;
 function initCanvas() {

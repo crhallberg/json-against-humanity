@@ -204,7 +204,7 @@ document.getElementById("download-compact").addEventListener(
       });
       delete metadata[abbr].counts;
     }
-    download("cah-compact.json", JSON.stringify({ white, black, metadata }));
+    download("cah-cards-compact.json", JSON.stringify({ white, black, metadata }));
   },
   false
 );
@@ -215,7 +215,7 @@ document.getElementById("download-full").addEventListener(
     for (let abbr of selectedDecks) {
       json[abbr] = deck.getPack(abbr);
     }
-    download("cah-full.json", JSON.stringify(json));
+    download("cah-cards-full.json", JSON.stringify(json));
   },
   false
 );
@@ -227,13 +227,13 @@ document.getElementById("download-text").addEventListener(
       packs.white.map((c) => esc(c.text)).join("\n") +
       "\n----------\n" +
       packs.black.map((c) => esc(c.text)).join("\n");
-    download("cah.txt", text);
+    download("cah-cards-plain.txt", text);
   },
   false
 );
 
 let deck;
-CAHDeck.fromCompact("../compact.json").then((_deck) => {
+CAHDeck.fromCompact("../cah-all-compact.json").then((_deck) => {
   deck = _deck;
   cardCounts(_deck);
   deckCheckboxes(_deck);
