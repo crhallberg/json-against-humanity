@@ -16,13 +16,12 @@ Finally, [Cards Against Humanity](https://cardsagainsthumanity.com/) as plain te
     { "text": "I want a _ **and** _ sandwich! No corners!", "pick": 2 }
   ],
   "packs": {
-    "abbreviation": {
+    "${abbreviation}": {
       "name": "The Base Set",
       "description": "Sweet dirty vanilla",
       "official": true,
-      "icon": "fa-a-font-awesome-icon or number",
       "white": [0, 1, 2, "indexes for every white card in this pack"],
-      "black": [0, 1, 2, "indexes for every black card in this pack"]
+      "black": [0, 1, 2, "indexes for every black card in this pack"],
     }
   }
 }
@@ -36,11 +35,9 @@ Finally, [Cards Against Humanity](https://cardsagainsthumanity.com/) as plain te
     "name": "The Base Set",
     "description": "Sweet dirty vanilla",
     "official": true,
-    "icon": "fa-base-set-example",
     "white": [
       {
         "text": "Answer cards in plain text, formatted with **Markdown**",
-        "icon": "fa-base-set-example",
         "pack": "base"
       }
     ],
@@ -48,8 +45,7 @@ Finally, [Cards Against Humanity](https://cardsagainsthumanity.com/) as plain te
       {
         "text": "_Prompt_ cards\nformatted with _.",
         "pick": 1,
-        "icon": "fa-base-set-example",
-        "pack": "base"
+        "pack": "base",
       }
     ]
   },
@@ -77,3 +73,12 @@ Card sources, merged by hand and machine: [Hangouts Against Humanity](https://gi
 > Cards Against Humanity is available under a BY-NC-SA 2.0 Creative Commons license. That means you can use our content to make whatever, but you have to give us credit, you can’t profit from the use of our content (this means ad revenue is not allowed), and you have to share whatever you make in the same way we share it (this means you can’t submit our content to any app store). We own the name "Cards Against Humanity," so you have to call your crappy thing something else.
 
 This project meets the share-alike standard with an updated Creative Commons license, the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/), as recommended by CC and allowed by their [similar license clause](https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses). If you have questions or paperwork that says otherwise, email me, we can work this out.
+
+## Customizing Decks
+
+### Icons
+
+If you provide the argument `--icons=./icons/fa.json` with the path to an icons JSON file (see `icons` folder for examples), icons will be added to the deck information.
+
+ - In `compact.json`, `icon` will be added to each `pack` object at the end of the file.
+ - In `full.json` or the hydrated data, `icon` will be added to each card.
