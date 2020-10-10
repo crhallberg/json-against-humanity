@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="container wrapper">
-      <div class="flex">
+      <div class="flex-lg">
         <div class="sidebar">
           <nav id="bulk-controls" aria-label="Bulk Deck Controls">
             <ul class="deck-list">
@@ -141,7 +141,8 @@
     <nav class="checkout" aria-label="Download Toolbar">
       <a class="hidden" id="download-link" href="">$</a>
       <div class="container flex">
-        <p class="flex-1">You are set to download <span id="checkout-count">a bunch of cards</span>.</p>
+        <p class="flex-1 sm:text-center">You are set to download <span id="checkout-count">a bunch of cards</span>.</p>
+        <span class="flex-break hidden-lg"></span>
         <button class="checkout-btn" id="download-compact">Download compact.json</button>
         <button class="checkout-btn" id="download-full">Download full.json</button>
         <button class="checkout-btn" id="download-text">Download plaintext</button>

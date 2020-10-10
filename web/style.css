@@ -208,6 +208,7 @@ pre {
 }
 .checkout-btn {
   display: block;
+  flex-grow: 1;
   height: 3rem;
   margin: 0.25em;
   margin-bottom: 0.375em;
@@ -216,7 +217,7 @@ pre {
   border: 0.25em solid var(--black);
   font-size: 0.875em;
   font-weight: bold;
-  line-height: 0;
+  line-height: 1.15;
   background-color: var(--white);
   border-radius: 0.5em;
   box-shadow: 0 0.25em 0 0 var(--black);
@@ -238,17 +239,32 @@ pre {
   box-shadow: none;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-break {
+    flex-basis: 100%;
+    height: 0;
+    content: "";
+}
 @media (min-width: 992px) {
-  .flex {
+  .flex-lg {
     display: flex;
-  }
-  .flex-1 {
-    flex: 1 1 0%;
   }
   .checkout-btn {
     flex: none;
     display: table;
   }
+  .hidden-lg {
+    display: none;
+  }
+}
+.sm\:text-center {
+  text-align: center;
 }
 
 /**
