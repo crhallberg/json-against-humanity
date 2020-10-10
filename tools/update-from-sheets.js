@@ -171,7 +171,7 @@ function saveCardsToJSON(auth) {
 
       console.log(`saving... (${white.length} white, ${black.length} black)`);
       fs.writeFileSync(
-        "../compact.json",
+        "../cah-all-compact.json",
         JSON.stringify({ white, black, packs: Object.values(packs) })
       );
     }
