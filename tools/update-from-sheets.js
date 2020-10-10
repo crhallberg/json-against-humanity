@@ -135,7 +135,6 @@ function saveCardsToJSON(auth) {
       let black = [];
       let blackSet = new Set();
       let packs = {};
-      let icons = require("./icons.json");
       for (let name in packMap) {
         let pack = packMap[name];
         packs[pack.id] = {
@@ -143,7 +142,6 @@ function saveCardsToJSON(auth) {
           white: [],
           black: [],
           official: pack.official,
-          icon: icons[name],
         };
       }
 
