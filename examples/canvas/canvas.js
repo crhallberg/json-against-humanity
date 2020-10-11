@@ -119,6 +119,7 @@ let deck;
 function loadDecks(_deck) {
   deck = _deck;
   let packs = deck.listPacks();
+  packs.forEach((p, i) => p.index = i);
   packs = packs.sort((a, b) => {
     if (a.abbr == "Base") {
       return -1;
@@ -136,11 +137,10 @@ function loadDecks(_deck) {
   });
 
   let html = "";
-  let index = 0;
   for (let pack of packs) {
     html += `<li class="deck" role="none">
-      <button class="deck-btn" data-pack="${index++}">
-        <span class="deck-icon">${pack.icon}</span> ${pack.name}
+      <button class="deck-btn" data-pack="${pack.index}">
+        ${pack.name}
       </button>
     </li>`;
   }
