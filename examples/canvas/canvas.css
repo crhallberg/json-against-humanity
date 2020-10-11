@@ -1,4 +1,4 @@
-@import "../web/vendor/inter/inter.css";
+@import "../../vendor/inter.css";
 
 html {
   font-size: 16px;
@@ -35,25 +35,27 @@ body {
   left: 0;
   bottom: 0;
   z-index: 10;
-  width: 20%;
+  box-sizing: border-box;
+  width: 100%;
   margin: 0;
-  padding: 1rem 2rem;
+  padding: 1rem;
   list-style: none;
-  background-color: rgba(255, 255, 255, 0.4);
   overflow-y: auto;
 }
 .deck-btn {
   display: block;
   width: 100%;
-  margin: 0.5rem;
+  margin: 0.5rem 0;
   padding: 0.5rem;
   border: 0;
   font: inherit;
+  line-height: 1.15;
   text-align: left;
   color: #000;
-  background-color: #fff;
-  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 1px 0 #fff;
   border-radius: 0.5rem;
+  cursor: pointer;
   appearance: none;
 }
 .deck-btn:hover,
@@ -63,6 +65,18 @@ body {
 .deck-btn:active {
   color: #fff;
   background-color: #000;
+}
+
+@media (min-width: 768px) {
+  #pack-list {
+    width: 20%;
+    min-width: 300px;
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .deck-btn {
+    background-color: #fff;
+  }
 }
 
 .deck-icon {

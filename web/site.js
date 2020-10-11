@@ -147,6 +147,16 @@ function deckCheckboxes(deck) {
   toggleBtn(allBtn, ".deck-btn", officialBtn);
   toggleBtn(officialBtn, ".deck-btn.is-official", allBtn);
 
+  let mobileDeckToggle = document.querySelector(".mobile-toggle");
+  mobileDeckToggle.addEventListener(
+    "click",
+    function toggleMobileMenu() {
+      mobileDeckToggle.classList.toggle("is-open");
+      decksEl.classList.toggle("not-sr-only");
+    },
+    false
+  );
+
   tallySelected();
 }
 
@@ -204,7 +214,10 @@ document.getElementById("download-compact").addEventListener(
       });
       delete metadata[abbr].counts;
     }
-    download("cah-cards-compact.json", JSON.stringify({ white, black, metadata }));
+    download(
+      "cah-cards-compact.json",
+      JSON.stringify({ white, black, metadata })
+    );
   },
   false
 );

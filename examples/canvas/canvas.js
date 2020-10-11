@@ -151,7 +151,7 @@ function loadDecks(_deck) {
   loop();
 }
 
-CAHDeck.fromCompact("../cah-all-compact.json").then(loadDecks);
+CAHDeck.fromCompact("https://raw.githubusercontent.com/crhallberg/json-against-humanity/v2/cah-all-compact.json").then(loadDecks);
 
 let a, c;
 function initCanvas() {
