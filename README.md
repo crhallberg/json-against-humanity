@@ -77,4 +77,4 @@ This project meets the share-alike standard with an updated Creative Commons lic
 
 ## Fine Print
 
-Cards are sourced from [this spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&usp=sharing#gid=55) I found through [Board Game Geek](https://boardgamegeek.com/) and formatted automatically. Additional decks come from coders like you.
+The primary source is this Google Sheet I found through Board Game Geek. Previous sources included Hangouts Against Humanity, Pretend You're Xyzzy, and contributions from viewers like you.
