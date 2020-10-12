@@ -77,4 +77,11 @@ This project meets the share-alike standard with an updated Creative Commons lic
 
 ## Fine Print
 
-The primary source is this Google Sheet I found through Board Game Geek. Previous sources included Hangouts Against Humanity, Pretend You're Xyzzy, and contributions from viewers like you.
+The primary source is [this Google Sheet](https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc) I found through [Board Game Geek](https://boardgamegeek.com/). Previous sources included [Hangouts Against Humanity](https://github.com/samurailink3/hangouts-against-humanity), [Pretend You're Xyzzy](http://pyx-3.pretendyoure.xyz/zy/viewcards.jsp), and contributions from viewers like you.
+
+### Icons
+
+If you provide the argument `--icons=./icons/fa.json` with the path to an icons JSON file (see `icons` folder for examples), icons will be added to the deck information.
+
+ - In `compact.json`, `icon` will be added to each `pack` object at the end of the file.
+ - In `full.json` or the hydrated data, `icon` will be added to each card.
