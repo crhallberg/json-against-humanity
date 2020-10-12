@@ -1,0 +1,7 @@
+{
+    "abbr": "BF2019AI",
+    "name": "AI pack",
+    "icon": "robot",
+    "official": true,
+    "description": "30 cards actually written by a machine learning algorithm trained on our brainstorming documents."
+}
