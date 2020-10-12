@@ -53,9 +53,8 @@
             <dt>I'm just getting started and I have a lot of questions</dt>
             <dd>You can reach me on Twitter as <a href="https://twitter.com/crhallberg">@crhallberg</a>. I'd love to hear from you! My DMs are open if privacy is a concern.</dd>
 
-            <dt>I have the best feature idea! Can you add this?<br/>
-            I just came up with the best deck in the whole wide world will you include it here?</dt>
-            <dd>Sure! <a href="https://github.com/crhallberg/json-against-humanity/blob/master/CONTRIBUTING.md">Open a pull request</a> or <a href="https://twitter.com/crhallberg">tweet at me</a>.</dd>
+            <dt>I have the best feature idea! Can you add this?</dt>
+            <dd>Sure! <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/CONTRIBUTING.md">Open a pull request</a> or <a href="https://twitter.com/crhallberg">tweet at me</a>.</dd>
 
             <dt>I want to give you money.</dt>
             <dd>Very nice of you, but you legally can't. More on that later. You should instead donate to <a href="https://secure.actblue.com/donate/bail_funds_george_floyd">local community bail funds</a>, the <a href="https://www.naacpldf.org/">NAACP Legal Defense Fund</a>, and <a href="https://www.raceforward.org/">Race Forward</a>.</dd>
@@ -63,7 +62,7 @@
 
           <h2>File formats</h2>
 
-          <h3>compact.json</h3>
+          <h3>cah-all-compact.json</h3>
 
           <pre><code>{
   "white": ["Answer cards in plain text, formatted with **Markdown**"],
@@ -76,25 +75,22 @@
       "name": "The Base Set",
       "description": "Sweet dirty vanilla",
       "official": true,
-      "icon": "fa-a-font-awesome-icon or number",
       "white": [0, 1, 2, "indexes for every white card in this pack"],
       "black": [0, 1, 2, "indexes for every black card in this pack"]
     }
   }
 }</code></pre>
 
-          <h3>full.json (hydrated)</h3>
+          <h3>full.json (download or hydrated with <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/CAHDeck.js">CAHDeck.js</a>)</h3>
 
           <pre><code>{
-  "base": {
+  "${abbr/key}": {
     "name": "The Base Set",
     "description": "Sweet dirty vanilla",
     "official": true,
-    "icon": "fa-base-set-example",
     "white": [
       {
         "text": "Answer cards in plain text, formatted with **Markdown**",
-        "icon": "fa-base-set-example",
         "pack": "base"
       }
     ],
@@ -102,13 +98,12 @@
       {
         "text": "_Prompt_ cards\nformatted with _.",
         "pick": 1,
-        "icon": "fa-base-set-example",
         "pack": "base"
       }
     ]
   },
-  "pack2": {},
-  "pack3": {}
+  "${abbr/key}": {},
+  "${abbr/key}": {}
 }</code></pre>
 
           <h3>Plaintext</h3>
@@ -124,12 +119,12 @@ Are **you** telling **me** that _these cards_ are styled with Markdown and _?</c
 
           <dl>
             <dt><a href="./examples/canvas">Canvas Deck Sampler</a></dt>
-            <dd>Demonstration of ingesting the <a href="https://github.com/crhallberg/json-against-humanity/blob/v2/compact.json">compact.json</a> file with the <a href="https://github.com/crhallberg/json-against-humanity/blob/v2/web/CAHDeck.js">basic Javascript library</a> and displaying cards on a canvas element.</dd>
+            <dd>Demonstration of ingesting the <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/cah-all-compact.json">cah-all-compact.json</a> file with the <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/CAHDeck.js">basic Javascript library</a> and displaying cards on a canvas element.</dd>
           </dl>
 
           <dl>
-            <dt><a href="https://github.com/crhallberg/json-against-humanity/tree/v2/web">This Very Webpage</a></dt>
-            <dd><a href="https://github.com/crhallberg/json-against-humanity/tree/4074b520036d3b284fd0d608cdf24e1659d17a12/web/site.js#L235-L240">Ingesting from compact.json</a>, listing decks, <a href="https://github.com/crhallberg/json-against-humanity/tree/4074b520036d3b284fd0d608cdf24e1659d17a12/web/site.js#L225">combining selected decks</a>, and <a href="https://github.com/crhallberg/json-against-humanity/tree/4074b520036d3b284fd0d608cdf24e1659d17a12/web/site.js#L222-L233">exporting files</a>.</dd>
+            <dt><a href="https://github.com/crhallberg/json-against-humanity/tree/latest/web">This Very Webpage</a></dt>
+            <dd><a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/site.js#L249-L253">Ingesting from compact.json</a>, listing decks, <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/site.js#L178-L182">combining selected decks</a>, and <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/site.js#L163-L174">exporting files</a>.</dd>
           </dl>
 
           <h2>Fine Print</h2>

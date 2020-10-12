@@ -66,14 +66,6 @@ button {
     width: 75%;
   }
 }
-@media (min-width: 992px) {
-  .sidebar {
-    width: 20%;
-  }
-  .readme {
-    width: 80%;
-  }
-}
 
 #bulk-controls {
   border-bottom: 1px solid var(--btn-hover);
@@ -109,7 +101,7 @@ button {
   display: block;
   width: 100%;
   margin: 0.25em 0;
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   padding-left: 2em;
   border: 0;
   font-size: inherit;
@@ -146,8 +138,9 @@ button {
 
 h1,
 h2,
-h3 {
-  margin: 2rem 0;
+h3,
+dt {
+  margin: 2rem 0 1rem;
   line-height: 1.15;
 }
 h1 {
@@ -246,13 +239,6 @@ pre {
   box-shadow: 0 0.25em 0 0 var(--black);
   cursor: pointer;
 }
-.checkout-btn:first-of-type {
-  border-radius: 0.5em 0 0 0.5em;
-}
-.checkout-btn:last-of-type {
-  border-right-width: 0.25em;
-  border-radius: 0 0.5em 0.5em 0;
-}
 .checkout-btn:hover,
 .checkout-btn:focus {
   margin-top: 0;
@@ -285,6 +271,13 @@ pre {
   .hidden-sm {
     display: none;
   }
+  .checkout-btn:first-of-type {
+    border-radius: 0.5em 0 0 0.5em;
+  }
+  .checkout-btn:last-of-type {
+    border-right-width: 0.25em;
+    border-radius: 0 0.5em 0.5em 0;
+  }
 }
 @media (min-width: 992px) {
   .flex-lg {
@@ -294,6 +287,7 @@ pre {
     flex: none;
     display: table;
     margin: 0.25em;
+    border-width: 0.25em;
     border-radius: 0.5em;
   }
   .hidden-lg {
