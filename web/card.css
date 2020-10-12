@@ -1,0 +1,41 @@
+.fa-1::before,
+.fa-2::before,
+.fa-3::before,
+.fa-4::before,
+.fa-5::before,
+.fa-6::before {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 900;
+}
+@supports (font-variation-settings: normal) {
+  .fa-1::before,
+  .fa-2::before,
+  .fa-3::before,
+  .fa-4::before,
+  .fa-5::before,
+  .fa-6::before {
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Roboto,
+      "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+}
+.fa-1::before {
+  content: "1";
+}
+.fa-2::before {
+  content: "2";
+}
+.fa-3::before {
+  content: "3";
+}
+.fa-4::before {
+  content: "4";
+}
+.fa-5::before {
+  content: "5";
+}
+.fa-6::before {
+  content: "6";
+}

@@ -1,0 +1,27 @@
+@import "/css/tailwind-vars.css";
+@import "/css/inter/inter.css";
+
+/**
+ * Sources
+ * Letter spacing: https://rsms.me/inter/dynmetrics/
+ * Variable font settings: https://thetrevorharmon.com/blog/how-to-prepare-and-use-variable-fonts-on-the-web
+ */
+body {
+  font-family: "Inter", var(--family-sans);
+  letter-spacing: -0.017em; /*  */
+}
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "Inter var", var(--family-sans);
+  }
+}
+@supports (font-variation-settings: "slnt" -10) {
+  body {
+    font-family: "Inter var experimental", var(--family-sans);
+  }
+  em,
+  i {
+    font-variation-settings: "slnt" -10;
+    font-style: oblique 10deg;
+  }
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>JSON Against Humanity</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./card.css" />
+    <script src="./CAHDeck.js"></script>
+  </head>
+  <body>
+    <div class="container wrapper">
+      <div class="flex-lg">
+        <div class="sidebar">
+          <nav id="bulk-controls" aria-label="Bulk Deck Controls">
+            <ul class="deck-list">
+              <li class="deck">
+                <button id="select-all" class="deck-btn">
+                  <i class="deck-icon far fa-fw fa-square"></i> Select All
+                </button>
+                <button id="select-official"  class="deck-btn is-checked">
+                  <i class="deck-icon far fa-fw fa-square"></i> Select Official
+                </button>
+              </li>
+            </ul>
+            <button class="mobile-toggle hidden-lg" aria-hidden="true">
+              Show All Decks <span class="toggle-icon"></span>
+            </button>
+          </nav>
+          <nav class="sr-only-sm" id="deck-list" aria-label="Individual Deck Selections"></nav>
+        </div>
+        <main class="readme">
+          <h1>JSON Against Humanity</h1>
+
+          <p>Finally, Cards Against Humanity&reg; as plain text and JSON.</p>
+
+          <h2>FAQ</h2>
+
+          <dl>
+            <dt>How many cards are there?</dt>
+            <dd id="card-counts"><i>Let me think about it for a second...</i></dd>
+
+            <dt>Wha&mdash; where the heck did you find all those cards??</dt>
+            <dd>The primary source is <a href="https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&amp;usp=sharing#gid=55">this Google Sheet</a> I found through <a href="https://boardgamegeek.com/">Board Game Geek</a>. Previous sources included <a href="https://github.com/samurailink3/hangouts-against-humanity">Hangouts Against Humanity</a>, <a href="http://pyx-3.pretendyoure.xyz/zy/viewcards.jsp">Pretend You're Xyzzy</a>, and contributions from viewers like you.</dd>
+
+            <dt>What font is CAH?</dt>
+            <dd>Cards Against Humanity&reg; cards are in <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">Helvetica® Neue</a>. It's not free. I use <a href="https://rsms.me/inter/">Inter&nbsp;Medium</a>. You're looking at it now.</dd>
+
+            <dt>Who are you?</dt>
+            <dd><a href="https://crhallberg.com">Chris Hallberg</a>.</dd>
+
+            <dt>I'm just getting started and I have a lot of questions</dt>
+            <dd>You can reach me on Twitter as <a href="https://twitter.com/crhallberg">@crhallberg</a>. I'd love to hear from you! My DMs are open if privacy is a concern.</dd>
+
+            <dt>I have the best feature idea! Can you add this?<br/>
+            I just came up with the best deck in the whole wide world will you include it here?</dt>
+            <dd>Sure! <a href="https://github.com/crhallberg/json-against-humanity/blob/master/CONTRIBUTING.md">Open a pull request</a> or <a href="https://twitter.com/crhallberg">tweet at me</a>.</dd>
+
+            <dt>I want to give you money.</dt>
+            <dd>Very nice of you, but you legally can't. More on that later. You should instead donate to <a href="https://secure.actblue.com/donate/bail_funds_george_floyd">local community bail funds</a>, the <a href="https://www.naacpldf.org/">NAACP Legal Defense Fund</a>, and <a href="https://www.raceforward.org/">Race Forward</a>.</dd>
+          </dl>
+
+          <h2>File formats</h2>
+
+          <h3>compact.json</h3>
+
+          <pre><code>{
+  "white": ["Answer cards in plain text, formatted with **Markdown**"],
+  "black": [
+    { "text": "_Prompt_ cards\nformatted with _.", "pick": 1 },
+    { "text": "I want a _ **and** _ sandwich! No corners!", "pick": 2 }
+  ],
+  "packs": {
+    "abbreviation": {
+      "name": "The Base Set",
+      "description": "Sweet dirty vanilla",
+      "official": true,
+      "icon": "fa-a-font-awesome-icon or number",
+      "white": [0, 1, 2, "indexes for every white card in this pack"],
+      "black": [0, 1, 2, "indexes for every black card in this pack"]
+    }
+  }
+}</code></pre>
+
+          <h3>full.json (hydrated)</h3>
+
+          <pre><code>{
+  "base": {
+    "name": "The Base Set",
+    "description": "Sweet dirty vanilla",
+    "official": true,
+    "icon": "fa-base-set-example",
+    "white": [
+      {
+        "text": "Answer cards in plain text, formatted with **Markdown**",
+        "icon": "fa-base-set-example",
+        "pack": "base"
+      }
+    ],
+    "black": [
+      {
+        "text": "_Prompt_ cards\nformatted with _.",
+        "pick": 1,
+        "icon": "fa-base-set-example",
+        "pack": "base"
+      }
+    ]
+  },
+  "pack2": {},
+  "pack3": {}
+}</code></pre>
+
+          <h3>Plaintext</h3>
+          <pre><code>White, answer cards.
+Putting a new card on each line.
+Adding a divider after the white cards.
+----------
+I love it when my _ are in plaintext.
+How are these cards styled?
+Are **you** telling **me** that _these cards_ are styled with Markdown and _?</code></pre>
+
+          <h2>Examples</h2>
+
+          <dl>
+            <dt><a href="./examples/canvas">Canvas Deck Sampler</a></dt>
+            <dd>Demonstration of ingesting the <a href="https://github.com/crhallberg/json-against-humanity/blob/v2/compact.json">compact.json</a> file with the <a href="https://github.com/crhallberg/json-against-humanity/blob/v2/web/CAHDeck.js">basic Javascript library</a> and displaying cards on a canvas element.</dd>
+          </dl>
+
+          <dl>
+            <dt><a href="https://github.com/crhallberg/json-against-humanity/tree/v2/web">This Very Webpage</a></dt>
+            <dd><a href="https://github.com/crhallberg/json-against-humanity/tree/4074b520036d3b284fd0d608cdf24e1659d17a12/web/site.js#L235-L240">Ingesting from compact.json</a>, listing decks, <a href="https://github.com/crhallberg/json-against-humanity/tree/4074b520036d3b284fd0d608cdf24e1659d17a12/web/site.js#L225">combining selected decks</a>, and <a href="https://github.com/crhallberg/json-against-humanity/tree/4074b520036d3b284fd0d608cdf24e1659d17a12/web/site.js#L222-L233">exporting files</a>.</dd>
+          </dl>
+
+          <h2>Fine Print</h2>
+
+          <dl>
+            <dt>Is this legal?</dt>
+            <dd>
+              <p>Yes. Cards Against Humanity&reg; is distributed under a <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0 license</a>.</p>
+
+              <p>I think their website puts it best:</p>
+
+              <blockquote><p>Cards Against Humanity&reg; is available under a BY-NC-SA 2.0 Creative Commons license. That means you can use our content to make whatever, but you have to give us credit, you can’t profit from the use of our content (this means ad revenue is not allowed), and you have to share whatever you make in the same way we share it (this means you can’t submit our content to any app store). We own the name "Cards Against Humanity&reg;," so you have to call your crappy thing something else.</p></blockquote>
+
+              <p>This project meets the Share-Alike requirement with an updated Creative Commons (CC) license, the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC&nbsp;BY-NC-SA&nbsp;4.0&nbsp;license</a>, as recommended by CC and allowed by CC's <a href="https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses">similar license clause</a>. If you have questions or paperwork that says otherwise, email me, we can work this out.</p>
+            </dd>
+          </dl>
+        </main>
+      </div>
+    </div>
+
+    <nav class="checkout" aria-label="Download Toolbar">
+      <a class="hidden" id="download-link" href="">$</a>
+      <div class="container flex">
+        <p class="flex-1 sm:text-center">You are set to download <span id="checkout-count">a bunch of cards</span>.</p>
+        <span class="flex-break hidden-lg"></span>
+        <button class="checkout-btn" id="download-compact">Download compact.json</button>
+        <button class="checkout-btn" id="download-full">Download full.json</button>
+        <button class="checkout-btn" id="download-text">Download plaintext</button>
+      </div>
+    </nav>
+
+    <!--
+      GitHub Corner
+      https://github.com/tholman/github-corners
+    -->
+    <a href="https://github.com/crhallberg/json-against-humanity" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+    <script src="./site.js"></script>
+  </body>
+</html>

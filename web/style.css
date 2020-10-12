@@ -1,0 +1,386 @@
+@import "./vendor/inter.css";
+@import "./vendor/font-awesome/css/all.min.css";
+
+:root {
+  --white: #fff;
+  --gray-bg: #f5f5f5;
+  --btn-hover: #bdbdbd;
+  --text-gray: #424242;
+  --black: #212121;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --white: #212121;
+    --gray-bg: #000;
+    --btn-hover: #424242;
+    --text-gray: #bdbdbd;
+    --black: #fff;
+  }
+}
+
+html {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--black);
+  background-color: var(--gray-bg);
+}
+
+input,
+button {
+  font: inherit;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.wrapper {
+  margin-bottom: 5rem;
+  padding: 0.25rem 0;
+  background-color: var(--white);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+}
+.readme {
+  padding: 1rem;
+  padding-bottom: 0;
+}
+@media (min-width: 992px) {
+  .sidebar {
+    width: 25%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  .readme {
+    width: 75%;
+  }
+}
+@media (min-width: 992px) {
+  .sidebar {
+    width: 20%;
+  }
+  .readme {
+    width: 80%;
+  }
+}
+
+#bulk-controls {
+  border-bottom: 1px solid var(--btn-hover);
+}
+
+.mobile-toggle {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0.25em 1em;
+  border: 0;
+  border-top: 1px solid var(--btn-hover);
+  background-color: #fff;
+}
+.toggle-icon::before {
+  font-weight: bold;
+  content: "↓";
+}
+.is-open .toggle-icon::before {
+  content: "↑";
+}
+
+.deck-list {
+  margin: 0;
+  padding: 0.5rem 0;
+  font-size: 16px;
+  list-style: none;
+}
+.deck {
+  line-height: 1.15;
+}
+.deck-btn {
+  display: block;
+  width: 100%;
+  margin: 0.25em 0;
+  padding: 0.5rem 0;
+  padding-left: 2em;
+  border: 0;
+  font-size: inherit;
+  text-align: left;
+  text-indent: -1.5em;
+  color: var(--black);
+  background-color: transparent;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+.deck-btn:hover {
+  background-color: var(--btn-hover);
+}
+@media (min-width: 992px) {
+  .deck-btn {
+    border-radius: 0 0.25em 0.25em 0;
+  }
+}
+.deck-icon {
+  text-indent: -0.25em;
+}
+.deck-btn.is-checked {
+  color: var(--white);
+  background-color: var(--black);
+}
+.deck-btn.is-checked .deck-icon::before {
+  font-family: inherit;
+  font-weight: 900;
+  content: "\f00c";
+}
+
+h1,
+h2,
+h3 {
+  margin: 2rem 0;
+  line-height: 1.15;
+}
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3,
+dt {
+  font-size: 1.25rem;
+}
+
+a {
+  color: var(--black);
+}
+p {
+  margin: 1rem 0;
+}
+
+blockquote {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  padding: 1px 1.5rem;
+  font-size: 0.875rem;
+  font-style: italic;
+  color: var(--text-gray);
+  background-color: var(--gray-bg);
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+}
+@media (min-width: 992px) {
+  blockquote {
+    margin-right: -1rem;
+    padding: 0.5rem 2rem;
+  }
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+pre {
+  padding: 1em 1rem;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: var(--text-gray);
+  overflow-x: auto;
+  background-color: var(--gray-bg);
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+}
+
+.plea {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.checkout {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-top: 1px solid var(--black);
+  background-color: var(--white);
+}
+@media (min-width: 1140px) {
+  .checkout {
+    font-size: 1rem;
+  }
+}
+.checkout-btn {
+  display: block;
+  flex: 1 1 0%;
+  height: 3rem;
+  margin-bottom: 0.375em;
+  color: var(--black);
+  padding: 0 1em;
+  border: 0.25em solid var(--black);
+  border-right-width: 0;
+  font-size: 0.875em;
+  font-weight: bold;
+  line-height: 1.15;
+  background-color: var(--white);
+  border-radius: 0;
+  box-shadow: 0 0.25em 0 0 var(--black);
+  cursor: pointer;
+}
+.checkout-btn:first-of-type {
+  border-radius: 0.5em 0 0 0.5em;
+}
+.checkout-btn:last-of-type {
+  border-right-width: 0.25em;
+  border-radius: 0 0.5em 0.5em 0;
+}
+.checkout-btn:hover,
+.checkout-btn:focus {
+  margin-top: 0;
+  box-shadow: 0 0.5em 0 0 var(--black);
+}
+.checkout-btn:focus {
+  outline: none;
+  color: var(--white);
+  background-color: var(--black);
+}
+.checkout-btn:active {
+  margin-top: 0.5em;
+  margin-bottom: 0.125em;
+  box-shadow: none;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-break {
+  flex-basis: 100%;
+  height: 0;
+  content: "";
+}
+@media (max-width: 991px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .flex-lg {
+    display: flex;
+  }
+  .checkout-btn {
+    flex: none;
+    display: table;
+    margin: 0.25em;
+    border-radius: 0.5em;
+  }
+  .hidden-lg {
+    display: none;
+  }
+}
+.sm\:text-center {
+  text-align: center;
+}
+
+/**
+ * GITHUB CORNER
+ * https://github.com/tholman/github-corners
+ */
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+/* Screen-reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  /* prevent contrast warnings */
+  color: #000;
+  background-color: #fff;
+}
+
+@media (max-width: 991px) {
+  .sr-only-sm {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    /* prevent contrast warnings */
+    color: #000;
+    background-color: #fff;
+  }
+  .sr-only-sm:focus,
+  .sr-only-sm:focus-within {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+  }
+}
+
+.sr-only:focus,
+.sr-only:focus-within,
+.not-sr-only {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+}
