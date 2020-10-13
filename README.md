@@ -71,10 +71,10 @@ Finally, [Cards Against Humanity](https://cardsagainsthumanity.com/) as plain te
 
 **Is this legal?** Yes. Cards Against Humanity is distributed under a [Creative Commons BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/). think their website puts it best:
 
-> We give you permission to use the Cards Against Humanity writing under a limited Creative Commons BY-NC-SA 4.0 license. That means you can use our writing if (and only if) you do all of these things: 
-  1. Make your work available totally for free.
-  2. Share your work with others under the same Creative Commons license that we use.
-  3. Give us credit in your project.
+> We give you permission to use the Cards Against Humanity writing under a limited Creative Commons BY-NC-SA 4.0 license. That means you can use our writing if (and only if) you do all of these things:
+>1. Make your work available totally for free.
+>2. Share your work with others under the same Creative Commons license that we use.
+>3. Give us credit in your project.
 
 This project meets the share-alike standard with an updated Creative Commons license, the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/), as recommended by CC. If you have questions or paperwork that says otherwise, email me, we can work this out.
 
