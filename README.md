@@ -76,7 +76,7 @@ Finally, [Cards Against Humanity](https://cardsagainsthumanity.com/) as plain te
 >2. Share your work with others under the same Creative Commons license that we use.
 >3. Give us credit in your project.
 
-This project meets the share-alike standard with an updated Creative Commons license, the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/), as recommended by CC. If you have questions or paperwork that says otherwise, email me, we can work this out.
+If you have questions or paperwork that says otherwise, contact me, we can work this out.
 
 ## Fine Print
 
