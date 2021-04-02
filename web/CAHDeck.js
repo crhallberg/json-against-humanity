@@ -52,8 +52,10 @@ class CAHDeck {
 
   listPacks() {
     let packs = [];
+    let id = 0;
     for (let { name, official, description, icon, white, black } of this.deck) {
       let pack = {
+        id,
         name,
         official,
         description,
@@ -67,6 +69,7 @@ class CAHDeck {
         pack.icon = icon;
       }
       packs.push(pack);
+      id += 1;
     }
     return packs;
   }

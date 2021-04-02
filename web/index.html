@@ -83,27 +83,27 @@
 
           <h3>full.json (download or hydrated with <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/CAHDeck.js">CAHDeck.js</a>)</h3>
 
-          <pre><code>{
-  "${abbr/key}": {
+          <pre><code>[]
+  {
     "name": "The Base Set",
     "description": "Sweet dirty vanilla",
     "official": true,
     "white": [
       {
         "text": "Answer cards in plain text, formatted with **Markdown**",
-        "pack": "base"
+        "pack": 0
       }
     ],
     "black": [
       {
         "text": "_Prompt_ cards\nformatted with _.",
         "pick": 1,
-        "pack": "base"
+        "pack": 0
       }
     ]
   },
-  "${abbr/key}": {},
-  "${abbr/key}": {}
+  { "white": [ { "pack": 1 }, ... ], ... },
+  { "white": [ { "pack": 2 }, ... ], ... }
 }</code></pre>
 
           <h3>Plaintext</h3>
@@ -136,7 +136,7 @@ Are **you** telling **me** that _these cards_ are styled with Markdown and _?</c
 
               <p>I think their website puts it best:</p>
 
-              <blockquote><p>We give you permission to use the Cards Against Humanity&reg; writing under a limited Creative Commons BY-NC-SA 4.0 license. That means you can use our writing if (and only if) you do all of these things: 
+              <blockquote><p>We give you permission to use the Cards Against Humanity&reg; writing under a limited Creative Commons BY-NC-SA 4.0 license. That means you can use our writing if (and only if) you do all of these things:
                 <ul>1. Make your work available totally for free.</ul>
                 <ul>2. Share your work with others under the same Creative Commons license that we use.</ul>
                 <ul>3. Give us credit in your project.</ul>

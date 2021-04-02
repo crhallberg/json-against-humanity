@@ -109,11 +109,11 @@ function deckCheckboxes(deck) {
     html += `<li class="deck">
       <button class="deck-btn${
         pack.official ? " is-official is-checked" : ""
-      }" data-pack="${PACKLIST.length}"><i class="deck-icon fa fa-fw fa-${
+      }" data-pack="${pack.id}"><i class="deck-icon fa fa-fw fa-${
       pack.icon
     }"></i> ${pack.name}</button>
     </li>`;
-    PACKLIST.push(pack);
+    PACKLIST[pack.id] = pack;
   }
 
   let decksEl = document.getElementById("deck-list");
@@ -224,9 +224,12 @@ document.getElementById("download-compact").addEventListener(
 document.getElementById("download-full").addEventListener(
   "click",
   function () {
-    let json = {};
-    for (let abbr of selectedDecks) {
-      json[abbr] = deck.getPack(abbr);
+    let json = [];
+    for (let id of selectedDecks) {
+      let pack = deck.getPack(id);
+      pack.white.forEach(card => card.pack = json.length);
+      pack.black.forEach(card => card.pack = json.length);
+      json.push(pack);
     }
     download("cah-cards-full.json", JSON.stringify(json));
   },
