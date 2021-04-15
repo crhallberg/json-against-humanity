@@ -61,7 +61,7 @@ Finally, [Cards Against Humanity](https://cardsagainsthumanity.com/) as plain te
 
 ## FAQ
 
-**How many cards are there?** [Check the website](https://crhallberg/cah).
+**How many cards are there?** [Check the website](https://crhallberg.com/cah).
 
 **What font is CAH?** Cards Against Humanity cards are in [Helvetica® Neue](https://www.myfonts.com/fonts/linotype/neue-helvetica/). It's not free. I use [Inter Medium](https://rsms.me/inter/).
 
