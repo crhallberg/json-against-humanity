@@ -1,30 +1,37 @@
-# Contributor Guide
+# Contributing to this project
 
-I will be vigilant of Pull Requests, that is my prefered method of contribution. I'm willing to help as well! Open an issue with any concerns as well.
+Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
-## Adding Decks
+Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue or assessing patches and features.
 
-Make a directory in [src/](../src) with these files:
- - **metadata.json** - With the name, abbreviation, [icon](http://fontawesome.io/icons/ "Font Awesome"), description, and whether or not the pack is official
- - **black.md.txt** - One per line, `\\n` instead of `\n`, don't escape underscores (for now)
- - **white.md.txt** - ^^^
+## Using the issue tracker
 
-Run `python compile.py` to create `compact.md.json` and `full.md.json`.
+The issue tracker is the preferred channel for bug reports, features requests and submitting pull requests, but please respect the following restrictions:
 
-## Contributing code
+ * Please do not use the issue tracker for personal support requests (use Stack Overflow or IRC).
 
-I am new to Python, this is a play project for me, so help me out!
+ * Please do not derail or troll issues. Keep the discussion on topic and respect the opinions of others.
 
-### Dependencies
+## Bug reports
 
- - **Python** - I'm using 2.7.
- - [**markdownify**](https://github.com/matthewwithanm/python-markdownify) - for HTML to MD conversion ([unroll.py](../dev/unroll.py))
+A bug is a demonstrable problem that is caused by the code in the repository. Good bug reports are extremely helpful - thank you!
 
-# TODO
-- [ ] Fix hyphens (for phrases like half-elf)
-- [ ] Fix blatant grammar mistakes
-- [ ] Create `.html.json` files
-- [ ] Create unittests
-  - [ ] Setup
-  - [ ] Test MD to HTML
-    - [ ] Once this test passes, remove HTML files from src/
+Guidelines for bug reports:
+
+ 1) Use the GitHub issue search — check if the issue has already been reported.
+
+ 2) Check if the issue has been fixed — try to reproduce it using the latest master or development branch in the repository.
+
+ 3) Isolate the problem — create a [reduced test case](https://css-tricks.com/reduced-test-cases/) and a live example.
+
+## Feature requests
+
+Feature requests are welcome. But take a moment to find out whether your idea fits with the scope and aims of the project. Please provide as much detail and context as possible.
+
+## Pull requests
+
+Good pull requests - patches, improvements, new features - are a fantastic help. They should remain focused in scope and avoid containing unrelated commits.
+
+Please ask first before embarking on any significant pull request (e.g. implementing features, refactoring code), otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project.
+
+Please adhere to the coding conventions used throughout a project (indentation, accurate comments, etc ) and any other requirements (such as test coverage).
