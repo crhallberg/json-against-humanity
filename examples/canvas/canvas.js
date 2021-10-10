@@ -75,7 +75,7 @@ Deck.fromFile(
 let cardSprites = [];
 function updateCard(card, dt) {
     if (card.atRest) {
-        return;
+        return false;
     }
     card.x += (dt * (card.tx - card.x)) / card.steps;
     card.y += (dt * (card.ty - card.y)) / card.steps;
@@ -84,6 +84,7 @@ function updateCard(card, dt) {
     if (Math.abs(card.tx - card.x) < 2) {
         card.atRest = true;
     }
+    return true;
 }
 
 const cardWidth = 200,
@@ -167,9 +168,11 @@ function initCanvas() {
     c.font = `500 ${fontSize}px Inter`;
 }
 function update(dt) {
+    let updated = false;
     for (let i = 0; i < cardSprites.length; i++) {
-        updateCard(cardSprites[i], dt);
+        updated |= updateCard(cardSprites[i], dt);
     }
+    return updated;
 }
 function render() {
     c.clearRect(0, 0, a.width, a.height);
@@ -198,8 +201,9 @@ function loop() {
         return;
     }
 
-    update(dt);
-    render();
+    if (update(dt)) {
+        render();
+    }
 }
 
 initCanvas();
