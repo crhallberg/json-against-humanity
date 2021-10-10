@@ -1,11 +1,14 @@
-@import "/css/tailwind-vars.css";
-@import "/css/inter/inter.css";
+@import "./inter/inter.css";
 
 /**
  * Sources
  * Letter spacing: https://rsms.me/inter/dynmetrics/
  * Variable font settings: https://thetrevorharmon.com/blog/how-to-prepare-and-use-variable-fonts-on-the-web
  */
+:root {
+  --family-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 body {
   font-family: "Inter", var(--family-sans);
   letter-spacing: -0.017em; /*  */
