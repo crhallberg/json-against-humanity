@@ -7,3 +7,5 @@ node_modules/
 
 # Dependency versions
 package-lock.json
+.pnpm-debug.log
+pnpm-lock.yaml
