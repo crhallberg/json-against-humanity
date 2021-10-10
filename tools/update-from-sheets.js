@@ -143,27 +143,32 @@ function saveCardsToJSON(auth) {
 
             let white = [];
             let black = [];
-            let blackSet = new Set();
-            let whiteSet = new Set();
+            let blackIndexes = [];
+            let whiteIndexes = [];
             for (let card of cards) {
                 if (!card[1]) {
                     continue;
                 }
+                const textLower = card[1].toLowerCase();
                 if (card.length > 2) {
-                    if (!blackSet.has(card[1])) {
-                        packs[card[0]].black.push(black.length);
+                    let index = blackIndexes.indexOf(textLower);
+                    if (index === -1) {
                         black.push({
                             text: card[1],
                             pick: card[2],
                         });
-                        blackSet.add(card[1]);
+                        index = blackIndexes.length;
+                        blackIndexes.push(textLower);
                     }
+                    packs[card[0]].black.push(index);
                 } else {
-                    if (!whiteSet.has(card[1])) {
-                        packs[card[0]].white.push(white.length);
+                    let index = whiteIndexes.indexOf(textLower);
+                    if (index === -1) {
                         white.push(card[1].trim());
-                        whiteSet.add(card[1]);
+                        index = blackIndexes.length;
+                        whiteIndexes.push(textLower);
                     }
+                    packs[card[0]].white.push(index);
                 }
             }
 
