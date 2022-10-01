@@ -1,14 +1,16 @@
 {
   "scripts": {
-    "format": "prettier --check --write web/*.js examples/**/*.js examples/**/*.css",
-    "test": "echo 'Open web/mocha.html in a browser.'"
+    "format": "prettier --check --write web/*.js examples/canvas/*.js examples/canvas/*.css",
+    "test": "echo 'Open web/mocha.html in a browser.'",
+    "update-cards": "cd tools/ && node update-from-sheets.mjs"
   },
   "devDependencies": {
-    "chai": "^4.3.4",
+    "@google-cloud/local-auth": "^2.1.1",
+    "chai": "^4.3.6",
     "clean-text-utils": "^1.1.17",
-    "googleapis": "^45.0.0",
-    "mocha": "^9.1.2",
-    "nanoid": "^3.1.5",
-    "prettier": "^2.4.1"
+    "googleapis": "^108.0.0",
+    "mocha": "^10.0.0",
+    "nanoid": "^4.0.0",
+    "prettier": "^2.7.1"
   }
 }

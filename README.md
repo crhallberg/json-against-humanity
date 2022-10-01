@@ -115,4 +115,8 @@ base.black[0] // { text: "What's that sound?", pick: 1, packID: 0, icon: "seagul
 
 ## Fine Print
 
-The primary source is [this Google Sheet](https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&usp=sharing#gid=55) I found through [Board Game Geek](https://boardgamegeek.com/). Previous sources included [Hangouts Against Humanity](https://github.com/samurailink3/hangouts-against-humanity), [Pretend You're Xyzzy](http://pyx-3.pretendyoure.xyz/zy/viewcards.jsp), and contributions from viewers like you.
+The primary source is [this Google Sheet](https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc) I found through [Board Game Geek](https://boardgamegeek.com/). Previous sources included [Hangouts Against Humanity](https://github.com/samurailink3/hangouts-against-humanity), [Pretend You're Xyzzy](http://pyx-3.pretendyoure.xyz/zy/viewcards.jsp), and contributions from viewers like you.
+
+## Tools
+
+This project includes a script that automatically updates the compact JSON file from the [source Google Sheet](https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc). In order to run `tools/update-from-sheets.mjs`, you need to put a credentials JSON file in the `tools/` folder. You can get a credentials file by following the [Google Sheets API Quickstart guide](https://developers.google.com/sheets/api/quickstart/nodejs#set_up_your_environment). After that, you can use `npm run update-cards`.
