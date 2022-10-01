@@ -1,7 +1,11 @@
 {
+  "scripts": {
+    "update-cards": "cd tools/ && node update-from-sheets.mjs"
+  },
   "devDependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
     "clean-text-utils": "^1.1.17",
-    "googleapis": "^45.0.0",
-    "nanoid": "^3.1.5"
+    "googleapis": "^108.0.0",
+    "nanoid": "^4.0.0"
   }
 }
