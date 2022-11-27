@@ -1,95 +1,173 @@
-class CAHDeck {
-  _hydrateCompact(json) {
-    let packs = [];
-    for (let pack of json.packs) {
-      pack.white = pack.white.map((index) =>
-        Object.assign(
-          {},
-          { text: json.white[index] },
-          { pack: packs.length },
-          pack.icon ? { icon: pack.icon } : {}
-        )
-      );
-      pack.black = pack.black.map((index) =>
-        Object.assign(
-          {},
-          json.black[index],
-          { pack: packs.length },
-          pack.icon ? { icon: pack.icon } : {}
-        )
-      );
-      packs.push(pack);
+class Pack {
+    constructor(deck, pack, index) {
+        this.deck = deck;
+
+        this.hydrated = {
+            black: false,
+            white: false,
+        };
+
+        this.name = pack.name;
+        this.official = pack.official;
+        this._black = pack.black;
+        this._white = pack.white;
+
+        this.id = pack.id ?? index;
+        this.icon = pack.icon ?? null;
     }
-    return packs;
-  }
 
-  async _loadDeck() {
-    if (typeof this.compactSrc != "undefined") {
-      let json = await fetch(this.compactSrc).then((data) => data.json());
-      this.deck = this._hydrateCompact(json);
-    } else if (typeof this.fullSrc != "undefined") {
-      this.deck = await fetch(this.fullSrc).then((data) => data.json());
-    } else {
-      throw Error(
-        "No source specified, please use CAHDeck.fromCompact(src) or CAHDeck.fromFull(src) to make your objects."
-      );
+    setIcon(icon) {
+        this.icon = icon;
+
+        if (this.hydrated.black) {
+            this._black.forEach((card) => {
+                card.icon = icon;
+            });
+        }
+
+        if (this.hydrated.white) {
+            this._white.forEach((card) => {
+                card.icon = icon;
+            });
+        }
     }
-  }
 
-  static async fromCompact(compactSrc) {
-    let n = new CAHDeck();
-    n.compactSrc = compactSrc;
-    await n._loadDeck();
-    return n;
-  }
-
-  static async fromFull(fullSrc) {
-    let n = new CAHDeck();
-    n.fullSrc = fullSrc;
-    await n._loadDeck();
-    return n;
-  }
-
-  listPacks() {
-    let packs = [];
-    let id = 0;
-    for (let { name, official, description, icon, white, black } of this.deck) {
-      let pack = {
-        id,
-        name,
-        official,
-        description,
-        counts: {
-          white: white.length,
-          black: black.length,
-          total: white.length + black.length,
-        },
-      };
-      if (icon) {
-        pack.icon = icon;
-      }
-      packs.push(pack);
-      id += 1;
+    summary() {
+        return {
+            id: this.id,
+            icon: this.icon,
+            name: this.name,
+            official: this.official,
+            counts: this.counts(),
+        };
     }
-    return packs;
-  }
 
-  getPack(index) {
-    return this.deck[index];
-  }
+    get black() {
+        if (!this.hydrated.black) {
+            this.hydrated.black = true;
+            const json = this.deck.json;
+            let blackSet = new Set();
+            this._black = this._black
+                .map((index) => {
+                    const text = this.deck.json.black[index].text;
+                    if (blackSet.has(text)) {
+                        return null;
+                    }
+                    blackSet.add(text);
+                    return Object.assign(
+                        { ...this.deck.json.black[index] },
+                        { packID: this.id ?? this.name },
+                        this.icon ? { icon: this.icon } : {}
+                    );
+                })
+                .filter((card) => card !== null);
+        }
+        return this._black;
+    }
 
-  getPacks(indexes) {
-    if (typeof indexes == "undefined") {
-      indexes = Object.keys(this.deck);
+    get white() {
+        if (!this.hydrated.white) {
+            this.hydrated.white = true;
+            let whiteSet = new Set();
+            this._white = this._white
+                .map((index) => {
+                    const text = this.deck.json.white[index];
+                    if (whiteSet.has(text)) {
+                        return null;
+                    }
+                    whiteSet.add(text);
+                    return Object.assign(
+                        { text },
+                        { packID: this.id ?? this.name },
+                        this.icon ? { icon: this.icon } : {}
+                    );
+                })
+                .filter((card) => card !== null);
+        }
+        return this._white;
     }
-    let white = [];
-    let black = [];
-    for (let pack of indexes) {
-      if (typeof this.deck[pack] != "undefined") {
-        white.push(...this.deck[pack].white);
-        black.push(...this.deck[pack].black);
-      }
+
+    /**
+     * get counts of black and white decks
+     *
+     * @return {Record<string, number>}
+     */
+    counts() {
+        return {
+            black: this._black.length,
+            white: this._white.length,
+        };
     }
-    return { white, black };
-  }
+}
+
+class Deck {
+    loadPromise = null;
+    json = null;
+
+    constructor(filePath) {
+        this.loadPromise = (async () => {
+            const json = await fetch(filePath).then((data) => data.json());
+
+            this.json = json;
+
+            this.packs = json.packs.map((pack, index) => {
+                return new Pack(this, pack, index);
+            });
+
+            return this;
+        })();
+    }
+
+    get loaded() {
+        return this.loadPromise.then((instance) => {
+            return this;
+        });
+    }
+
+    static async fromFile(filePath) {
+        return await new Deck(filePath).loaded;
+    }
+
+    listPacks() {
+        if (!this.json) {
+            throw Error("Wait for Deck.loaded Promise to resolve");
+        }
+        return this.packs.map((pack) => pack.summary());
+    }
+
+    getPackById(id) {
+        if (!this.json) {
+            throw Error("Wait for Deck.loaded Promise to resolve");
+        }
+
+        for (let i = 0; i < this.packs.length; i++) {
+            if (this.packs[i].id === id) {
+                return this.packs[i];
+            }
+        }
+
+        if (typeof id == "string") {
+            const num = parseInt(id);
+            if (!isNaN(num)) {
+                return this.getPackById(num);
+            }
+        }
+        return null;
+    }
+
+    getPackByName(name) {
+        if (!this.json) {
+            throw Error("Wait for Deck.loaded Promise to resolve");
+        }
+        for (let i = 0; i < this.packs.length; i++) {
+            if (this.packs[i].name === name) {
+                return this.packs[i];
+            }
+        }
+        return null;
+    }
+}
+
+if (typeof module !== "undefined") {
+    module.exports = { Pack, Deck };
 }
