@@ -1,177 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JSON Against Humanity</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="color-scheme" content="light dark">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moved: JSON Against Humanity</title>
 
-    <link rel="stylesheet" href="./style.css">
+  <style>
+    @import "/lib/css/fonts/family-inter.css";
 
-    <script src="./CAHDeck.js"></script>
-
-    <link rel="icon" href="data:;">
-  </head>
-  <body>
-    <div class="container wrapper">
-      <div class="flex-lg">
-        <div class="sidebar">
-          <nav id="bulk-controls" aria-label="Bulk Deck Controls">
-            <ul class="deck-list">
-              <li class="deck">
-                <button id="select-all" class="deck-btn">
-                  <i class="deck-icon far fa-fw fa-square"></i> Select All
-                </button>
-                <button id="select-official"  class="deck-btn is-checked">
-                  <i class="deck-icon far fa-fw fa-square"></i> Select Official
-                </button>
-              </li>
-            </ul>
-            <button class="mobile-toggle hidden-lg" aria-hidden="true">
-              Show All Decks <span class="toggle-icon"></span>
-            </button>
-          </nav>
-          <nav class="visually-hidden-sm" id="deck-list" aria-label="Individual Deck Selections"></nav>
-        </div>
-        <main class="readme">
-          <h1>JSON Against Humanity</h1>
-
-          <p>
-            Finally, Cards Against Humanity&reg; as plain text and JSON.
-            <a href="https://github.com/crhallberg/json-against-humanity">Enjoy fresh on GitHub</a>.
-          </p>
-
-          <h2>FAQ</h2>
-
-          <dl>
-            <dt>How many cards are there?</dt>
-            <dd id="card-counts"><i>Let me think about it for a second...</i></dd>
-
-            <dt>Wha&mdash; where the heck did you find all those cards??</dt>
-            <dd>The primary source is <a href="https://docs.google.com/spreadsheet/ccc?key=0Ajv9fdKngBJ_dHFvZjBzZDBjTE16T3JwNC0tRlp6Wnc&amp;usp=sharing#gid=55">this Google Sheet</a> I found through <a href="https://boardgamegeek.com/">Board Game Geek</a>. Previous sources included <a href="https://github.com/samurailink3/hangouts-against-humanity">Hangouts Against Humanity</a>, <a href="http://pyx-3.pretendyoure.xyz/zy/viewcards.jsp">Pretend You're Xyzzy</a>, and contributions from viewers like you.</dd>
-
-            <dt>What font is CAH?</dt>
-            <dd>Cards Against Humanity&reg; cards are printed in <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">Helvetica® Neue</a>. It's not free. I use <a href="https://rsms.me/inter/">Inter&nbsp;Medium</a>. You're looking at it now.</dd>
-
-            <dt>Who are you?</dt>
-            <dd><a href="https://crhallberg.com">Chris Hallberg</a>.</dd>
-
-            <dt>I'm just getting started and I have a lot of questions</dt>
-            <dd>You can reach me by <a href="https://github.com/crhallberg/json-against-humanity/issues">opening an Issue on GitHub</a> or by email at &#99;&#104;&#114;&#105;&#115;&#46;&#104;&#97;&#108;&#108;&#98;&#101;&#114;&#103;&#64;&#104;&#101;&#121;&#46;&#99;&#111;&#109;. I'd love to hear from you!</dd>
-
-            <dt>I have the best feature idea! Can you add this?</dt>
-            <dd>Sure! <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/CONTRIBUTING.md">Open a pull request</a>.</dd>
-
-            <dt>I want to give you money.</dt>
-            <dd>That's very nice of you but you legally can't. <a href="#fine-print">More on that later</a>. You should instead donate to <a href="https://secure.actblue.com/donate/bail_funds_george_floyd">local community bail funds</a>.</dd>
-          </dl>
-
-          <h2>File formats</h2>
-
-          <h3>Plaintext</h3>
-
-          <pre><code>White, answer cards.
-Putting a new card on each line.
-Adding a divider after the white cards.
-----------
-I love it when my _ are in plaintext.
-How are these cards styled?
-Are **you** telling **me** that _these cards_ are styled with Markdown and _?</code></pre>
-
-          <h3>full.json</h3>
-
-          <pre><code>[
-  {
-    "name": "The Base Set",
-    "description": "Sweet dirty vanilla",
-    "official": true,
-    "white": [
-      {
-        "text": "Answer cards in plain text, formatted with **Markdown**",
-        "pack": 0
-      }
-    ],
-    "black": [
-      {
-        "text": "_Prompt_ cards\nwith _ for blanks!",
-        "pick": 1,
-        "pack": {pack index}
-      }
-    ]
-  },
-  { "white": [ { "pack": 1 }, ... ], ... },
-  { "white": [ { "pack": 2 }, ... ], ... }
-]</code></pre>
-
-          <h3>compact.json</h3>
-
-          <p>I wrote a small library to take advantage of this concise format: <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/CAHDeck.js">CAHDeck.js</a>.</p>
-
-          <pre><code>{
-  "white": ["Answer cards in plain text, formatted with **Markdown**"],
-  "black": [
-    { "text": "_Prompt_ cards\nformatted with _.", "pick": 1 },
-    { "text": "I want a _ **and** _ sandwich! No corners!", "pick": 2 }
-  ],
-  "packs": {
-    "abbreviation": {
-      "name": "The Base Set",
-      "description": "Sweet dirty vanilla",
-      "official": true,
-      "white": [0, 1, 2, "indexes for every white card in this pack"],
-      "black": [0, 1, 2, "indexes for every black card in this pack"]
+    body {
+      margin-block: 3rem;
+      font-family: var(--family-inter, sans-serif);
+      font-weight: 500;
+      font-size: 14pt;
+      line-height: 1.5;
+      text-align: center;
     }
-  }
-}</code></pre>
+    ul {
+      width: fit-content;
+      margin-inline: auto;
+      text-align: start;
+    }
+    button {
+      font: inherit;
+    }
+  </style>
 
-          <h2>Examples</h2>
+  <link rel="icon" href="data:;">
+</head>
 
-          <dl>
-            <dt><a href="./examples/canvas">Canvas Deck Sampler</a></dt>
-            <dd>Demonstration of ingesting the <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/cah-all-compact.json">cah-all-compact.json</a> file with the <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/CAHDeck.js">basic Javascript library</a> and displaying cards on a canvas element.</dd>
-          </dl>
+<body>
+  <div class="container wrapper">
+    <h1>JSON Against Humanity has moved</h1>
 
-          <dl>
-            <dt><a href="https://github.com/crhallberg/json-against-humanity/tree/latest/web">This Very Webpage</a></dt>
-            <dd><a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/site.js#L249-L253">Ingesting from compact.json</a>, listing decks, <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/site.js#L178-L182">combining selected decks</a>, and <a href="https://github.com/crhallberg/json-against-humanity/blob/latest/web/site.js#L163-L174">exporting files</a>.</dd>
-          </dl>
+    <p>Thank you to <a href="https://github.com/FireRat666/Json-Against-Humanity">FireRat</a> for reviving and modernizing this project.</p>
 
-          <h2 id="fine-print">Fine Print</h2>
+    <p>
+      You will be forwarded to the <a href="https://jah.firer.at">new website</a> in <output id="countdown-output">10</output> seconds.
+      <button id="stay-btn">Stay</button>
+    </p>
 
-          <dl>
-            <dt>Is this legal?</dt>
-            <dd>
-              <p>Yes. Cards Against Humanity&reg; is distributed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 license</a>. I think their website puts it best:</p>
+    <ul>
+      <li>New GitHub: <a href="https://github.com/FireRat666/Json-Against-Humanity">https://github.com/FireRat666/Json-Against-Humanity</a>.</li>
+      <li>New Website: <a href="https://jah.firer.at">https://jah.firer.at</a>.</li>
+    </ul>
 
-              <blockquote>
-                <p>
-                  We give you permission to use the Cards Against Humanity&reg; writing under a limited Creative Commons BY-NC-SA 4.0 license. That means you can use our writing if (and only if) you do all of these things:
-                </p>
+    <p><a href="/index_old.html">Old Website</a>.</p>
+  </div>
 
-                <ol>
-                  <li>Make your work available totally for free.</li>
-                  <li>Share your work with others under the same Creative Commons license that we use.</li>
-                  <li>Give us credit in your project.</li>
-                </ol>
-              </blockquote>
+  <script>
+    const countdownOutput = document.getElementById("countdown-output");
+    const stayBtn = document.getElementById("stay-btn");
 
-              <p>If you have questions or paperwork that says otherwise, contact me, we can work this out.</p>
-            </dd>
-          </dl>
-        </main>
-      </div>
-    </div>
+   let countdown = 10;
+   const interval = setInterval(() => {
+    countdownOutput.textContent = --countdown;
 
-    <nav class="checkout" aria-label="Download Toolbar">
-      <a class="hidden" id="download-link" href="">$</a>
-      <div class="container flex">
-        <p class="flex-1 sm:text-center">You are set to download <span id="checkout-count">a bunch of cards</span>.</p>
-        <span class="flex-break hidden-lg"></span>
-        <button class="checkout-btn" id="download-text">Download plaintext</button>
-        <button class="checkout-btn" id="download-full">Download full.json</button>
-        <button class="checkout-btn" id="download-compact">Download compact.json</button>
-      </div>
-    </nav>
+    if (countdown === 0) {
+      location.assign("https://jah.firer.at");
+    }
+   }, 1000);
 
-    <script src="./site.js"></script>
-  </body>
+   stayBtn.addEventListener("click", function stay() {
+    clearInterval(interval);
+    stayBtn.closest("p").textContent = "Staying.";
+   });
+  </script>
+</body>
+
 </html>

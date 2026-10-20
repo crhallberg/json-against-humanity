@@ -1,3 +1,7 @@
+> This project has been archived in favor of the [modernized fork](https://github.com/FireRat666/Json-Against-Humanity) by @FireRat666.
+>
+> For future updates and contributions, go to their [GitHub](https://github.com/FireRat666/Json-Against-Humanity) and [website](https://jah.firer.at/).
+
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
